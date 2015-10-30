@@ -1,5 +1,5 @@
 /*
- Theme Name:     ODD Child Theme
+ Theme Name:     Fully Child Theme
  Theme URI:      http://opendata.durban/
  Description:    ODD Child Theme
  Author:         James Lees
@@ -8,7 +8,7 @@
  Version:        1.0.0
 */
  
-@import url("../odd/style.css");
+@import url(“../fullby/style.css");
  
 /* =Theme customization starts here
 ------------------------------------------------------- */
