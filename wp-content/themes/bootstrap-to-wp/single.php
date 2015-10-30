@@ -1,50 +1,51 @@
-<?php get_header() ; ?>
+<?php get_header(); ?>
 
+  <div class="container">   
+    <div class="row">
+      
+      <div class="col-md-9">
 
+        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-    <div class="container">
-      <!-- Example row of columns -->
+          <div class="page-header">            
 
-      <div class="row">
+            <?php
+              $thumbnail_id = get_post_thumbnail_id(); 
+              $thumbnail_url = wp_get_attachment_image_src( $thumbnail_id, 'thumbnail-size', true );
+              $thumbnail_meta = get_post_meta( $thumbnail_id, '_wp_attachment_image_alt', true);                
+            ?>
+            <p class="featured-image"><img src="<?php echo $thumbnail_url[0]; ?>" alt="<?php echo $thumbnail_meta; ?>"></p>
 
-        <div class="col-md-9">
+            <h1><?php the_title(); ?></h1>
+            <p><em>
+              By <?php the_author(); ?> 
+              on <?php echo the_time('l, F jS, Y');?>
+              in <?php the_category( ', ' ); ?>.
+              <a href="<?php comments_link(); ?>"><?php comments_number(); ?></a>
+            </em></p>
+          </div>
 
-            <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+          <?php the_content(); ?>
 
-                <div class = "page-header">
-                   <h1><?php the_title(); ?></h1>
-                    <p><em>
-                            By <?php the_author(); ?>
-                            on <?php echo the_time('l, F, jS, Y'); ?>
-                            in <?php the_category(' , '); ?>.
-                            <a href="<?php comments_link(); ?>"><?php comments_number(); ?></a>
-                        </em>
-                    </p>
-                </div>
+          <hr>
 
-                <?php the_content(); ?>
+          <?php comments_template(); ?>
 
-                <hr>
+        <?php endwhile; else: ?>
+          
+          <div class="page-header">
+            <h1>Oh no!</h1>
+          </div>
 
-                <?php comments_template(); ?>
+          <p>No content is appearing for this page!</p>
 
-            <?php endwhile; else: ?>
+        <?php endif; ?>
 
-                <div class = "page-header">
-                    <h1>Oh no!</h1>
-                </div>
-
-                <p>No content is appearing for this page!</p>
-
-            <?php endif; ?>
-
-        </div>
-
-        <?php get_sidebar() ?>
-
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
 
       </div>
+      
+      <?php get_sidebar( 'blog' ); ?>
 
-     <?php get_footer() ; ?>
+    </div>
 
+<?php get_footer(); ?>

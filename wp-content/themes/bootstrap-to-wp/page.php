@@ -1,39 +1,37 @@
-<?php get_header() ; ?>
+<?php get_header(); ?>
 
+  <div class="container">   
+    <div class="row row-offcanvas row-offcanvas-right">
+      
+      <div class="col-md-9">
 
+        <p class="pull-right visible-xs">
+          <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle Sidebar</button>
+        </p>
 
-    <div class="container">
-      <!-- Example row of columns -->
+        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-      <div class="row">
+          <div class="page-header">
+            <h1><?php the_title(); ?></h1>
+          </div>
 
-        <div class="col-md-9">
+          <?php the_content(); ?>
 
-            <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+        <?php endwhile; else: ?>
+          
+          <div class="page-header">
+            <h1>Oh no!</h1>
+          </div>
 
-                <div class = "page-header">
-                   <h1><?php the_title(); ?></h1>
-                </div>
+          <p>No content is appearing for this page!</p>
 
-                <?php the_content(); ?>
+        <?php endif; ?>
 
-            <?php endwhile; else: ?>
-
-                <div class = "page-header">
-                    <h1>Oh no!</h1>
-                </div>
-
-                <p>No content is appearing for this page!</p>
-
-            <?php endif; ?>
-
-        </div>
-
-        <?php get_sidebar() ?>
-
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
 
       </div>
+      
+      <?php get_sidebar(); ?>
 
-     <?php get_footer() ; ?>
+    </div>
 
+<?php get_footer(); ?>
