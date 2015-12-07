@@ -33,3 +33,23 @@
     background-repeat: no-repeat;
     background-size: auto 100%;
 }
+
+/* Add the next video css */
+
+#gk-header {
+    background: transparent!important;
+    overflow: hidden;
+}
+
+#gk-bg {
+    background: transparent;
+}
+
+#bg-video {
+    background: url('poster.jpg') no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}

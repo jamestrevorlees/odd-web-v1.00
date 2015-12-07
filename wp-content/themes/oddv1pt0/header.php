@@ -32,9 +32,12 @@
 			if ( is_front_page() && is_home() ) : ?>
 
 
-				<section id="big-video">
-					<div class="video" data-src="http://www.odd1pt0.dev/?attachment_id=6" data-video="http://www.odd1pt0.dev/?attachment_id=5 " data-placeholder="http://www.odd1pt0.dev/?attachment_id=6"></div>
-				</section>
+				<video autoplay loop poster="cookies.jpg" id="bg-video">
+					<source src="/wp-content/uploads/Open Data Wed Header_Colour_1535x400.mp4" type="video/webm">
+					<source src="/wp-content/uploads/Open Data Wed Header_Colour_1535x400.mp4" type="video/mp4">
+				</video>
+
+
 
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<?php else : ?>
