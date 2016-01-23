@@ -1,0 +1,476 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Prodo Theme Features 1.0\n"
+"POT-Creation-Date: 2015-03-19 13:28+0300\n"
+"PO-Revision-Date: 2015-03-19 13:28+0300\n"
+"Last-Translator: Alexander Axminenko <a.axminenko@gmail.com>\n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e;_n;_n_noop;esc_attr__;esc_attr_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../options/class.options.php:22
+msgid "Insert Media"
+msgstr "Вставить изображение"
+
+#: ../options/class.options.php:55 ../options/class.options.php:324
+msgid "Site Sections"
+msgstr "Секции сайта"
+
+#: ../options/class.options.php:57 ../options/class.options.php:58
+#: ../options/class.options.php:115 ../options/class.options.php:173
+msgid "Reorder Items"
+msgstr "Сортировка"
+
+#: ../options/class.options.php:75 ../options/class.options.php:133
+msgid "Changes saved!"
+msgstr "Изменения сохранены!"
+
+#: ../options/class.options.php:110 ../options/class.options.php:168
+#: ../options/class.options.php:293 ../options/class.options.php:307
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: ../options/class.options.php:203
+msgid "Sections saved!"
+msgstr "Изменения сохранены!"
+
+#: ../options/class.options.php:205
+msgid "Sections failed to save or not changed."
+msgstr ""
+"Возникла ошибка при сохранении изменений, либо изменения небыли произведены."
+
+#: ../options/class.options.php:215 ../options/class.options.php:242
+#: ../options/class.options.php:332 ../options/class.options.php:338
+msgid "Normal"
+msgstr "По умолчанию"
+
+#: ../options/class.options.php:216 ../options/class.options.php:243
+#: ../options/class.options.php:339
+msgid "Section with Parallax Effect"
+msgstr "Секция с Параллакс эффектом"
+
+#: ../options/class.options.php:217 ../options/class.options.php:244
+#: ../options/class.options.php:340
+msgid "Section with Video Background"
+msgstr "Секция с фоновым видео"
+
+#: ../options/class.options.php:228 ../options/class.options.php:331
+msgid "Untitled"
+msgstr "Без заголовка"
+
+#: ../options/class.options.php:240 ../options/class.options.php:336
+msgid "Layout Type"
+msgstr "Режим отображения"
+
+#: ../options/class.options.php:248 ../options/class.options.php:252
+#: ../options/class.options.php:344 ../options/class.options.php:348
+msgid "Section Content"
+msgstr "Содержимое секции"
+
+#: ../options/class.options.php:254 ../options/class.options.php:350
+msgid "Select a page"
+msgstr "Выберите страницу"
+
+#: ../options/class.options.php:259 ../options/class.options.php:355
+msgid "Background Color"
+msgstr "Цвет фона секции"
+
+#: ../options/class.options.php:261 ../options/class.options.php:282
+#: ../options/class.options.php:357 ../options/class.options.php:378
+msgid "Default"
+msgstr "По умолчанию"
+
+#: ../options/class.options.php:262 ../options/class.options.php:358
+msgid "Gray"
+msgstr "Серый"
+
+#: ../options/class.options.php:266 ../options/class.options.php:362
+msgid "Background Image"
+msgstr "Фоновое изображение"
+
+#: ../options/class.options.php:268 ../options/class.options.php:364
+msgid "Choose or Upload an Image"
+msgstr "Выбрать файл"
+
+#: ../options/class.options.php:271 ../options/class.options.php:367
+msgid "Video Start at"
+msgstr "Начинать видео с"
+
+#: ../options/class.options.php:272 ../options/class.options.php:368
+msgid "seconds"
+msgstr "секунд"
+
+#: ../options/class.options.php:274 ../options/class.options.php:370
+msgid "YouTube Video ID"
+msgstr "YouTube видео ID"
+
+#: ../options/class.options.php:276 ../options/class.options.php:372
+msgid "Example,"
+msgstr "Например,"
+
+#: ../options/class.options.php:279 ../options/class.options.php:375
+msgid "Overlay"
+msgstr "Перекрытие"
+
+#: ../options/class.options.php:281 ../options/class.options.php:377
+msgid "Disabled"
+msgstr "Выкл."
+
+#: ../options/class.options.php:283 ../options/class.options.php:379
+msgid "Primary Color"
+msgstr "Основной цвет"
+
+#: ../options/class.options.php:292 ../options/class.options.php:306
+#: ../posts/class.posts.php:112
+msgid "New Item"
+msgstr "Новый элемент"
+
+#: ../options/class.options.php:296 ../options/class.options.php:312
+msgid "Import & Export Sections"
+msgstr "Импорт и Экспорт секций"
+
+#: ../options/class.options.php:388
+msgid "Sections updated!"
+msgstr "Изменения сохранены!"
+
+#: ../options/class.options.php:388
+msgid "Return back"
+msgstr "Вернуться назад"
+
+#: ../options/class.options.php:398
+msgid "Import Sections"
+msgstr "Импорт секций"
+
+#: ../options/class.options.php:399
+msgid ""
+"Choose a JSON (.json) file to upload, then click Upload file and import."
+msgstr "Выберите файл JSON и подтвердите импорт."
+
+#: ../options/class.options.php:400
+msgid "Warning:"
+msgstr "Внимание:"
+
+#: ../options/class.options.php:400
+msgid "This action will overwrite all existing sections."
+msgstr "Это действие перезапишет все ранее созданные секции."
+
+#: ../options/class.options.php:403
+msgid "Upload File and Import"
+msgstr "Загрузить и импортировать данные"
+
+#: ../options/class.options.php:413
+msgid "Export Sections"
+msgstr "Экспорт секций"
+
+#: ../options/class.options.php:414
+msgid ""
+"When you click the button below will create an JSON file for you to save to "
+"your computer."
+msgstr ""
+"После нажатия на кнопку ниже Вам будет предложено сохранение JSON файла "
+"данных на компьютере."
+
+#: ../options/class.options.php:415
+msgid ""
+"Once you've saved the download file, you can use the Import function in "
+"another site to import the sections from this site."
+msgstr ""
+"После сохранения файла, Вы сможете использовать функцию импорта данных на "
+"любом из доступных сайтов."
+
+#: ../options/class.options.php:417
+msgid "Download Export File"
+msgstr "Экспортировать данные"
+
+#: ../options/class.options.php:421
+msgid "Import &amp; Export Sections"
+msgstr "Импорт и экспорт секций"
+
+#: ../options/class.options.php:451
+msgid "Error: Problem with saving changes."
+msgstr "Ошибка: Возникла проблема при сохранении изменений."
+
+#: ../options/class.options.php:454
+msgid "Error: Not valid file format."
+msgstr "Ошибка: Неверный формат данных."
+
+#: ../options/class.options.php:457
+msgid "Error: Problem when opening a file."
+msgstr "Ошибка: Возникла проблема при открытии файла."
+
+#: ../posts/class.posts.php:18 ../posts/class.posts.php:19
+msgid "Clients"
+msgstr "Клиенты"
+
+#: ../posts/class.posts.php:20 ../posts/class.posts.php:53
+#: ../posts/class.posts.php:109
+msgid "Add New"
+msgstr "Добавить"
+
+#: ../posts/class.posts.php:21
+msgid "Add New Client"
+msgstr "Новый клиент"
+
+#: ../posts/class.posts.php:22
+msgid "Edit Client"
+msgstr "Редактировать"
+
+#: ../posts/class.posts.php:23
+msgid "New Client"
+msgstr "Новый клиент"
+
+#: ../posts/class.posts.php:24
+msgid "All Clients"
+msgstr "Все клиенты"
+
+#: ../posts/class.posts.php:25
+msgid "View Clients"
+msgstr "Просмотреть"
+
+#: ../posts/class.posts.php:26
+msgid "Search Clients"
+msgstr "Поиск клиентов"
+
+#: ../posts/class.posts.php:27
+msgid "No Client found"
+msgstr "Клиент не найден"
+
+#: ../posts/class.posts.php:28
+msgid "No Client found in Trash"
+msgstr "Клиент не найден"
+
+#: ../posts/class.posts.php:29
+msgid "Our Clients"
+msgstr "Клиенты"
+
+#: ../posts/class.posts.php:38
+msgid "our-clients"
+msgstr "our-clients"
+
+#: ../posts/class.posts.php:51 ../posts/class.posts.php:52
+#: ../posts/class.posts.php:62
+msgid "Our Team"
+msgstr "Команда"
+
+#: ../posts/class.posts.php:54
+msgid "Add New Member"
+msgstr "Добавить"
+
+#: ../posts/class.posts.php:55
+msgid "Edit Member"
+msgstr "Редактировать"
+
+#: ../posts/class.posts.php:56
+msgid "New Member"
+msgstr "Добавление в команду"
+
+#: ../posts/class.posts.php:57
+msgid "All Members"
+msgstr "Все люди"
+
+#: ../posts/class.posts.php:58
+msgid "View Members"
+msgstr "Просмотреть"
+
+#: ../posts/class.posts.php:59
+msgid "Search Members"
+msgstr "Поиск"
+
+#: ../posts/class.posts.php:60
+msgid "No Member found"
+msgstr "Человек не найден"
+
+#: ../posts/class.posts.php:61
+msgid "No Member found in Trash"
+msgstr "Человек не найден"
+
+#: ../posts/class.posts.php:71
+msgid "our-team"
+msgstr "our-team"
+
+#: ../posts/class.posts.php:85 ../posts/class.posts.php:86
+msgid "Category"
+msgstr "Категория"
+
+#: ../posts/class.posts.php:87
+msgid "Search Categories"
+msgstr "Поиск по категориям"
+
+#: ../posts/class.posts.php:88
+msgid "All Categories"
+msgstr "Все категории"
+
+#: ../posts/class.posts.php:89
+msgid "Parent Category"
+msgstr "Родительская категория"
+
+#: ../posts/class.posts.php:90
+msgid "Parent Category:"
+msgstr "Родительская категория:"
+
+#: ../posts/class.posts.php:91
+msgid "Edit Category"
+msgstr "Редактировать"
+
+#: ../posts/class.posts.php:92
+msgid "Update Category"
+msgstr "Обновить"
+
+#: ../posts/class.posts.php:93
+msgid "Add New Category"
+msgstr "Добавить категорию"
+
+#: ../posts/class.posts.php:94
+msgid "New Category"
+msgstr "Новая категория"
+
+#: ../posts/class.posts.php:95
+msgid "Categories"
+msgstr "Категории"
+
+#: ../posts/class.posts.php:107 ../posts/class.posts.php:108
+#: ../posts/class.posts.php:118
+msgid "Portfolio"
+msgstr "Портфолио"
+
+#: ../posts/class.posts.php:110
+msgid "Add New Item"
+msgstr "Добавить новый проект"
+
+#: ../posts/class.posts.php:111
+msgid "Edit Item"
+msgstr "Редактировать"
+
+#: ../posts/class.posts.php:113
+msgid "All Items"
+msgstr "Все проекты"
+
+#: ../posts/class.posts.php:114
+msgid "View Items"
+msgstr "Просмотреть"
+
+#: ../posts/class.posts.php:115
+msgid "Search Items"
+msgstr "Поиск проекта"
+
+#: ../posts/class.posts.php:116
+msgid "No Item found"
+msgstr "Проект не найден"
+
+#: ../posts/class.posts.php:117
+msgid "No Item found in Trash"
+msgstr "Проект не найден"
+
+#: ../posts/class.posts.php:127
+msgid "portfolio"
+msgstr "portfolio"
+
+#: ../shortcodes/class.shortcodes.php:258
+msgid "Get in Touch"
+msgstr "Обратная связь"
+
+#: ../shortcodes/class.shortcodes.php:266
+msgid "Name"
+msgstr "Имя"
+
+#: ../shortcodes/class.shortcodes.php:267
+msgid "Email"
+msgstr "Email"
+
+#: ../shortcodes/class.shortcodes.php:268
+msgid "Phone"
+msgstr "Телефон"
+
+#: ../shortcodes/class.shortcodes.php:270
+msgid "Message"
+msgstr "Текст сообщения"
+
+#: ../shortcodes/class.shortcodes.php:272
+msgid "Send Message"
+msgstr "Отправить"
+
+#: ../shortcodes/class.shortcodes.php:276
+msgid "Thank you so much for the Email!"
+msgstr "Благодарим за Ваше сообщение!"
+
+#: ../shortcodes/class.shortcodes.php:276
+msgid "Your message has already arrived! We'll contact you shortly."
+msgstr "Сообщение было доставлено! Мы свяжемся с Вами в ближайшее время."
+
+#: ../shortcodes/class.shortcodes.php:276
+msgid "Goog day."
+msgstr "Хорошего дня."
+
+#: ../shortcodes/class.shortcodes.php:494
+msgid "All"
+msgstr "Все"
+
+#: ../shortcodes/class.shortcodes.php:616
+#: ../shortcodes/class.shortcodes.php:618
+msgid "Read More"
+msgstr "Подробнее..."
+
+#: ../shortcodes/class.shortcodes.php:685
+msgid "Empty Title"
+msgstr "Без заголовка"
+
+#: ../shortcodes/class.shortcodes.php:686
+msgid "0$/month"
+msgstr "0 руб./месяц"
+
+#: ../shortcodes/class.shortcodes.php:688
+msgid "Purchase"
+msgstr "Приобрести"
+
+#: ../shortcodes/class.shortcodes.php:807
+msgid "Share"
+msgstr "Поделиться"
+
+#~ msgid "Select"
+#~ msgstr "Выберите"
+
+#~ msgid "Page"
+#~ msgstr "Страница"
+
+#~ msgid "URL"
+#~ msgstr "Адрес"
+
+#~ msgid "Caption"
+#~ msgstr "Заголовок"
+
+#~ msgid "External Link"
+#~ msgstr "Сторонняя ссылка"
+
+#~ msgid "Dropdown Menu in Header"
+#~ msgstr "Выпадающее меню в шапке"
+
+#~ msgid "Section Title"
+#~ msgstr "Заголовок"
+
+#~ msgid "Section ID"
+#~ msgstr "Идентификатор"
+
+#~ msgid "Show in Header"
+#~ msgstr "Отображать в основном меню"
+
+#~ msgid "No"
+#~ msgstr "Нет"
+
+#~ msgid "Yes"
+#~ msgstr "Да"
+
+#~ msgid "Menu Items"
+#~ msgstr "Элементы меню"
+
+#~ msgid "Add Item"
+#~ msgstr "Добавить"
+
+#~ msgid "External Link URL"
+#~ msgstr "Адрес"

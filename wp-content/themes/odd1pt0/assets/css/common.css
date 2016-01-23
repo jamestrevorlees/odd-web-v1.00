@@ -1,0 +1,374 @@
+/* -----------------------------------------------------------------
+[Table of contents]
+
+1. General and Typography
+2. Offsets
+3. Blockquote
+4. Tables
+5. Definition Lists
+6. Code
+------------------------------------------------------------------ */
+
+/*
+ * 1. General and Typography
+ */
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	line-height: 2em;
+	color: #696f6f;
+	background: #ffffff;
+	-webkit-font-smoothing: antialiased;
+}
+
+body, div, td {
+	word-spacing: break-word;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+
+header {
+	color: #282828;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+	font-family: "Roboto", sans-serif;
+	line-height: 1.5em;
+	color: #282828;
+}
+
+h1.colored, .h1.colored, h2.colored, .h2.colored, h3.colored, .h3.colored, h4.colored, .h4.colored, h5.colored, .h5.colored, h6.colored, .h6.colored {
+	color: #2185c5;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+	margin-bottom: 0.75em;
+}
+
+h4, .h4, h5, .h5, h6, .h6 {
+	margin-bottom: 1em;
+}
+
+h1 + h2, h1 + h3, h1 + h4, h1 + h5, h1 + h6, h2 + h1, h2 + h3, h2 + h4, h2 + h5, h2 + h6, h3 + h1, h3 + h2, h3 + h4, h3 + h5, h3 + h6 {
+	margin-top: 0em;
+}
+
+h4 + h1, h4 + h2, h4 + h3, h4 + h5, h4 + h6, h5 + h1, h5 + h2, h5 + h3, h5 + h4, h5 + h6, h6 + h1, h6 + h2, h6 + h3, h6 + h4, h6 + h5 {
+	margin-top: 2em;
+}
+
+p + h1, p + .h1, p + h2, p + .h2, p + h3, p + .h3, p + h4, p + .h4, p + h5, p + .h5, p + h6, p + .h6 {
+	margin-top: 2em;
+}
+
+i.fa {
+	color: #282828;
+}
+
+hr {
+	margin: 0;
+	border-color: #f7f7f7;
+}
+
+a {
+	color: #2185c5;
+}
+
+a:hover, a:focus {
+	color: #2185c5;
+	text-decoration: underline;
+}
+
+a.normal {
+	color: #696f6f !important;
+	text-decoration: none !important;
+}
+
+.clear {
+	clear: both;
+}
+
+.text-semibold {
+	font-weight: 500;
+}
+
+.text-light {
+	font-weight: 300;
+}
+
+.text-white {
+	color: #ffffff !important;
+}
+
+.img-rounded, .rounded {
+	border-radius: 3px;
+}
+
+.opacity8 {
+	opacity: 0.8;
+}
+
+.opacity9 {
+	opacity: 0.9;
+}
+
+/*
+ * 2. Offsets
+ */
+
+.offsetTop {
+	padding-top: 60px;
+}
+
+.offsetBottom {
+	padding-bottom: 60px;
+}
+
+.offsetTopX {
+	padding-top: 120px;
+}
+
+.offsetBottomX {
+	padding-bottom: 120px;
+}
+
+.offsetTopL {
+	padding-top: 80px;
+}
+
+.offsetBottomL {
+	padding-bottom: 80px;
+}
+
+.offsetTopS {
+	padding-top: 20px;
+}
+
+.offsetBottomS {
+	padding-bottom: 20px;
+}
+
+.offsetTopClear {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.offsetBottomClear {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+/*
+ * 3. Blockquote
+ */
+
+blockquote {
+	quotes: none;
+	position: relative;
+	text-align: left;
+	padding: 0 48px 0 90px;
+	margin: 1.5em 20px 1.7em;
+	font-size: 1.5em;
+	line-height: 1.785em;
+	border-left: 0;
+	display: block;
+}
+
+blockquote:before {
+	font-family: "Georgia", sans-serif;
+	content: "\AB";
+	font-size: 4.9em;
+	left: 10px;
+	top: 6px;
+	opacity: 0.2;
+	font-style: normal;
+	position: absolute;
+	cursor: default;
+}
+
+blockquote p {
+	font-family: inherit;
+}
+
+blockquote p:last-child {
+	margin-bottom: 0;
+}
+
+blockquote.pull-left, blockquote.pull-right {
+	width: 40%;
+}
+
+cite {
+	font-style: italic;
+	color: #999;
+}
+
+q {
+	font-style: italic;
+}
+
+q:before {
+	content: '\AB';
+}
+
+q:after {
+	content: '\BB';
+}
+
+/*
+ * 4. Tables
+ */
+
+table {
+	text-align: left;
+	width: 100%;
+	max-width: 100%;
+	margin: 0 0 2em;
+	border-collapse: collapse;
+}
+
+table + p, p + table {
+	margin-top: 2em;
+}
+
+caption {
+	line-height: 1.3em;
+	padding: 1em 10px;
+	text-align: center;
+	color: #ffffff;
+	font-weight: bold;
+	background: rgba( 33, 133, 197, 0.9 );
+	border-radius: 3px 3px 0 0;
+}
+
+caption + thead th {
+	border-radius: 0 !important;
+}
+
+th {
+	line-height: 1.3em;
+	padding: 10px;
+}
+
+thead th {
+	font-weight: bold;
+	background-color: #2185c5;
+	color: #ffffff;
+}
+
+thead th:first-child {
+	border-left: 0;
+	border-radius: 3px 0 0 0;
+}
+
+thead th:last-child {
+	border-radius: 0 3px 0 0;
+}
+
+td {
+	line-height: inherit;
+	vertical-align: top;
+	padding: 10px;
+	border-left: 1px solid #f7f7f7;
+}
+
+td:first-child {
+	border-left: 0;
+}
+
+tbody tr {
+	background: #ffffff;
+	border-bottom: 1px solid #f7f7f7;
+}
+
+tbody tr:nth-child( even ) {
+	background-color: #f7f7f7;
+}
+
+tfoot tr {
+	color: #ffffff;
+}
+
+tfoot tr td {
+	background-color: #fbfbfb;
+	border-left: 0;
+	line-height: 1.3em;
+	font-weight: bold;
+}
+
+tfoot tr td:first-child {
+	border-radius: 0 0 0 3px;
+}
+
+tfoot tr td:last-child {
+	border-radius: 0 0 3px 0;
+}
+
+/*
+ * 5. Definition Lists
+ */
+
+dl {
+	margin: 0 0 2em;
+	padding-top: 0.5em;
+}
+
+dl dt {
+	font-weight: bold;
+	margin-bottom: 0.75em;
+}
+
+dl dd {
+	margin: 0 0 1em 1em;
+}
+
+dl dd:before {
+	content: '\2014';
+	padding-right: 6px;
+}
+
+/*
+ * 6. Code
+ */
+
+pre {
+	font-family: "Inconsolata", "Consolas", monospace;
+	text-align: left;
+	max-width: 100%;
+	margin-bottom: 1em;
+	padding: 1em 20px;
+	font-size: 0.9em;
+	overflow: auto;
+	border-radius: 3px;
+	background-color: #f7f7f7;
+	color: #777;
+}
+
+pre code {
+	padding: 0;
+	background-color: transparent;
+	color: inherit;
+	border-radius: 0;
+}
+
+pre + p, p + pre {
+	margin-top: 2em;
+}
+
+code, kbd, var, tt {
+	font-family: "Inconsolata", "Consolas", monospace;
+	padding: 2px 4px;
+	background-color: #f7f7f7;
+	color: #777;
+	border-radius: 3px;
+}

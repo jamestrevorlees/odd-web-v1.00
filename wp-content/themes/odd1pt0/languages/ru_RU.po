@@ -1,0 +1,1658 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Prodo 1.0\n"
+"POT-Creation-Date: 2015-03-19 13:28+0300\n"
+"PO-Revision-Date: 2015-03-19 13:29+0300\n"
+"Last-Translator: Alexander Axminenko <a.axminenko@gmail.com>\n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e;_n;_n_noop;esc_attr__;esc_attr_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:9
+msgid "Something has gone wrong!"
+msgstr "Что-то пошло не так..."
+
+#: ../404.php:11
+msgid "The page you are trying to reach doesn't seem to exist."
+msgstr "Запрашиваемая страница отсутствует."
+
+#: ../404.php:18 ../templates/front-embed.php:25
+msgid "Take me back"
+msgstr "Вернуться на главную"
+
+#: ../admin/metaboxes/home-sections/home-sections.php:16
+#: ../admin/redux.php:583
+msgid "Home Section"
+msgstr "Домашняя секция"
+
+#: ../admin/metaboxes/home-sections/home-sections.php:30
+msgid "Insert Media"
+msgstr "Вставить изображение"
+
+#: ../admin/metaboxes/home-sections/home-sections.php:31
+#: ../admin/metaboxes/home-sections/home-sections.php:151
+msgid "Image"
+msgstr "Изображение"
+
+#: ../admin/metaboxes/home-sections/home-sections.php:32
+#: ../admin/metaboxes/home-sections/home-sections.php:153
+msgid "Remove"
+msgstr "Удалить"
+
+#: ../admin/metaboxes/home-sections/home-sections.php:53
+msgid "Section Type"
+msgstr "Тип секции"
+
+#: ../admin/metaboxes/home-sections/home-sections.php:55
+msgid "None"
+msgstr "Отсутствует"
+
+#: ../admin/metaboxes/home-sections/home-sections.php:56
+msgid "Video Background"
+msgstr "Фоновое видео"
+
+#: ../admin/metaboxes/home-sections/home-sections.php:57
+msgid "Image Pattern"
+msgstr "Изображение (мозайка)"
+
+#: ../admin/metaboxes/home-sections/home-sections.php:58
+msgid "Fullscreen Image"
+msgstr "Изображение"
+
+#: ../admin/metaboxes/home-sections/home-sections.php:59
+msgid "Fullscreen Image and Video"
+msgstr "Изображение и видео"
+
+#: ../admin/metaboxes/home-sections/home-sections.php:60
+msgid "Image Slideshow"
+msgstr "Слайдшоу изображений"
+
+#: ../admin/metaboxes/home-sections/home-sections.php:61
+msgid "Slideshow and Text Slider"
+msgstr "Слайдшоу (слайды)"
+
+#: ../admin/metaboxes/home-sections/home-sections.php:64
+msgid "Section Height"
+msgstr "Высота секции"
+
+#: ../admin/metaboxes/home-sections/home-sections.php:66
+msgid ""
+"Example, <strong>100%</strong> &ndash; in percents, <strong>700px</strong> "
+"&ndash; in pixels"
+msgstr ""
+"Например, <strong>100%</strong> &ndash; в процентах, <strong>700px</strong> "
+"&ndash; в пикселях"
+
+#: ../admin/metaboxes/home-sections/home-sections.php:69
+msgid "Background Video ID"
+msgstr "Видео (YouTube ID)"
+
+#: ../admin/metaboxes/home-sections/home-sections.php:71
+#: ../admin/metaboxes/home-sections/home-sections.php:113
+#: ../admin/metaboxes/subtitle.php:36
+msgid "Example"
+msgstr "Например"
+
+#: ../admin/metaboxes/home-sections/home-sections.php:83
+msgid "Background Pattern"
+msgstr "Изображение"
+
+#: ../admin/metaboxes/home-sections/home-sections.php:85
+#: ../admin/metaboxes/home-sections/home-sections.php:99
+#: ../admin/metaboxes/home-sections/home-sections.php:117
+#: ../admin/metaboxes/home-sections/home-sections.php:122
+msgid "Choose or Upload an Image"
+msgstr "Выберите, либо загрузите файл"
+
+#: ../admin/metaboxes/home-sections/home-sections.php:97
+#: ../admin/metaboxes/home-sections/home-sections.php:120
+#: ../admin/metaboxes/home-sections/home-sections.php:188
+msgid "Background Image"
+msgstr "Изображение"
+
+#: ../admin/metaboxes/home-sections/home-sections.php:111
+msgid "Embed Video URL"
+msgstr "Ссылка на ролик (для вставки на сайт)"
+
+#: ../admin/metaboxes/home-sections/home-sections.php:115
+msgid "Video Preview Image"
+msgstr "Предпросмотр ролика"
+
+#: ../admin/metaboxes/home-sections/home-sections.php:118
+msgid "210x140, or 420x280 for Retina displays"
+msgstr "210x140 или 420x280 для Retina дисплеев"
+
+#: ../admin/metaboxes/home-sections/home-sections.php:136
+#: ../admin/metaboxes/home-sections/home-sections.php:173
+msgid "Background Images"
+msgstr "Изображения"
+
+#: ../admin/metaboxes/home-sections/home-sections.php:137
+#: ../admin/metaboxes/home-sections/home-sections.php:174
+msgid "Choose or Upload Images"
+msgstr "Выберите, либо загрузите файлы"
+
+#: ../admin/metaboxes/home-sections/home-sections.php:191
+msgid "Remove Slide"
+msgstr "Удалить слайд"
+
+#: ../admin/metaboxes/our-team.php:15
+msgid "Member Information"
+msgstr "Информация"
+
+#: ../admin/metaboxes/our-team.php:24
+msgid "Member Activity"
+msgstr "Деятельность"
+
+#: ../admin/metaboxes/our-team.php:27
+msgid "Twitter URL"
+msgstr "Twitter"
+
+#: ../admin/metaboxes/our-team.php:30
+msgid "Facebook URL"
+msgstr "Facebook"
+
+#: ../admin/metaboxes/our-team.php:33
+msgid "LinkedIn URL"
+msgstr "LinkedIn"
+
+#: ../admin/metaboxes/our-team.php:36
+msgid "Google+ URL"
+msgstr "Google+"
+
+#: ../admin/metaboxes/subtitle.php:18 ../admin/metaboxes/subtitle.php:19
+msgid "Visual Subtitle"
+msgstr "Подзаголовок"
+
+#: ../admin/metaboxes/subtitle.php:36
+msgid "Lorem ipsum dolor sit amet."
+msgstr "Демонстрационный текст."
+
+#: ../admin/redux.php:47
+msgid "Main Options"
+msgstr "Основные опции"
+
+#: ../admin/redux.php:53
+msgid "Header Mode"
+msgstr "Режим \"шапки\" сайта"
+
+#: ../admin/redux.php:54
+msgid "Sticky"
+msgstr "Плавающий"
+
+#: ../admin/redux.php:55
+msgid "Normal"
+msgstr "По умолчанию"
+
+#: ../admin/redux.php:61
+msgid "Header Style"
+msgstr "Стиль \"шапки\""
+
+#: ../admin/redux.php:62
+msgid "Select a header style"
+msgstr "Выберите один из стилей"
+
+#: ../admin/redux.php:64
+msgid "Style One &ndash; Default"
+msgstr "Стиль 1 &ndash; По умолчанию"
+
+#: ../admin/redux.php:65
+msgid "Style One &ndash; With Social Icons"
+msgstr "Стиль 1 &ndash; С социальными кнопками"
+
+#: ../admin/redux.php:66
+msgid "Style One &ndash; Alt. Hover"
+msgstr "Стиль 1 &ndash; Альт. выделение"
+
+#: ../admin/redux.php:67
+msgid "Style One &ndash; Social Icons, Alt. Hover"
+msgstr "Стиль 1 &ndash; Соц. кнопки, альт. выделение"
+
+#: ../admin/redux.php:68
+msgid "Style Two &ndash; Default"
+msgstr "Стиль 2 &ndash; По умолчанию"
+
+#: ../admin/redux.php:69
+msgid "Style Two &ndash; Alt. Hover"
+msgstr "Стиль 2 &ndash; Альт. выделение"
+
+#: ../admin/redux.php:70
+msgid "Style Two &ndash; Highlight Current Item"
+msgstr "Стиль 2 &ndash; Выдел. текущего раздела"
+
+#: ../admin/redux.php:71
+msgid "Style Three &ndash; Default"
+msgstr "Стиль 3 &ndash; По умолчанию"
+
+#: ../admin/redux.php:72
+msgid "Style Three &ndash; With Social Icons"
+msgstr "Стиль 3 &ndash; С социальными кнопками"
+
+#: ../admin/redux.php:78
+msgid "Home Page Title"
+msgstr "Имя главной страницы"
+
+#: ../admin/redux.php:79
+msgid "This title used only for navigation menu"
+msgstr "Этот заголовок используется только в меню"
+
+#: ../admin/redux.php:80 ../inc/custom.php:9 ../inc/defaults.php:97
+msgid "Home"
+msgstr "Главная"
+
+#: ../admin/redux.php:85
+msgid "Page Loader"
+msgstr "Предзагрузчик"
+
+#: ../admin/redux.php:86 ../admin/redux.php:102 ../admin/redux.php:289
+#: ../admin/redux.php:590 ../admin/redux.php:603 ../admin/redux.php:729
+#: ../admin/redux.php:762
+msgid "Enabled"
+msgstr "Вкл."
+
+#: ../admin/redux.php:87 ../admin/redux.php:103 ../admin/redux.php:290
+#: ../admin/redux.php:591 ../admin/redux.php:604 ../admin/redux.php:730
+#: ../admin/redux.php:763
+msgid "Disabled"
+msgstr "Выкл."
+
+#: ../admin/redux.php:93
+msgid "Page Loader Location"
+msgstr "Отображение предзагрузчика"
+
+#: ../admin/redux.php:94
+msgid "Only Home Page"
+msgstr "Только на главной"
+
+#: ../admin/redux.php:95
+msgid "All Pages"
+msgstr "Все страницы"
+
+#: ../admin/redux.php:101
+msgid "Animations on Scroll"
+msgstr "Анимации при прокрутке"
+
+#: ../admin/redux.php:109
+msgid "Multiple Video Sections"
+msgstr "Множественные видео секции"
+
+#: ../admin/redux.php:110
+msgid "Per page"
+msgstr "На одной странице"
+
+#: ../admin/redux.php:111
+msgid "Allow"
+msgstr "Вкл."
+
+#: ../admin/redux.php:112
+msgid "Deny"
+msgstr "Откл."
+
+#: ../admin/redux.php:118
+msgid "Tracking Code"
+msgstr "Код аналитики"
+
+#: ../admin/redux.php:119
+msgid "Paste your Google Analytics (or other) tracking code here"
+msgstr "Например, вставьте сюда свой код Google Analytics"
+
+#: ../admin/redux.php:125
+msgid "Personalization"
+msgstr "Персонализация"
+
+#: ../admin/redux.php:131
+msgid "Upload Favicon"
+msgstr "Иконка сайта"
+
+#: ../admin/redux.php:133
+msgid ""
+"Upload a 16px (or, 32px) PNG, GIF image that will represent your website's "
+"favicon"
+msgstr "Изображения формата PNG, GIF с размером 16px (либо 32px)"
+
+#: ../admin/redux.php:142
+msgid "Upload Dark Logo"
+msgstr "Темный логотип"
+
+#: ../admin/redux.php:143 ../admin/redux.php:151
+msgid "Normal size"
+msgstr "Нормальный размер"
+
+#: ../admin/redux.php:145 ../admin/redux.php:153 ../admin/redux.php:161
+#: ../admin/redux.php:169
+msgid "Upload a logotype image image that will represent your website"
+msgstr "Загрузите логотип который будет представлять ваш сайт"
+
+#: ../admin/redux.php:150
+msgid "Upload Light Logo"
+msgstr "Светлый логотип"
+
+#: ../admin/redux.php:158
+msgid "Upload Dark Logo (2X)"
+msgstr "Темный логотип (2Х)"
+
+#: ../admin/redux.php:159 ../admin/redux.php:167
+msgid "Double size (for Retina displays)"
+msgstr "Двойной размер (для Retina экранов)"
+
+#: ../admin/redux.php:166
+msgid "Upload Light Logo (2X)"
+msgstr "Светлый логотип (2X)"
+
+#: ../admin/redux.php:175
+msgid "Styling Options"
+msgstr "Оформление"
+
+#: ../admin/redux.php:181
+msgid "Styling Mode"
+msgstr "Цветовая схема"
+
+#: ../admin/redux.php:183
+msgid "Predefined Schemes"
+msgstr "Предопределенные стили"
+
+#: ../admin/redux.php:184
+msgid "Custom Colors"
+msgstr "Настраиваемые цвета"
+
+#: ../admin/redux.php:194
+msgid "Predefined Scheme"
+msgstr "Цветовая схема"
+
+#: ../admin/redux.php:195
+msgid "Select a predefined color scheme"
+msgstr "Выберите любую из предопределенных цветовых схем"
+
+#: ../admin/redux.php:197
+msgid "Default"
+msgstr "По умолчанию"
+
+#: ../admin/redux.php:198
+msgid "Soft Red"
+msgstr "Красный"
+
+#: ../admin/redux.php:199
+msgid "Cyan"
+msgstr "Голубой"
+
+#: ../admin/redux.php:200
+msgid "Green"
+msgstr "Зеленый"
+
+#: ../admin/redux.php:201
+msgid "Orange"
+msgstr "Оранжевый"
+
+#: ../admin/redux.php:202
+msgid "Brown"
+msgstr "Коричневый"
+
+#: ../admin/redux.php:203
+msgid "Sandy"
+msgstr "Песочный"
+
+#: ../admin/redux.php:204
+msgid "Soft Cyan"
+msgstr "Светло-голубой"
+
+#: ../admin/redux.php:212
+msgid "Custom Color"
+msgstr "Собственный цвет"
+
+#: ../admin/redux.php:213
+msgid "Pick a primary color"
+msgstr "Выберите основной цвет"
+
+#: ../admin/redux.php:219
+msgid "Custom CSS"
+msgstr "Собственные CSS-правила"
+
+#: ../admin/redux.php:220
+msgid "Quickly add some CSS to your theme by adding it to this block"
+msgstr "Быстрое добавление любых CSS-правил с помощью данного блока"
+
+#: ../admin/redux.php:226
+msgid "Layout Settings"
+msgstr "Отображение"
+
+#: ../admin/redux.php:233
+msgid "Standard Pages Layout"
+msgstr "Основные страницы"
+
+#: ../admin/redux.php:234
+msgid "Select one of layouts for standard pages"
+msgstr "Выберите один из вариантов блоков для основных страниц сайта"
+
+#: ../admin/redux.php:246
+msgid "Archive Pages Layout"
+msgstr "Блог, категории"
+
+#: ../admin/redux.php:247
+msgid "Select one of layouts for archive pages"
+msgstr "Выберите один из вариантов блоков для страниц блога"
+
+#: ../admin/redux.php:259
+msgid "Search Page Layout"
+msgstr "Поиск по сайту"
+
+#: ../admin/redux.php:260
+msgid "Select one of layouts for search page"
+msgstr "Выберите один из вариантов блоков для страницы поиска по сайту"
+
+#: ../admin/redux.php:272
+msgid "Blog Options"
+msgstr "Блог"
+
+#: ../admin/redux.php:278
+msgid "Allow Sharing Posts"
+msgstr "Разрешить делиться новостями"
+
+#: ../admin/redux.php:279
+msgid "Via Social Networks"
+msgstr "Через социальные сети"
+
+#: ../admin/redux.php:280 ../admin/redux.php:612 ../admin/redux.php:621
+msgid "Yes"
+msgstr "Да"
+
+#: ../admin/redux.php:281 ../admin/redux.php:613 ../admin/redux.php:622
+msgid "No"
+msgstr "Нет"
+
+#: ../admin/redux.php:287
+msgid "Breadcrumbs"
+msgstr "Хлебные крошки"
+
+#: ../admin/redux.php:288
+msgid "Breadcrumbs on single pages"
+msgstr "Отображение хлебных крошек на отдельных страницах"
+
+#: ../admin/redux.php:297
+msgid "Typography"
+msgstr "Типография"
+
+#: ../admin/redux.php:303
+msgid "Content &mdash; Font"
+msgstr "Основное содержимое &mdash; Шрифт"
+
+#: ../admin/redux.php:326
+msgid "Headers &mdash; H1"
+msgstr "Заголовки &mdash; H1"
+
+#: ../admin/redux.php:350
+msgid "Headers &mdash; H2"
+msgstr "Заголовки &mdash; H2"
+
+#: ../admin/redux.php:374
+msgid "Headers &mdash; H3"
+msgstr "Заголовки &mdash; H3"
+
+#: ../admin/redux.php:398
+msgid "Headers &mdash; H4"
+msgstr "Заголовки &mdash; H4"
+
+#: ../admin/redux.php:422
+msgid "Headers &mdash; H5"
+msgstr "Заголовки &mdash; H5"
+
+#: ../admin/redux.php:446
+msgid "Headers &mdash; H6"
+msgstr "Заголовки &mdash; H6"
+
+#: ../admin/redux.php:471
+msgid "Social Accounts"
+msgstr "Социальные сети"
+
+#: ../admin/redux.php:477
+msgid "Facebook Link"
+msgstr "Facebook"
+
+#: ../admin/redux.php:478 ../admin/redux.php:485 ../admin/redux.php:492
+#: ../admin/redux.php:499 ../admin/redux.php:506 ../admin/redux.php:513
+#: ../admin/redux.php:520 ../admin/redux.php:527 ../admin/redux.php:534
+#: ../admin/redux.php:541 ../admin/redux.php:548 ../admin/redux.php:555
+#: ../admin/redux.php:562 ../admin/redux.php:569 ../admin/redux.php:576
+msgid "Paste link to your account"
+msgstr "Вставьте ссылку на ваш аккаунт"
+
+#: ../admin/redux.php:484
+msgid "Twitter Link"
+msgstr "Twitter"
+
+#: ../admin/redux.php:491
+msgid "Instagram Link"
+msgstr "Instagram"
+
+#: ../admin/redux.php:498
+msgid "LinkedIn Link"
+msgstr "LinkedIn"
+
+#: ../admin/redux.php:505
+msgid "Flickr Link"
+msgstr "Flickr"
+
+#: ../admin/redux.php:512
+msgid "Vimeo Link"
+msgstr "Vimeo"
+
+#: ../admin/redux.php:519
+msgid "Last FM Link"
+msgstr "Last FM"
+
+#: ../admin/redux.php:526
+msgid "Dribble Link"
+msgstr "Dribble"
+
+#: ../admin/redux.php:533
+msgid "YouTube Link"
+msgstr "YouTube"
+
+#: ../admin/redux.php:540
+msgid "Microsoft ID Link"
+msgstr "Microsoft ID"
+
+#: ../admin/redux.php:547
+msgid "Google + Link"
+msgstr "Google +"
+
+#: ../admin/redux.php:554
+msgid "Picasa Link"
+msgstr "Picasa"
+
+#: ../admin/redux.php:561
+msgid "Pinterest Link"
+msgstr "Pinterest"
+
+#: ../admin/redux.php:568
+msgid "Wordpress Link"
+msgstr "Wordpress"
+
+#: ../admin/redux.php:575
+msgid "Dropbox Link"
+msgstr "Dropbox"
+
+#: ../admin/redux.php:589
+msgid "Animated Magic Mouse"
+msgstr "Анимированная \"Magic Mouse\""
+
+#: ../admin/redux.php:601
+msgid "Video Play Button"
+msgstr "Кнопка воспроизведения видео"
+
+#: ../admin/redux.php:602 ../admin/redux.php:611 ../admin/redux.php:620
+#: ../admin/redux.php:630 ../admin/redux.php:638 ../admin/redux.php:645
+#: ../admin/redux.php:658
+msgid "Fullscreen Video Mode"
+msgstr "Режим фонового видео"
+
+#: ../admin/redux.php:610
+msgid "Video Mutted"
+msgstr "Заглушить звук"
+
+#: ../admin/redux.php:619
+msgid "Video Loop"
+msgstr "Повтор видео"
+
+#: ../admin/redux.php:628
+msgid "Start Video At"
+msgstr "Начинать видео с"
+
+#: ../admin/redux.php:629 ../admin/redux.php:637 ../admin/redux.php:669
+msgid "Enter value in seconds"
+msgstr "Введите значение в секундах"
+
+#: ../admin/redux.php:636
+msgid "Stop Video At"
+msgstr "Заканчивать на"
+
+#: ../admin/redux.php:644
+msgid "Video Overlay Opacity"
+msgstr "Прозрачность видео наложения"
+
+#: ../admin/redux.php:646
+msgid "In percents (0% &ndash; fully transparent)"
+msgstr "В процентах (0% &mdash; без затемнения)"
+
+#: ../admin/redux.php:656
+msgid "Video Callback Image"
+msgstr "Резервное изображение"
+
+#: ../admin/redux.php:657
+msgid ""
+"This image will be shown if browser does not support fullscreen video "
+"background"
+msgstr ""
+"Изображение будет показано только в том случае, если браузер не поддерживает "
+"полноэкранное видео"
+
+#: ../admin/redux.php:668
+msgid "Slideshow Timeout"
+msgstr "Задержка между слайдами"
+
+#: ../admin/redux.php:670
+msgid "Slideshow Mode"
+msgstr "Режим слайдшоу"
+
+#: ../admin/redux.php:677
+msgid "Contact Section"
+msgstr "Обратная связь"
+
+#: ../admin/redux.php:683
+msgid "Target Email address"
+msgstr "Email-адрес"
+
+#: ../admin/redux.php:689
+msgid "Email Template"
+msgstr "Шаблон сообщения"
+
+#: ../admin/redux.php:690
+msgid ""
+"Available tags &ndash; {from}, {email}, {phone}, {message}, {date}, {ip}"
+msgstr ""
+"Разрешенные теги &ndash; {from}, {email}, {phone}, {message}, {date}, {ip}"
+
+#: ../admin/redux.php:691
+msgid ""
+"Dear Administrator,\n"
+"You have one message from {from} ({email}).\n"
+"\n"
+"{message}\n"
+"\n"
+"{date}\n"
+"{phone}"
+msgstr ""
+"Уважаемый администратор,\n"
+"Вы получили одно сообщение от {from} ({email}).\n"
+"\n"
+"{message}\n"
+"\n"
+"{date}\n"
+"{phone}"
+
+#: ../admin/redux.php:697
+msgid "Map Options"
+msgstr "Местоположение"
+
+#: ../admin/redux.php:703
+msgid "Latitude of a Point"
+msgstr "Широта"
+
+#: ../admin/redux.php:704
+msgid "Example, 40.706279"
+msgstr "Например, 40.706279"
+
+#: ../admin/redux.php:710
+msgid "Longitude of a Point"
+msgstr "Долгота"
+
+#: ../admin/redux.php:711
+msgid "Example, -74.005121"
+msgstr "Например, -74.005121"
+
+#: ../admin/redux.php:717
+msgid "Zoom Level"
+msgstr "Приближение"
+
+#: ../admin/redux.php:718
+msgid "Zoom level between 0 to 21"
+msgstr "Значение между 0 и 21"
+
+#: ../admin/redux.php:728
+msgid "Map Marker"
+msgstr "Указатель"
+
+#: ../admin/redux.php:736
+msgid "Marker Image"
+msgstr "Изображение"
+
+#: ../admin/redux.php:742
+msgid "Marker Popup Title"
+msgstr "Заголовок маркера"
+
+#: ../admin/redux.php:743 ../inc/defaults.php:144
+msgid "About Prodo theme"
+msgstr "О теме"
+
+#: ../admin/redux.php:748
+msgid "Marker Popup Text"
+msgstr "Основной текст маркера"
+
+#: ../admin/redux.php:749 ../inc/defaults.php:145
+msgid "Here we are. Come to drink a coffee!"
+msgstr "Мы тут. Заходите на кофе!"
+
+#: ../admin/redux.php:755
+msgid "Footer Options"
+msgstr "Подвал сайта"
+
+#: ../admin/redux.php:761
+msgid "Back to Top Button"
+msgstr "Наверх"
+
+#: ../admin/redux.php:769
+msgid "Footer Text"
+msgstr "Текст \"подвала\" сайта"
+
+#: ../admin/redux.php:770
+msgid "You can use the shortcodes in your footer text"
+msgstr "Вы можете использовать любые Шорткоды"
+
+#: ../admin/redux.php:771
+msgid "2015 &copy; Prodo. All rights reserved."
+msgstr "2015 &copy; Prodo. Все права защищены."
+
+#: ../admin/redux.php:786 ../admin/redux.php:787
+msgid "Theme Options"
+msgstr "Настройки темы"
+
+#: ../archive-portfolio.php:19
+msgid "Favorite Projects"
+msgstr "Любимые проекты"
+
+#: ../attachment.php:9
+msgid "Attached File"
+msgstr "Прикрепленный файл"
+
+#: ../comments.php:22
+msgid "&lsaquo;&nbsp; Older comments"
+msgstr "&lsaquo;&nbsp; Назад"
+
+#: ../comments.php:23
+msgid "Newer comments &rsaquo;&nbsp;"
+msgstr "Далее &rsaquo;&nbsp;"
+
+#: ../comments.php:39
+msgid "Comments are closed."
+msgstr "Комментарии отключены."
+
+#: ../comments.php:53
+msgid "Name"
+msgstr "Имя"
+
+#: ../comments.php:59
+msgid "Email"
+msgstr "Email"
+
+#: ../comments.php:68
+msgid "Website"
+msgstr "Веб-сайт"
+
+#: ../comments.php:77
+msgid "Comment"
+msgstr "Комментарий"
+
+#: ../comments.php:83
+msgid "Your email address will not be published."
+msgstr "Ваш Email адрес не будет опубликован."
+
+#: ../comments.php:88
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+"Вы авторизованы как <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title="
+"\"Выйти с данного аккаунта\">Выйти?</a>"
+
+#: ../comments.php:92
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+"Вам необходимо <a href=\"%s\">авторизоваться</a> для публикации комментариев."
+
+#: ../header-404.php:26 ../header.php:28
+msgid "Loading..."
+msgstr "Загрузка..."
+
+#: ../inc/ajax.php:42
+msgid "A new message from"
+msgstr "Новое сообщение от"
+
+#: ../inc/custom.php:11
+#, php-format
+msgid "Search Results for Query &ndash; %s"
+msgstr "Результаты поиска: %s"
+
+#: ../inc/custom.php:12
+#, php-format
+msgid "Posts Tagged &ndash; %s"
+msgstr "Все новости с тегом &ndash; %s"
+
+#: ../inc/custom.php:13
+#, php-format
+msgid "Articles Posted by %s"
+msgstr "Новости пользователя %s"
+
+#: ../inc/custom.php:14
+msgid "Error 404"
+msgstr "Ошибка 404"
+
+#: ../inc/custom.php:15
+msgid "Page"
+msgstr "Страница"
+
+#: ../inc/defaults.php:39
+msgid "Demonstration Home Page"
+msgstr "Демонстрационная страница"
+
+#: ../inc/defaults.php:53
+msgid "Awesome Onepage Template"
+msgstr "Потрясающий одностраничный шаблон!"
+
+#: ../inc/defaults.php:53
+msgid "Made with Love in New-York"
+msgstr "Сделано с любовью в Нью-Йорке"
+
+#: ../inc/defaults.php:61
+msgid "Hello, World!"
+msgstr "Добро пожаловать!"
+
+#: ../inc/defaults.php:63
+msgid "Prodo's Sample Page"
+msgstr "Демонстрационная страница"
+
+#: ../inc/functions.php:307
+msgid "Pingback"
+msgstr "Пингбэк"
+
+#: ../inc/functions.php:310 ../inc/functions.php:328
+msgid "Edit "
+msgstr "Редактировать"
+
+#: ../inc/functions.php:322
+msgid "at"
+msgstr "в"
+
+#: ../inc/functions.php:329
+msgid "Reply"
+msgstr "Ответить"
+
+#: ../inc/functions.php:341
+msgid "Latest Posts"
+msgstr "Последние новости"
+
+#: ../inc/functions.php:351
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Новости за день: %s"
+
+#: ../inc/functions.php:353
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Новости за месяц: %s"
+
+#: ../inc/functions.php:355
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Новости за год: %s"
+
+#: ../inc/functions.php:359
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Новости пользователя: %s"
+
+#: ../inc/functions.php:364
+#, php-format
+msgid "Search Results for %s"
+msgstr "Результаты поиска: %s"
+
+#: ../inc/functions.php:366
+msgid "File Not Found"
+msgstr "Ничего не найдено"
+
+#: ../inc/functions.php:379
+msgid "&lsaquo;&nbsp; Older posts"
+msgstr "&lsaquo;&nbsp; Назад"
+
+#: ../inc/functions.php:380
+msgid "Newer posts &nbsp;&rsaquo;"
+msgstr "Далее &nbsp;&rsaquo;"
+
+#: ../inc/register.php:171
+msgid "Header Menu"
+msgstr "Режим \"Шапки\" сайта"
+
+#: ../inc/register.php:172
+msgid "Footer Menu"
+msgstr "Меню внизу страницы"
+
+#: ../inc/register.php:262
+msgid "Sidebar"
+msgstr "Боковая панель"
+
+#: ../inc/register.php:306
+msgid "To view this protected post, enter the password below:"
+msgstr "Для просмотра этой новости, необходимо ввести пароль:"
+
+#: ../inc/register.php:307
+msgid "Submit"
+msgstr "Отправить"
+
+#: ../inc/tgm/plugins.php:38 ../inc/tgm/tgm.plugin.activation.php:161
+msgid "Install Required Plugins"
+msgstr "Установка необходимых плагинов"
+
+#: ../inc/tgm/plugins.php:39 ../inc/tgm/tgm.plugin.activation.php:162
+msgid "Install Plugins"
+msgstr "Установка плагинов"
+
+#: ../inc/tgm/plugins.php:40 ../inc/tgm/tgm.plugin.activation.php:163
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Установка плагина: %s"
+
+#: ../inc/tgm/plugins.php:41
+msgid "Something went wrong with the plugin API."
+msgstr "Что-то произошло с API-интерфейсом плагина."
+
+#: ../inc/tgm/plugins.php:42 ../inc/tgm/tgm.plugin.activation.php:165
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgstr "Для работы этой темы необходим плагин: %1$s."
+
+#: ../inc/tgm/plugins.php:43 ../inc/tgm/tgm.plugin.activation.php:166
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgstr "Для этой темы рекомендуется установить плагин: %1$s."
+
+#: ../inc/tgm/plugins.php:44 ../inc/tgm/tgm.plugin.activation.php:167
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgstr ""
+"Сожалеем, но у Вас недостаточно прав для установки плагина %s. Обратитесь за "
+"помощью к администратору."
+
+#: ../inc/tgm/plugins.php:45 ../inc/tgm/tgm.plugin.activation.php:168
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr "Необходимый плагин в данный момент деактивирован: %1$s."
+
+#: ../inc/tgm/plugins.php:46 ../inc/tgm/tgm.plugin.activation.php:169
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr "Рекомендуемый плагин в данный момент деактивирован: %1$s."
+
+#: ../inc/tgm/plugins.php:47 ../inc/tgm/tgm.plugin.activation.php:170
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgstr ""
+"Сожалеем, но у Вас недостаточно прав для активации плагина %s. Обратитесь за "
+"помощью к администратору."
+
+#: ../inc/tgm/plugins.php:48 ../inc/tgm/tgm.plugin.activation.php:171
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+"Необходимо обновить плагин до актуальной версии, для максимальной "
+"совместимостью с темой: %1$s."
+
+#: ../inc/tgm/plugins.php:49 ../inc/tgm/tgm.plugin.activation.php:172
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgstr ""
+"Сожалеем, но у Вас недостаточно прав для обновления плагина %s. Обратитесь "
+"за помощью к администратору."
+
+#: ../inc/tgm/plugins.php:50 ../inc/tgm/tgm.plugin.activation.php:173
+msgid "Begin installing plugin"
+msgstr "Приступить к установке"
+
+#: ../inc/tgm/plugins.php:51 ../inc/tgm/tgm.plugin.activation.php:174
+msgid "Begin activating plugin"
+msgstr "Приступить к активации"
+
+#: ../inc/tgm/plugins.php:52 ../inc/tgm/tgm.plugin.activation.php:175
+msgid "Return to Required Plugins Installer"
+msgstr "Вернуться к установщику"
+
+#: ../inc/tgm/plugins.php:53 ../inc/tgm/tgm.plugin.activation.php:177
+#: ../inc/tgm/tgm.plugin.activation.php:1939
+msgid "Plugin activated successfully."
+msgstr "Плагин успешно активирован."
+
+#: ../inc/tgm/plugins.php:54
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Все плагины успешно установлены и активированы. %s"
+
+#: ../inc/tgm/tgm.plugin.activation.php:164
+msgid "Something went wrong."
+msgstr "Что-то пошло не так..."
+
+#: ../inc/tgm/tgm.plugin.activation.php:176
+msgid "Return to the dashboard"
+msgstr "Вернуться на главную"
+
+#: ../inc/tgm/tgm.plugin.activation.php:178
+#: ../inc/tgm/tgm.plugin.activation.php:1630
+msgid "The following plugin was activated successfully:"
+msgstr "Плагин был успешно активирован:"
+
+#: ../inc/tgm/tgm.plugin.activation.php:179
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Все плагины успешно установлены и активированы. %1$s"
+
+#: ../inc/tgm/tgm.plugin.activation.php:180
+msgid "Dismiss this notice"
+msgstr "Скрыть это уведомление"
+
+#: ../inc/tgm/tgm.plugin.activation.php:531
+#: ../inc/tgm/tgm.plugin.activation.php:2156
+msgid "Return to the Dashboard"
+msgstr "Вернуться на главную"
+
+#: ../inc/tgm/tgm.plugin.activation.php:1166
+msgid "Private Repository"
+msgstr "Удаленный репозиторий"
+
+#: ../inc/tgm/tgm.plugin.activation.php:1169
+msgid "Pre-Packaged"
+msgstr "Локальный файл"
+
+#: ../inc/tgm/tgm.plugin.activation.php:1174
+msgid "WordPress Repository"
+msgstr "Репозиторий WordPress"
+
+#: ../inc/tgm/tgm.plugin.activation.php:1177
+msgid "Required"
+msgstr "Обязательный"
+
+#: ../inc/tgm/tgm.plugin.activation.php:1177
+msgid "Recommended"
+msgstr "Рекомендуемый"
+
+#: ../inc/tgm/tgm.plugin.activation.php:1180
+msgid "Not Installed"
+msgstr "Не установлен"
+
+#: ../inc/tgm/tgm.plugin.activation.php:1182
+msgid "Installed But Not Activated"
+msgstr "Установлен но не активирован"
+
+#: ../inc/tgm/tgm.plugin.activation.php:1287
+#: ../inc/tgm/tgm.plugin.activation.php:1395
+msgid "Install"
+msgstr "Установить"
+
+#: ../inc/tgm/tgm.plugin.activation.php:1309
+#: ../inc/tgm/tgm.plugin.activation.php:1396
+msgid "Activate"
+msgstr "Активировать"
+
+#: ../inc/tgm/tgm.plugin.activation.php:1358
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"Плагины для установки либо активации отсутствуют. <a href=\"%1$s\" title="
+"\"Вернуться на главную\">Вернуться на главную</a>"
+
+#: ../inc/tgm/tgm.plugin.activation.php:1374
+msgid "Plugin"
+msgstr "Плагин"
+
+#: ../inc/tgm/tgm.plugin.activation.php:1375
+msgid "Source"
+msgstr "Источник"
+
+#: ../inc/tgm/tgm.plugin.activation.php:1376
+msgid "Type"
+msgstr "Тип"
+
+#: ../inc/tgm/tgm.plugin.activation.php:1377
+msgid "Status"
+msgstr "Статус"
+
+#: ../inc/tgm/tgm.plugin.activation.php:1922
+msgid "Install package not available."
+msgstr "Запрашиваемый пакет недоступен."
+
+#: ../inc/tgm/tgm.plugin.activation.php:1923
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Загрузка пакета из <span class=\"code\">%s</span>&#8230;"
+
+#: ../inc/tgm/tgm.plugin.activation.php:1924
+msgid "Unpacking the package&#8230;"
+msgstr "Распаковка&#8230;"
+
+#: ../inc/tgm/tgm.plugin.activation.php:1925
+msgid "Installing the plugin&#8230;"
+msgstr "Установка плагина&#8230;"
+
+#: ../inc/tgm/tgm.plugin.activation.php:1926
+msgid "Plugin install failed."
+msgstr "Ошибка при установке плагина."
+
+#: ../inc/tgm/tgm.plugin.activation.php:1927
+msgid "Plugin installed successfully."
+msgstr "Плагин успешно установлен."
+
+#: ../inc/tgm/tgm.plugin.activation.php:1938
+msgid "Plugin activation failed."
+msgstr "Ошибка при активации плагина."
+
+#: ../inc/tgm/tgm.plugin.activation.php:2052
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr "Процесс установки и активации начат. Это займет некоторое время."
+
+#: ../inc/tgm/tgm.plugin.activation.php:2053
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s установлен и успешно активирован."
+
+#: ../inc/tgm/tgm.plugin.activation.php:2053
+#: ../inc/tgm/tgm.plugin.activation.php:2062
+msgid "Show Details"
+msgstr "Показать детали"
+
+#: ../inc/tgm/tgm.plugin.activation.php:2053
+#: ../inc/tgm/tgm.plugin.activation.php:2062
+msgid "Hide Details"
+msgstr "Скрыть детали"
+
+#: ../inc/tgm/tgm.plugin.activation.php:2054
+msgid "All installations and activations have been completed."
+msgstr "Все этапы успешно завершены."
+
+#: ../inc/tgm/tgm.plugin.activation.php:2055
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка и активация плагина %1$s (%2$d/%3$d)"
+
+#: ../inc/tgm/tgm.plugin.activation.php:2059
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr "Процесс установки и активации начат. Это займет некоторое время."
+
+#: ../inc/tgm/tgm.plugin.activation.php:2060
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Возникла ошибка при установке %1$s: <strong>%2$s</strong>."
+
+#: ../inc/tgm/tgm.plugin.activation.php:2061
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Не удалось установить %1$s."
+
+#: ../inc/tgm/tgm.plugin.activation.php:2062
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s успешно установлен."
+
+#: ../inc/tgm/tgm.plugin.activation.php:2063
+msgid "All installations have been completed."
+msgstr "Все этапы успешно завершены."
+
+#: ../inc/tgm/tgm.plugin.activation.php:2064
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка плагина %1$s (%2$d/%3$d)"
+
+#: ../inc/widgets/contact.php:16 ../inc/widgets/contact.php:21
+#: ../inc/widgets/contact.php:53
+msgid "Contacts"
+msgstr "Контакты"
+
+#: ../inc/widgets/contact.php:69
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: ../inc/widgets/contact.php:74
+msgid "Phone:"
+msgstr "Телефон:"
+
+#: ../inc/widgets/contact.php:78
+msgid "Location:"
+msgstr "Местоположение:"
+
+#: ../inc/widgets/contact.php:82
+msgid "Email:"
+msgstr "Email:"
+
+#: ../inc/widgets/contact.php:87
+msgid "Display Location as link"
+msgstr "Отображать местоположение как ссылку"
+
+#: ../inc/widgets/contact.php:90
+msgid "Display Email as link"
+msgstr "Отображать Email как ссылку"
+
+#: ../search.php:9
+msgid "Search Results"
+msgstr "Результаты поиска"
+
+#: ../templates/attachment.php:4
+msgid "Download"
+msgstr "Скачать"
+
+#: ../templates/attachment.php:15 ../templates/post-aside.php:19
+#: ../templates/post-gallery.php:19 ../templates/post-link.php:19
+#: ../templates/post-quote.php:19 ../templates/post-standard.php:19
+#: ../templates/post-status.php:19
+msgid "Edit"
+msgstr "Редактировать"
+
+#: ../templates/attachment.php:24 ../templates/post.php:15
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: ../templates/no-content.php:2
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: ../templates/no-content.php:5
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr "Сожалеем, но по данному запросу ничего не нашлось."
+
+#: ../templates/no-content.php:9
+msgid "Search &hellip;"
+msgstr "Поиск &hellip;"
+
+#: ../templates/no-content.php:9
+msgid "Search for:"
+msgstr "Поиск по сайту"
+
+#: ../templates/no-content.php:10
+msgid "Search"
+msgstr "Поиск"
+
+#: ../templates/post-aside.php:16 ../templates/post-gallery.php:16
+#: ../templates/post-link.php:16 ../templates/post-quote.php:16
+#: ../templates/post-standard.php:16 ../templates/post-status.php:16
+msgid "Leave a reply"
+msgstr "Ответить"
+
+#: ../templates/post-aside.php:16 ../templates/post-gallery.php:16
+#: ../templates/post-link.php:16 ../templates/post-quote.php:16
+#: ../templates/post-standard.php:16 ../templates/post-status.php:16
+msgid "1 Comment"
+msgstr "1 Комментарий"
+
+#: ../templates/post-aside.php:16 ../templates/post-gallery.php:16
+#: ../templates/post-link.php:16 ../templates/post-quote.php:16
+#: ../templates/post-standard.php:16 ../templates/post-status.php:16
+msgid "% Comments"
+msgstr "% Комментариев"
+
+#: ../templates/post-aside.php:39 ../templates/post-gallery.php:39
+#: ../templates/post-link.php:39 ../templates/post-quote.php:39
+#: ../templates/post-standard.php:39 ../templates/post-status.php:39
+msgid "Read More"
+msgstr "Читать далее"
+
+#: ../templates/post.php:21
+msgid "Share"
+msgstr "Поделиться"
+
+#: ../templates/post.php:32
+msgid ", "
+msgstr ", "
+
+#~ msgid "Author Archives:"
+#~ msgstr "Новости пользователя:"
+
+#~ msgid "Sample"
+#~ msgstr "Пример"
+
+#~ msgid "Site Sections"
+#~ msgstr "Секции"
+
+#~ msgid "Reorder Items"
+#~ msgstr "Сортировка"
+
+#~ msgid "Changes saved!"
+#~ msgstr "Изменения успешно сохранены!"
+
+#~ msgid "Save Changes"
+#~ msgstr "Сохранить изменения"
+
+#~ msgid "Sections saved!"
+#~ msgstr "Изменения успешно сохранены!"
+
+#~ msgid "Sections failed to save or not changed."
+#~ msgstr "Ошибка при сохранении (либо не были внесены изменения)."
+
+#~ msgid "Select"
+#~ msgstr "Выберите"
+
+#~ msgid "URL"
+#~ msgstr "Ссылка"
+
+#~ msgid "Caption"
+#~ msgstr "Заголовок"
+
+#~ msgid "Section with Parallax Effect"
+#~ msgstr "Секция с параллакс-эффектом"
+
+#~ msgid "Section with Video Background"
+#~ msgstr "Секция с фоновым видео"
+
+#~ msgid "External Link"
+#~ msgstr "Ссылка"
+
+#~ msgid "Dropdown Menu in Header"
+#~ msgstr "Выпадающее меню"
+
+#~ msgid "Section Title"
+#~ msgstr "Заголовок"
+
+#~ msgid "Section ID"
+#~ msgstr "Идентификатор"
+
+#~ msgid "Show in Header"
+#~ msgstr "Отображать в меню"
+
+#~ msgid "Layout Type"
+#~ msgstr "Тип секции"
+
+#~ msgid "Section Content"
+#~ msgstr "Содержимое"
+
+#~ msgid "Menu Items"
+#~ msgstr "Элементы меню"
+
+#~ msgid "Add Item"
+#~ msgstr "Добавить элемент"
+
+#~ msgid "Video Start at"
+#~ msgstr "Начинать видео с"
+
+#~ msgid "seconds"
+#~ msgstr "секунд"
+
+#~ msgid "YouTube Video ID"
+#~ msgstr "Идент. ролика (YouTube)"
+
+#~ msgid "Example,"
+#~ msgstr "Например,"
+
+#~ msgid "External Link URL"
+#~ msgstr "Ссылка"
+
+#~ msgid "Overlay"
+#~ msgstr "Наложение"
+
+#~ msgid "Primary Color"
+#~ msgstr "Основной цвет"
+
+#~ msgid "New Item"
+#~ msgstr "Новый элемент"
+
+#~ msgid "Import & Export Sections"
+#~ msgstr "Импорт / Экспорт"
+
+#~ msgid "Untitled"
+#~ msgstr "Без заголовка"
+
+#~ msgid "Sections updated!"
+#~ msgstr "Секции обновлены!"
+
+#~ msgid "Return back"
+#~ msgstr "Вернуться назад"
+
+#~ msgid "Import Sections"
+#~ msgstr "Импорт"
+
+#~ msgid ""
+#~ "Choose a JSON (.json) file to upload, then click Upload file and import."
+#~ msgstr ""
+#~ "Выберите JSON (.json) файл для загрузки и нажмите кнопку Загрузить файл и "
+#~ "импортировать"
+
+#~ msgid "Warning:"
+#~ msgstr "Предупреждение:"
+
+#~ msgid "This action will overwrite all existing sections."
+#~ msgstr "Это действие перезапишет все существующие секции."
+
+#~ msgid "Upload File and Import"
+#~ msgstr "Загрузить файл и импортировать"
+
+#~ msgid "Export Sections"
+#~ msgstr "Экспорт"
+
+#~ msgid ""
+#~ "When you click the button below will create an JSON file for you to save "
+#~ "to your computer."
+#~ msgstr ""
+#~ "При нажатии на кнопку ниже будет создан JSON файл который необходимо "
+#~ "сохранить на компьютере."
+
+#~ msgid ""
+#~ "Once you've saved the download file, you can use the Import function in "
+#~ "another site to import the sections from this site."
+#~ msgstr ""
+#~ "Как только он будет сохранен - Вы сможете использовать его в дальнейшем, "
+#~ "например, для импорта секций на другом сайте."
+
+#~ msgid "Download Export File"
+#~ msgstr "Скачать файл"
+
+#~ msgid "Import &amp; Export Sections"
+#~ msgstr "Импорт / Экспорт"
+
+#~ msgid "Error: Problem with saving changes."
+#~ msgstr "Ошибка при сохранении изменений."
+
+#~ msgid "Error: Not valid file format."
+#~ msgstr "Недопустимый формат файла."
+
+#~ msgid "Error: Problem when opening a file."
+#~ msgstr "Ошибка при попытке открытия файла."
+
+#~ msgid "Sea"
+#~ msgstr "Sea"
+
+#~ msgid "Godong"
+#~ msgstr "Godong"
+
+#~ msgid "Kulabel"
+#~ msgstr "Kulabel"
+
+#~ msgid "Peachaypie"
+#~ msgstr "Peachaypie"
+
+#~ msgid "Asharia"
+#~ msgstr "Asharia"
+
+#~ msgid "Shapeshifter"
+#~ msgstr "Shapeshifter"
+
+#~ msgid "Alien"
+#~ msgstr "Alien"
+
+#~ msgid "Search results for"
+#~ msgstr "Результаты поиска"
+
+#~ msgid "Made with"
+#~ msgstr "Сделано с"
+
+#~ msgid "in New-York"
+#~ msgstr "в Нью-Йорке!"
+
+#~ msgid "Clients"
+#~ msgstr "Клиенты"
+
+#~ msgid "Add New"
+#~ msgstr "Добавить"
+
+#~ msgid "Add New Client"
+#~ msgstr "Новый клиент"
+
+#~ msgid "Edit Client"
+#~ msgstr "Редактировать"
+
+#~ msgid "New Client"
+#~ msgstr "Новый клиент"
+
+#~ msgid "All Clients"
+#~ msgstr "Все клиенты"
+
+#~ msgid "View Clients"
+#~ msgstr "Просмотреть"
+
+#~ msgid "Search Clients"
+#~ msgstr "Поиск клиентов"
+
+#~ msgid "No Client found"
+#~ msgstr "Клиент не найден"
+
+#~ msgid "No Client found in Trash"
+#~ msgstr "Клиент не найден"
+
+#~ msgid "Our Clients"
+#~ msgstr "Наши клиенты"
+
+#~ msgid "our-clients"
+#~ msgstr "our-clients"
+
+#~ msgid "Our Team"
+#~ msgstr "Наша команда"
+
+#~ msgid "Add New Member"
+#~ msgstr "Добавить"
+
+#~ msgid "Edit Member"
+#~ msgstr "Редактировать"
+
+#~ msgid "New Member"
+#~ msgstr "Добавление в команду"
+
+#~ msgid "All Members"
+#~ msgstr "Все люди"
+
+#~ msgid "View Members"
+#~ msgstr "Просмотреть"
+
+#~ msgid "Search Members"
+#~ msgstr "Поиск людей"
+
+#~ msgid "No Member found"
+#~ msgstr "Человек не найден"
+
+#~ msgid "No Member found in Trash"
+#~ msgstr "Человек не найден"
+
+#~ msgid "our-team"
+#~ msgstr "our-team"
+
+#~ msgid "Category"
+#~ msgstr "Категория"
+
+#~ msgid "Search Categories"
+#~ msgstr "Поиск по категориям"
+
+#~ msgid "All Categories"
+#~ msgstr "Все категории"
+
+#~ msgid "Parent Category"
+#~ msgstr "Родительская категория"
+
+#~ msgid "Parent Category:"
+#~ msgstr "Родительская категория:"
+
+#~ msgid "Edit Category"
+#~ msgstr "Редактировать"
+
+#~ msgid "Update Category"
+#~ msgstr "Обновить"
+
+#~ msgid "Add New Category"
+#~ msgstr "Добавить категорию"
+
+#~ msgid "New Category"
+#~ msgstr "Новая категория"
+
+#~ msgid "Categories"
+#~ msgstr "Категории"
+
+#~ msgid "Portfolio"
+#~ msgstr "Портфолио"
+
+#~ msgid "Add New Item"
+#~ msgstr "Добавить новый проект"
+
+#~ msgid "Edit Item"
+#~ msgstr "Редактировать"
+
+#~ msgid "All Items"
+#~ msgstr "Все проекты"
+
+#~ msgid "View Items"
+#~ msgstr "Просмотреть"
+
+#~ msgid "Search Items"
+#~ msgstr "Поиск проекта"
+
+#~ msgid "No Item found"
+#~ msgstr "Проект не найден"
+
+#~ msgid "No Item found in Trash"
+#~ msgstr "Проект не найден"
+
+#~ msgid "portfolio"
+#~ msgstr "portfolio"
+
+#~ msgid "Get in Touch"
+#~ msgstr "Обратная связь"
+
+#~ msgid "Phone"
+#~ msgstr "Телефон"
+
+#~ msgid "Message"
+#~ msgstr "Текст"
+
+#~ msgid "Send Message"
+#~ msgstr "Отправить"
+
+#~ msgid "Thank you so much for the Email!"
+#~ msgstr "Благодарим за Ваше сообщение!"
+
+#~ msgid "Your message has already arrived! We'll contact you shortly."
+#~ msgstr "Сообщение было доставлено! Мы свяжемся с Вами в ближайшее время."
+
+#~ msgid "Goog day."
+#~ msgstr "Отличного дня!"
+
+#~ msgid "All"
+#~ msgstr "Все"
+
+#~ msgid "Empty Title"
+#~ msgstr "Без заголовка"
+
+#~ msgid "0$/month"
+#~ msgstr "0 руб./месяц"
+
+#~ msgid "Purchase"
+#~ msgstr "Оплатить"
+
+#~ msgid " - Page"
+#~ msgstr " - Страница"

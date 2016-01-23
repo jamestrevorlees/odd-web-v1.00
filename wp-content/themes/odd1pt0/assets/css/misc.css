@@ -1,0 +1,254 @@
+/* -----------------------------------------------------------------
+[Table of contents]
+
+1. Animations
+2. Arrows
+3. Videos
+4. Embeds
+5. Images Slider
+6. Share Panel
+7. Responsive Images
+------------------------------------------------------------------ */
+
+/*
+ * 1. Animations
+ */
+
+.csstransitions.csstransforms.no-touch .animation[class*="animation-"] {
+	position: relative;
+	opacity: 0;
+	-webkit-transition: all 0.35s ease;
+	-moz-transition: all 0.35s ease;
+	-o-transition: all 0.35s ease;
+	transition: all 0.35s ease;
+}
+
+.csstransitions.csstransforms.no-touch .animation[class*="animation-"].animation-grow {
+	-webkit-transform: scale( 0.8 );
+	-moz-transform: scale( 0.8 );
+	-o-transform: scale( 0.8 );
+	-ms-transform: scale( 0.8 );
+	transform: scale( 0.8 );
+}
+
+.csstransitions.csstransforms.no-touch .animation[class*="animation-"].animation-from-left {
+	left: -30px;
+}
+
+.csstransitions.csstransforms.no-touch .animation[class*="animation-"].animation-from-right {
+	left: 30px;
+}
+
+.csstransitions.csstransforms.no-touch .animation[class*="animation-"].animation-from-bottom {
+	top: 30px;
+}
+
+.csstransitions.csstransforms.no-touch .animation[class*="animation-"].animation-from-top {
+	top: -30px;
+}
+
+.csstransitions.csstransforms.no-touch .animation[class*="animation-"].active {
+	left: 0;
+	top: 0;
+	opacity: 1;
+	-webkit-transform: scale( 1 );
+	-moz-transform: scale( 1 );
+	-o-transform: scale( 1 );
+	-ms-transform: scale( 1 );
+	transform: scale( 1 );
+}
+
+/*
+ * 2. Arrows
+ */
+
+.arrows {
+	font-size: 0;
+	margin-top: 35px;
+}
+
+.arrows .arrow {
+	line-height: 1;
+	font-size: 14px;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	color: #ffffff !important;
+}
+
+.arrows .arrow.left {
+	margin-right: 12px;
+}
+
+.arrows .arrow i.fa {
+	padding: 5px;
+	color: inherit;
+	-webkit-transition: all 0.15s ease;
+	-moz-transition: all 0.15s ease;
+	-o-transition: all 0.15s ease;
+	transition: all 0.15s ease;
+}
+
+.arrows .arrow i.fa:hover {
+	color: #2185c5 !important;
+}
+
+/*
+ * 3. Videos
+ */
+
+.video-responsive {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+}
+
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: 0;
+}
+
+iframe {
+	border: 0;
+}
+
+/*
+ * 4. Embeds
+ */
+
+.embed-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed, .embed-container video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*
+ * 5. Images Slider
+ */
+
+.image-slider div {
+	display: none;
+}
+
+.image-slider div.arrows {
+	display: block;
+}
+
+.image-slider div:first-child {
+	display: block;
+}
+
+.image-slider .arrows {
+	position: absolute;
+	margin-top: 0;
+	margin-left: 0;
+	bottom: 5px;
+	right: 27px;
+	z-index: 999;
+}
+
+.image-slider .arrows.large {
+	left: 0;
+	right: 0;
+	bottom: auto;
+	top: 50%;
+	margin-top: -0.5em;
+	margin-right: 0 !important;
+}
+
+.image-slider .arrows.large .arrow {
+	position: absolute;
+	display: block;
+}
+
+.image-slider .arrows.large .arrow i {
+	opacity: .2;
+	color: #282828 !important;
+	font-size: 16px;
+}
+
+.image-slider .arrows.large .arrow:hover i {
+	opacity: 1;
+}
+
+.image-slider .arrows.large .arrow.left {
+	left: -40px;
+}
+
+.image-slider .arrows.large .arrow.right {
+	right: -40px;
+}
+
+p + .image-slider {
+	margin-top: 25px;
+}
+
+/*
+ * 6. Share Panel
+ */
+
+.share-panel {
+	margin-top: 20px;
+	line-height: 1;
+}
+
+.share-panel span {
+	display: inline-block;
+	margin-right: 25px;
+	color: #282828;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+}
+
+.share-panel .social {
+	display: inline-block;
+	cursor: default;
+}
+
+.share-panel a {
+	display: inline-block;
+	margin-right: 10px;
+	padding: 5px;
+}
+
+.share-panel a:last-of-type {
+	margin-right: 0;
+}
+
+.share-panel a:hover i.fa {
+	color: #282828;
+}
+
+.share-panel i.fa {
+	cursor: pointer;
+	font-size: 16px;
+	color: rgba( 0, 0, 0, 0.2 );
+	-webkit-transition: color 0.15s ease;
+	-moz-transition: color 0.15s ease;
+	-o-transition: color 0.15s ease;
+	transition: color 0.15s ease;
+}
+
+/*
+ * 7. Responsive Images
+ */
+
+.responsive-images img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}

@@ -1,0 +1,213 @@
+@import "_variables";
+@import "_functions";
+
+/* -----------------------------------------------------------------
+[Table of contents]
+
+1. Animations
+2. Arrows
+3. Videos
+4. Embeds
+5. Images Slider
+6. Share Panel
+7. Responsive Images
+------------------------------------------------------------------ */
+
+/*
+ * 1. Animations
+ */
+
+.csstransitions.csstransforms.no-touch .animation[class*="animation-"] {
+	position: relative;
+	opacity: 0;
+	.transition( all .35s ease );
+
+	&.animation-grow { .transform( scale( .8 ) ) }
+
+	&.animation-from-left { left: -30px }
+
+	&.animation-from-right { left: 30px }
+
+	&.animation-from-bottom { top: 30px }
+
+	&.animation-from-top { top: -30px }
+
+	&.active {
+		left: 0;
+		top: 0;
+		opacity: 1;
+		.transform( scale( 1 ) );
+	}
+}
+
+/*
+ * 2. Arrows
+ */
+
+.arrows {
+	font-size: 0;
+	margin-top: 35px;
+
+	.arrow {
+		line-height: 1;
+		font-size: 14px;
+		cursor: pointer;
+		display: inline-block;
+		position: relative;
+		.text-white( );
+
+		&.left { margin-right: 12px }
+
+		i.fa {
+			padding: 5px;
+			color: inherit;
+			.transition( all .15s ease );
+
+			&:hover { color: @color-primary !important }
+		}
+	}
+}
+
+/*
+ * 3. Videos
+ */
+
+.video-responsive {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+}
+
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed, {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: 0;
+}
+
+iframe { border: 0 }
+
+/*
+ * 4. Embeds
+ */
+
+.embed-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed,
+.embed-container video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*
+ * 5. Images Slider
+ */
+
+.image-slider div { display: none }
+
+.image-slider div.arrows { display: block }
+
+.image-slider div:first-child { display: block }
+
+.image-slider .arrows {
+	position: absolute;
+	margin-top: 0;
+	margin-left: 0;
+	bottom: 5px;
+	right: 27px;
+	z-index: 999;
+
+	&.large {
+		left: 0;
+		right: 0;
+		bottom: auto;
+		top: 50%;
+		margin-top: -.5em;
+		margin-right: 0 !important;
+
+		.arrow {
+			position: absolute;
+			display: block;
+
+			i {
+				opacity: .2;
+				color: @color-headers !important;
+				font-size: 16px;
+			}
+
+			&:hover i { opacity: 1 }
+
+			&.left { left: -40px }
+
+			&.right { right: -40px }
+		}
+	}
+}
+
+p + .image-slider {
+	margin-top: 25px;
+}
+
+/*
+ * 6. Share Panel
+ */
+
+.share-panel {
+	margin-top: 20px;
+	line-height: 1;
+
+	span {
+		display: inline-block;
+		margin-right: 25px;
+		color: @color-headers;
+		font-family: @font-family-headers;
+		.text-semibold;
+	}
+
+	.social {
+		display: inline-block;
+		cursor: default;
+	}
+
+	a {
+		display: inline-block;
+		margin-right: 10px;
+		padding: 5px;
+
+		&:last-of-type { margin-right: 0 }
+
+		&:hover i.fa { color: @color-headers }
+	}
+
+	i.fa {
+		cursor: pointer;
+		font-size: 16px;
+		color: rgba( 0, 0, 0, .2 );
+		.transition( color .15s ease );
+	}
+}
+
+/*
+ * 7. Responsive Images
+ */
+
+.responsive-images img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}

@@ -1,0 +1,85 @@
+/* -----------------------------------------------------------------
+[Table of contents]
+
+1. Primary Elements
+2. Placeholders
+3. Inputs, Textareas
+------------------------------------------------------------------ */
+
+/*
+ * 1. Primary Elements
+ */
+
+input, input:hover, input:focus, button, button:hover, button:focus, textarea, textarea:focus, textarea:active {
+	outline: 0;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+select {
+	max-width: 100%;
+	padding: 4px 6px;
+	border-radius: 3px;
+	border: 1px solid #f7f7f7;
+	color: #696f6f;
+}
+
+a:focus, a:active, button::-moz-focus-inner, input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, select::-moz-focus-inner, input[type="file"] > input[type="button"]::-moz-focus-inner {
+	border: 0;
+	outline: 0;
+}
+
+/*
+ * 2. Placeholders
+ */
+
+::-webkit-input-placeholder {
+	opacity: .8;
+	color: #a6a6a6;
+}
+
+::-moz-placeholder {
+	opacity: .8;
+	color: #a6a6a6;
+}
+
+::-ms-input-placeholder {
+	opacity: .8;
+	color: #a6a6a6;
+}
+
+/*
+ * 3. Inputs, Textareas
+ */
+
+input, textarea {
+	line-height: 1;
+	padding: 14px 18px;
+	color: #a6a6a6;
+	border-radius: 3px;
+	border: 1px solid #f7f7f7;
+	background-color: #ffffff;
+	-webkit-transition: border-color 0.15s ease-in;
+	-moz-transition: border-color 0.15s ease-in;
+	-o-transition: border-color 0.15s ease-in;
+	transition: border-color 0.15s ease-in;
+}
+
+input:focus, textarea:focus {
+	border-color: #2185c5;
+}
+
+input[disabled], textarea[disabled] {
+	background-color: #ffffff;
+	border-color: #f7f7f7;
+	color: #a6a6a6;
+}
+
+textarea {
+	line-height: 1.5;
+}
+
+input.notice, textarea.notice {
+	border-color: #2185c5 !important;
+}

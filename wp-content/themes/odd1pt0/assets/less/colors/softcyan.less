@@ -1,0 +1,226 @@
+@charset "UTF-8";
+
+@color-primary: #90C4C7;
+
+h1, .h1, h2, .h2, h3, .h3,
+h4, .h4, h5, .h5, h6, .h6 {
+	&.colored { color: @color-primary }
+}
+a {
+	color: @color-primary;
+	&:hover, &:focus {
+		color: @color-primary;
+	}
+}
+.page-loader {
+	.content {
+		.line {
+			.progress {
+				background-color: @color-primary;
+			}
+		}
+	}
+}
+.section {
+	header {
+		.icon.colored i { color: @color-primary }
+	}
+	&.parallax, &.video {
+		.parallax-overlay, .video-overlay {
+			&.colored { background-color: rgba( red( @color-primary ), green( @color-primary ), blue( @color-primary ), .85 ) }
+		}
+	}
+}
+.navbar {
+	.navbar-nav > li {
+		a {
+			&:hover, &:focus {
+				color: @color-primary !important;
+			}
+		}
+		&.menu-item-object-page.current-menu-item > a { color: @color-primary !important }
+	}
+	.navbar-toggle {
+		&:hover .icon-bar { background-color: @color-primary }
+	}
+	.navbar-collapse:not(.in):not(.collapsing) .navbar-nav > li.dropdown.open > a { color: @color-primary }
+	.navbar-nav > li > .dropdown-menu {
+		li.menu-item-object-page.current-menu-item a { color: @color-primary }
+	}
+	&.three, &.four, &.six {
+		.navbar-nav > li > a:after {
+			background: @color-primary;
+		}
+	}
+	&.seven, &.eight, &.nine {
+		.navbar-nav > li.menu-item-object-page.current-menu-item > a:after {
+			background: @color-primary;
+		}
+	}
+}
+.intro {
+	.content {
+		.video-preview {
+			.video-control {
+				i {
+					background-color: @color-primary;
+				}
+			}
+		}
+	}
+}
+.arrows {
+	.arrow {
+		i.fa {
+			&:hover { color: @color-primary !important }
+		}
+	}
+}
+.services [class*=col] {
+	&:hover i.fa { color: @color-primary }
+}
+.services-alt [class*=col] {
+	&:hover i.fa { color: @color-primary }
+}
+.btn {
+	&.btn-default {
+		background-color: @color-primary;
+		&:hover, &:focus { background-color: lighten( @color-primary, 7% ) }
+	}
+	&.btn-link {
+		color: @color-primary;
+		&:hover, &:focus { color: lighten( @color-primary, 7% ) }
+	}
+	&.btn-inverse {
+		color: @color-primary;
+		&:hover, &:focus {
+			border-color: lighten( @color-primary, 7% );
+			color: lighten( @color-primary, 7% );
+		}
+	}
+}
+input, textarea {
+	&:focus { border-color: @color-primary }
+}
+input.notice, textarea.notice { border-color: @color-primary !important }
+.portfolio-filters {
+	a {
+		&:hover { color: @color-primary }
+		&.active {
+			background-color: @color-primary !important;
+		}
+	}
+}
+.portfolio-item {
+	.loading {
+		background-color: @color-primary;
+	}
+}
+.nav-tabs {
+	> li.active > a,
+	> li.active > a:hover,
+	> li.active > a:focus {
+		color: @color-primary !important;
+	}
+}
+.progress {
+	.progress-bar {
+		background-color: @color-primary;
+	}
+}
+.fa-li {
+	&.colored { color: @color-primary }
+}
+.dropcap {
+	color: @color-primary;
+	&.alt {
+		background-color: @color-primary;
+	}
+}
+.promotion-box {
+	border-left-color: @color-primary;
+	&.line-top {
+		border-top-color: @color-primary;
+	}
+}
+.highlight, .highlight-dark {
+	background-color: @color-primary;
+}
+.sticker {
+	&.default {
+		background-color: @color-primary;
+		&:hover { background-color: lighten( @color-primary, 10% ) }
+	}
+}
+.icons-demo, .stickers-demo  {
+	&.colored i.fa { color: @color-primary }
+}
+.sidebar {
+	ul.menu {
+		li {
+			a {
+				&:hover, &:focus { color: @color-primary }
+			}
+		}
+	}
+	ul.links {
+		li {
+			a {
+				&:hover, &:focus { color: @color-primary }
+			}
+		}
+	}
+	.tags {
+		.tag {
+			background-color: @color-primary;
+			&:hover, &:focus { background-color: lighten( @color-primary, 7% ) }
+		}
+	}
+}
+.pages-navigation a {
+	&:hover, &:focus { color: @color-primary }
+}
+.user-comment {
+	.details {
+		.info {
+			.author {
+				color: @color-primary;
+			}
+		}
+		.reply a {
+			&:hover, &:focus { color: @color-primary }
+		}
+	}
+}
+caption {
+	background: rgba( red( @color-primary ), green( @color-primary ), blue( @color-primary ), 0.9 );
+}
+thead th {
+	background-color: @color-primary;
+}
+.sidebar {
+	ul.links li a {
+		&:hover, &:focus { color: @color-primary; }
+	}
+	.newsletter-form, &.widget_search {
+		.search-submit { background-color: @color-primary; }
+	}
+	.tagcloud > a {
+		background-color: @color-primary;
+		&:hover, &:focus { background-color: rgba( red( @color-primary ), green( @color-primary ), blue( @color-primary ), .85 ); }
+	}
+}
+.widget {
+	ul:not(.fa-ul) li a {
+		&:hover, &:focus { color: @color-primary }
+	}
+	&.widget_archive, &.widget_categories, &.widget_recent_comments {
+		a {
+			&:hover, &:focus { color: @color-primary !important; }
+		}
+	}
+}
+.nothing-found .search-form .search-submit {
+	background-color: @color-primary;
+}
+.large-info { background-color: @color-primary; }

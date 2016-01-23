@@ -1,0 +1,356 @@
+@import "_variables";
+@import "_functions";
+
+/* -----------------------------------------------------------------
+[Table of contents]
+
+1. General and Typography
+2. Offsets
+3. Blockquote
+4. Tables
+5. Definition Lists
+6. Code
+------------------------------------------------------------------ */
+
+/*
+ * 1. General and Typography
+ */
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	font-family: @font-family-content;
+	font-size: @default-font-size;
+	line-height: @line-height-content;
+	color: @color-content;
+	background: @color-background;
+	-webkit-font-smoothing: antialiased;
+}
+
+body, div, td {
+	word-spacing: break-word;
+	-webkit-hyphens: auto;
+	   -moz-hyphens: auto;
+	    -ms-hyphens: auto;
+	        hyphens: auto;
+}
+
+header { color: @color-headers }
+
+h1, .h1, h2, .h2, h3, .h3,
+h4, .h4, h5, .h5, h6, .h6 {
+	font-family: @font-family-headers;
+	line-height: @line-height-headers;
+	color: @color-headers;
+	&.colored { color: @color-primary }
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+	margin-bottom: 0.75em;
+}
+
+h4, .h4, h5, .h5, h6, .h6 {
+	margin-bottom: 1em;
+}
+
+h1 + h2, h1 + h3, h1 + h4, h1 + h5, h1 + h6,
+h2 + h1, h2 + h3, h2 + h4, h2 + h5, h2 + h6,
+h3 + h1, h3 + h2, h3 + h4, h3 + h5, h3 + h6 {
+	margin-top: 0em;
+}
+
+h4 + h1, h4 + h2, h4 + h3, h4 + h5, h4 + h6,
+h5 + h1, h5 + h2, h5 + h3, h5 + h4, h5 + h6,
+h6 + h1, h6 + h2, h6 + h3, h6 + h4, h6 + h5 {
+	margin-top: 2em;
+}
+
+p + h1, p + .h1, p + h2, p + .h2, p + h3, p + .h3,
+p + h4, p + .h4, p + h5, p + .h5, p + h6, p + .h6 {
+	margin-top: 2em;
+}
+
+i.fa { color: @color-icons }
+
+hr {
+	margin: 0;
+	border-color: @color-placeholders;
+}
+
+a {
+	color: @color-primary;
+	&:hover, &:focus {
+		color: @color-primary;
+		text-decoration: underline;
+	}
+	&.normal {
+		color: @color-content !important;
+		text-decoration: none !important;
+	}
+}
+
+.clear { clear: both; }
+
+.text-semibold { font-weight: 500 }
+
+.text-light { font-weight: 300 }
+
+.text-white { color: @color-background !important }
+
+.img-rounded,
+.rounded { border-radius: @default-radius }
+
+.opacity8 { opacity: .8 }
+
+.opacity9 { opacity: .9 }
+
+/*
+ * 2. Offsets
+ */
+
+.offsetTop { padding-top: 60px }
+
+.offsetBottom { padding-bottom: 60px }
+
+.offsetTopX { padding-top: 120px }
+
+.offsetBottomX { padding-bottom: 120px }
+
+.offsetTopL { padding-top: 80px }
+
+.offsetBottomL { padding-bottom: 80px }
+
+.offsetTopS { padding-top: 20px }
+
+.offsetBottomS { padding-bottom: 20px }
+
+.offsetTopClear {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.offsetBottomClear {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+/*
+ * 3. Blockquote
+ */
+
+blockquote {
+	quotes: none;
+	position: relative;
+	text-align: left;
+	padding: 0 48px 0 90px;
+	margin: 1.5em 20px 1.7em;
+	font-size: 1.5em;
+	line-height: 1.785em;
+	border-left: 0;
+	display: block;
+
+	&:before {
+		font-family: "Georgia", sans-serif;
+		content: "\AB";
+		font-size: 4.9em;
+		left: 10px;
+		top: 6px;
+		opacity: 0.2;
+		font-style: normal;
+		position: absolute;
+		cursor: default;
+	}
+
+	p {
+		font-family: inherit;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	&.pull-left,
+	&.pull-right {
+		width: 40%;
+	}
+}
+
+cite {
+	font-style: italic;
+	color: #999;
+}
+
+q {
+	font-style: italic;
+
+	&:before {
+		content: '\AB';
+	}
+
+	&:after {
+		content: '\BB';
+	}
+}
+
+/*
+ * 4. Tables
+ */
+
+table {
+	text-align: left;
+	width: 100%;
+	max-width: 100%;
+	margin: 0 0 2em;
+	border-collapse: collapse;
+}
+
+table + p,
+p + table {
+	margin-top: 2em;
+}
+
+caption {
+	line-height: 1.3em;
+	padding: 1em 10px;
+	font-weight: bold;
+	text-align: center;
+	color: @color-background;
+	font-weight: bold;
+	background: rgba( red( @color-primary ), green( @color-primary ), blue( @color-primary ), 0.9 );
+	border-radius: @default-radius @default-radius 0 0;
+
+	+ thead th {
+		border-radius: 0 !important;
+	}
+}
+
+th {
+	line-height: 1.3em;
+	padding: 10px;
+}
+
+thead th {
+	font-weight: bold;
+	background-color: @color-primary;
+	color: @color-background;
+
+	&:first-child {
+		border-left: 0;
+		border-radius: @default-radius 0 0 0;
+	}
+
+	&:last-child {
+		border-radius: 0 @default-radius 0 0;
+	}
+}
+
+td {
+	line-height: inherit;
+	vertical-align: top;
+	padding: 10px;
+	border-left: 1px solid @color-placeholders;
+
+	&:first-child {
+		border-left: 0;
+	}
+}
+
+tbody {
+	tr {
+		background: @color-background;
+		border-bottom: 1px solid @color-placeholders;
+
+		&:nth-child(even) {
+			background-color: @color-placeholders;
+		}
+	}
+}
+
+tfoot {
+	tr {
+		color: @color-background;
+
+		td {
+			background-color: @color-background-alt;
+			border-left: 0;
+			line-height: 1.3em;
+			font-weight: bold;
+
+			&:first-child {
+				border-radius: 0 0 0 @default-radius;
+			}
+
+			&:last-child {
+				border-radius: 0 0 @default-radius 0;
+			}
+		}
+	}
+}
+
+/*
+ * 5. Definition Lists
+ */
+
+dl {
+	margin: 0 0 2em;
+	padding-top: 0.5em;
+
+	dt {
+		font-weight: bold;
+		margin-bottom: 0.75em;
+	}
+
+	dd {
+		margin: 0 0 1em 1em;
+		
+		&:before {
+			content: '\2014';
+			padding-right: 6px;
+		}
+	}
+}
+
+/*
+ * 6. Code
+ */
+
+pre {
+	font-family: "Inconsolata", "Consolas", monospace;
+	text-align: left;
+	max-width: 100%;
+	margin-bottom: 1em;
+	padding: 1em 20px;
+	font-size: 0.9em;
+	overflow: auto;
+	border-radius: @default-radius;
+	background-color: @color-placeholders;
+	color: #777;
+
+	code {
+		padding: 0;
+		background-color: transparent;
+		color: inherit;
+		border-radius: 0;
+	}
+}
+
+pre + p,
+p + pre {
+	margin-top: 2em;
+}
+
+code,
+kbd,
+var,
+tt {
+	font-family: "Inconsolata", "Consolas", monospace;
+	padding: 2px 4px;
+	background-color: @color-placeholders;
+	color: #777;
+	border-radius: @default-radius;
+}

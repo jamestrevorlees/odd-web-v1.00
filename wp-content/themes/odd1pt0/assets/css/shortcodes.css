@@ -1,0 +1,613 @@
+/* -----------------------------------------------------------------
+[Table of contents]
+
+1. Buttons
+2. Services ( Alternative )
+3. Animated Bars
+4. Accordion
+5. Tabs
+6. Alert Messages
+7. Progress Bars
+8. Custom Lists
+9. Dropcaps
+10. Tagline Boxes
+11. Highlights
+12. Pricing Tables
+13. Stickers
+14. Font-Awesome Icons
+15. Milestone Counters
+16. Google Map
+------------------------------------------------------------------ */
+
+/*
+ * 1. Buttons
+ */
+
+.btn {
+	border-radius: 3px;
+	font-family: "Roboto", sans-serif;
+	padding: 18px 30px;
+	line-height: 1;
+	font-weight: 500;
+	border-width: 0;
+	margin-bottom: 1.5em;
+	-webkit-transition: all 0.1s ease-in;
+	-moz-transition: all 0.1s ease-in;
+	-o-transition: all 0.1s ease-in;
+	transition: all 0.1s ease-in;
+}
+
+.btn i.fa {
+	color: inherit;
+	padding-right: 5px;
+}
+
+.btn.btn-default {
+	background-color: #2185c5;
+	color: #ffffff;
+}
+
+.btn.btn-default:hover, .btn.btn-default:focus {
+	background-color: rgba( 33, 133, 197, 0.85 );
+}
+
+.btn.btn-link {
+	color: #2185c5;
+	text-decoration: none !important;
+}
+
+.btn.btn-link:hover, .btn.btn-link:focus {
+	opacity: .85;
+}
+
+.btn.btn-inverse {
+	background-color: transparent !important;
+	color: #2185c5;
+	border: 2px solid;
+	padding: 16px 28px;
+}
+
+.btn.btn-inverse:hover, .btn.btn-inverse:focus {
+	opacity: .85;
+	background-color: transparent;
+}
+
+.btn.btn-rounded {
+	border-radius: 30px;
+}
+
+.btn.btn-small {
+	padding: 13px 20px 14px;
+}
+
+.btn.btn-small i.fa {
+	font-size: 12px;
+	padding-right: 3px;
+}
+
+.btn.btn-small.btn-inverse {
+	padding: 11px 18px 12px;
+}
+
+.btn.btn-white {
+	color: #ffffff !important;
+}
+
+.btn.btn-white.btn-inverse {
+	border-color: rgba( 255, 255, 255, 0.6 );
+}
+
+.btn.btn-white.btn-inverse:hover {
+	border-color: rgba( 255, 255, 255, 0.8 );
+}
+
+.btn[disabled] {
+	opacity: 1;
+}
+
+p + .btn, p + p > .btn {
+	margin-top: 1.5em;
+}
+
+/*
+ * 2. Services ( Alternative )
+ */
+
+.services-alt {
+	text-align: center;
+}
+
+.services-alt [class*=col]:hover i.fa {
+	color: #2185c5;
+}
+
+.services-alt [class*=col] i.fa {
+	cursor: default;
+	font-size: 60px;
+	-webkit-transition: color 0.15s ease-in;
+	-moz-transition: color 0.15s ease-in;
+	-o-transition: color 0.15s ease-in;
+	transition: color 0.15s ease-in;
+}
+
+.services-alt.no-hover [class*=col] i.fa {
+	color: inherit !important;
+}
+
+/*
+ * 3. Animated Bars
+ */
+
+.no-canvas .circular-bars {
+	display: none;
+}
+
+.circular-bars [class*=col] {
+	margin-bottom: 1em;
+}
+
+.circular-bars input {
+	color: #282828 !important;
+	font: 500 22px/1 "Roboto", sans-serif !important;
+}
+
+.circular-bars h1, .circular-bars .h1, .circular-bars h2, .circular-bars .h2, .circular-bars h3, .circular-bars .h3, .circular-bars h4, .circular-bars .h4, .circular-bars h5, .circular-bars .h5, .circular-bars h6, .circular-bars .h6 {
+	margin-top: 15px;
+}
+
+/*
+ * 4. Accordion
+ */
+
+.panel-group .panel {
+	margin-top: 10px;
+}
+
+.panel-group .panel:first-child {
+	margin-top: 0;
+}
+
+.panel-group .panel-heading {
+	background-color: #fbfbfb;
+	border-radius: 3px;
+	padding: 4px 20px;
+}
+
+.panel-group .panel-title a {
+	color: #282828;
+	text-decoration: none !important;
+}
+
+.panel-group .panel-body {
+	padding: 10px 20px;
+}
+
+/*
+ * 5. Tabs
+ */
+
+.nav-tabs {
+	border-bottom-color: #f7f7f7;
+}
+
+.nav-tabs > li > a {
+	font-family: "Roboto", sans-serif !important;
+	color: #282828;
+	font-weight: 500;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	border-color: #f7f7f7 #f7f7f7 transparent;
+	color: #2185c5 !important;
+}
+
+.nav-tabs > li > a:hover, .nav-tabs > li > a:focus {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.tab-pane {
+	padding: 10px 10px 0;
+}
+
+/*
+ * 6. Alert Messages
+ */
+
+.alert {
+	border: 0 !important;
+	padding: 14px 30px;
+}
+
+.alert p {
+	color: #696f6f;
+}
+
+.alert.alert-success {
+	background-color: #f6fff1;
+}
+
+.alert.alert-success h1, .alert.alert-success .h1, .alert.alert-success h2, .alert.alert-success .h2, .alert.alert-success h3, .alert.alert-success .h3, .alert.alert-success h4, .alert.alert-success .h4, .alert.alert-success h5, .alert.alert-success .h5, .alert.alert-success h6, .alert.alert-success .h6 {
+	color: #88d661;
+}
+
+.alert.alert-info {
+	background-color: #f4f8fa;
+}
+
+.alert.alert-info h1, .alert.alert-info .h1, .alert.alert-info h2, .alert.alert-info .h2, .alert.alert-info h3, .alert.alert-info .h3, .alert.alert-info h4, .alert.alert-info .h4, .alert.alert-info h5, .alert.alert-info .h5, .alert.alert-info h6, .alert.alert-info .h6 {
+	color: #5bc0de;
+}
+
+.alert.alert-warning {
+	background-color: #fcf8f2;
+}
+
+.alert.alert-warning h1, .alert.alert-warning .h1, .alert.alert-warning h2, .alert.alert-warning .h2, .alert.alert-warning h3, .alert.alert-warning .h3, .alert.alert-warning h4, .alert.alert-warning .h4, .alert.alert-warning h5, .alert.alert-warning .h5, .alert.alert-warning h6, .alert.alert-warning .h6 {
+	color: #f0ad4e;
+}
+
+.alert.alert-danger {
+	background-color: #fdf7f7;
+}
+
+.alert.alert-danger h1, .alert.alert-danger .h1, .alert.alert-danger h2, .alert.alert-danger .h2, .alert.alert-danger h3, .alert.alert-danger .h3, .alert.alert-danger h4, .alert.alert-danger .h4, .alert.alert-danger h5, .alert.alert-danger .h5, .alert.alert-danger h6, .alert.alert-danger .h6 {
+	color: #d9534f;
+}
+
+/*
+ * 7. Progress Bars
+ */
+
+.bar {
+	clear: both;
+}
+
+.progress {
+	height: 7px;
+	background-color: #fbfbfb;
+	border-radius: 3px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.progress .progress-bar {
+	width: 0;
+	background-color: #2185c5;
+	border-radius: 0 3px 3px 0;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+
+.progress-heading {
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.progress-heading .progress-title {
+	float: left;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0 10px;
+}
+
+.progress-heading .progress-value {
+	font-family: "Roboto", sans-serif;
+	color: #282828;
+	text-align: right;
+	margin-top: -0.22em;
+	padding-right: 10px;
+	font-weight: 500;
+}
+
+/*
+ * 8. Custom Lists
+ */
+
+.fa-ul.details {
+	margin-left: 1.3em;
+}
+
+.fa-ul.details li {
+	border-bottom: 1px solid #f7f7f7;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.fa-ul.details li:last-child {
+	border-bottom: 0;
+}
+
+.fa-ul.details li strong {
+	color: #282828;
+	display: inline-block;
+	margin-right: 6px;
+}
+
+.fa-ul.details li .fa-li {
+	top: 0.95em;
+}
+
+.fa-li {
+	top: .5em;
+}
+
+.fa-li.colored {
+	color: #2185c5;
+}
+
+/*
+ * 9. Dropcaps
+ */
+
+.dropcap {
+	font-family: "Roboto", sans-serif;
+	font-size: 50px;
+	color: #2185c5;
+	line-height: 1;
+	margin-right: 10px;
+	float: left;
+	font-weight: 500;
+}
+
+.dropcap.alt {
+	background-color: #2185c5;
+	color: #ffffff;
+	border-radius: 3px;
+	padding: 1px 8px 4px;
+}
+
+/*
+ * 10. Tagline Boxes
+ */
+
+.promotion-box {
+	padding: 14px 30px;
+	background-color: #fbfbfb;
+	border-left: 3px solid #2185c5;
+	margin: 10px 0 20px;
+}
+
+.promotion-box.line-top {
+	border-top: 3px solid #2185c5;
+	border-left: none;
+}
+
+.promotion-box.line-grey {
+	border-color: #f7f7f7;
+}
+
+/*
+ * 11. Highlights
+ */
+
+.highlight, .highlight-dark {
+	display: inline-block;
+	color: #ffffff;
+	background-color: #2185c5;
+	padding: 0 7px;
+	border-radius: 3px;
+}
+
+.highlight-dark {
+	background-color: #282828;
+}
+
+/*
+ * 12. Pricing Tables
+ */
+
+.pricing-tables .plan {
+	text-align: center;
+	border: 3px solid #f7f7f7;
+	border-radius: 3px;
+	padding: 0 15px 22px;
+	margin: 0 15px 20px;
+}
+
+.pricing-tables .plan header {
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+
+.pricing-tables .plan ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.pricing-tables .plan ul li {
+	border-bottom: 1px solid #f7f7f7;
+	margin-left: -15px;
+	margin-right: -15px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+
+.pricing-tables .plan ul li:first-child {
+	border-top: 1px solid #f7f7f7;
+}
+
+.pricing-tables .plan .btn {
+	margin-bottom: 0;
+}
+
+.pricing-tables .plan .btn:first-of-type {
+	margin-top: 20px;
+}
+
+.pricing-tables [class*="col"]:last-child .plan {
+	margin-bottom: 0;
+}
+
+/*
+ * 13. Stickers
+ */
+
+.sticker {
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: "Open Sans", sans-serif;
+	font-size: 11px;
+	color: #ffffff;
+	background-color: #282828;
+	border-radius: 3px;
+	line-height: 1.8;
+	padding: 0 7px;
+	vertical-align: middle;
+	text-align: center;
+	text-shadow: 0 1px rgba( 0, 0, 0, 0.1 );
+	margin: 0 3px 0 5px;
+	cursor: default;
+	-webkit-transition: all 0.15s ease-in;
+	-moz-transition: all 0.15s ease-in;
+	-o-transition: all 0.15s ease-in;
+	transition: all 0.15s ease-in;
+}
+
+.sticker:hover {
+	background-color: #424242;
+}
+
+.sticker.green {
+	background-color: #88d661;
+}
+
+.sticker.green:hover {
+	background-color: #a6e189;
+}
+
+.sticker.blue {
+	background-color: #5bc0de;
+}
+
+.sticker.blue:hover {
+	background-color: #85d0e7;
+}
+
+.sticker.orange {
+	background-color: #f0ad4e;
+}
+
+.sticker.orange:hover {
+	background-color: #f4c37d;
+}
+
+.sticker.red {
+	background-color: #d9534f;
+}
+
+.sticker.red:hover {
+	background-color: #e27c79;
+}
+
+.sticker.default {
+	background-color: #2185c5;
+}
+
+.sticker.default:hover {
+	background-color: rgba( 33, 133, 197, 0.85 );
+}
+
+.sticker-icon {
+	position: relative;
+}
+
+.sticker-icon .sticker {
+	position: absolute;
+	top: -2px;
+	right: -2px;
+	margin: 0;
+}
+
+h1 .sticker, .h1 .sticker, h2 .sticker, .h2 .sticker, h3 .sticker, .h3 .sticker {
+	margin-top: -3px;
+}
+
+h4 .sticker, .h4 .sticker, h5 .sticker, .h5 .sticker, h6 .sticker, .h6 .sticker {
+	margin-top: -1px;
+}
+
+.services .sticker {
+	top: -4px;
+	right: -10px;
+}
+
+/*
+ * 14. Font-Awesome Icons and Stickers Demo
+ */
+
+.icons-demo, .stickers-demo {
+	cursor: default;
+}
+
+.icons-demo.colored i.fa, .stickers-demo.colored i.fa {
+	color: #2185c5;
+}
+
+.icons-demo i.fa, .stickers-demo i.fa {
+	font-size: 20px;
+	width: 30px;
+	padding-bottom: 15px;
+	cursor: default;
+	text-align: center;
+	-webkit-transition: all 0.15s ease-in;
+	-moz-transition: all 0.15s ease-in;
+	-o-transition: all 0.15s ease-in;
+	transition: all 0.15s ease-in;
+}
+
+.icons-demo i.fa:hover, .stickers-demo i.fa:hover {
+	opacity: 0.7;
+}
+
+.stickers-demo i.fa {
+	font-size: 46px;
+	width: 70px;
+}
+
+/*
+ * 15. Milestone Counters
+ */
+
+.milestone {
+	background-color: #fbfbfb;
+	border-radius: 3px;
+	text-align: center;
+	color: #282828;
+	font-family: "Roboto", sans-serif;
+	padding: 20px 5px;
+}
+
+.milestone .counter {
+	font-size: 52px;
+	line-height: 1;
+	font-weight: 500;
+}
+
+.milestone .description {
+	text-transform: uppercase;
+	font-size: 13px;
+	margin-top: 5px;
+	color: #696f6f;
+}
+
+/*
+ * 16. Google Map
+ */
+
+.googlemap {
+	width: 100%;
+	height: 200px;
+	margin: 0 0 1em;
+}
+
+.googlemap + p, p + .googlemap {
+	margin-top: 2em;
+}

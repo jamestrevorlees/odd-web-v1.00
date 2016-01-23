@@ -1,0 +1,698 @@
+@charset "UTF-8";
+
+@import "_variables";
+@import "_functions";
+
+/* -----------------------------------------------------------------
+[Table of contents]
+
+1. Phones
+	1.1 General and Typography
+	1.2 Offsets
+	1.3 Sections
+	1.4 Navigation
+	1.5 Intro
+	1.6 Arrows
+	1.7 Services
+	1.8 Buttons
+	1.9 Demo Content
+	1.10 Portfolio Filters
+	1.11 Our Team
+	1.12 Animated Bars
+	1.13 Pricing Tables
+	1.14 Sidebars
+	1.15 Subscribe for Newsletter
+	1.16 Info Box
+	1.17 Contact Information and Form
+	1.18 Images Slider
+	1.19 Comments
+	1.20 Footer
+	1.21 Milestone Counters
+	1.22 How it looks (iMacs Preview)
+	1.23 Google Map
+	1.24 Nothing Found
+	1.25 Post Formats
+	1.26 Blockquote
+
+2. Tablets
+	2.1 Offsets
+	2.2 Sections
+	2.3 Navigation
+	2.4 Services
+	2.5 Our Team
+	2.6 Info Box
+	2.7 Pricing Tables
+	2.8 Subscribe for Newsletter
+	2.9 Milestone Counters
+	2.10 How it looks (iMacs Preview)
+	2.11 Calendar
+	2.12 Comments
+	2.13 Footer
+	2.14 Post Formats
+	2.15 Blockquote
+
+3. Monitors, Tablets
+	3.1 Navigation
+	3.2 Subscribe for Newsletter
+	3.3 How it looks (iMacs Preview)
+------------------------------------------------------------------ */
+
+/*
+ * 1. Phones
+ * 0 / 767
+ */
+
+@media (max-width: 767px) {
+	/*
+	 * 1.1 General and Typography
+	 */
+
+	h1, .h1 { font-size: 28px }
+
+	h2, .h2 { font-size: 24px }
+
+	h3, .h3 { font-size: 18px }
+
+	/*
+	 * 1.2 Offsets
+	 */
+
+	.offsetTop { padding-top: 20px }
+
+	.offsetBottom { padding-bottom: 20px }
+
+	.offsetTopX { padding-top: 60px }
+
+	.offsetBottomX { padding-bottom: 60px }
+
+	.offsetTopL { padding-top: 40px }
+
+	.offsetBottomL { padding-bottom: 40px }
+
+	.offsetTopS { padding-top: 5px }
+
+	.offsetBottomS { padding-bottom: 5px }
+
+	/*
+	 * 1.3 Sections
+	 */
+
+	.section header .icon.largest i { font-size: 60px }
+
+	/*
+	 * 1.4 Navigation
+	 */
+
+	.navbar { padding-top: 20px }
+
+	.navbar .social { display: none !important }
+
+	.navbar.floating {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.navbar.three, .navbar.four, .navbar.six {
+		.navbar-nav > li > a:after { display: none }
+	}
+
+	.navbar.seven, .navbar.eight, .navbar.nine {
+		.navbar-nav > li.menu-item-object-page.current-menu-item > a:after { display: none }
+	}
+
+	.navbar + .section.offsetTop {
+		padding-top: 5px;
+	}
+
+	html.nav-sticky {
+		margin-top: 49px !important;
+
+		&.wp-bar {
+			margin-top: 96px !important;
+		}
+	}
+
+	body.admin-bar .navbar.floating.navbar-fixed-top {
+		padding-top: 62px;
+	}
+
+	/*
+	 * 1.5 Intro
+	 */
+
+	.intro .content .video-preview {
+		margin-top: 20px;
+		width: 120px;
+	}
+
+	/*
+	 * 1.6 Arrows
+	 */
+
+	.arrows { margin-top: 15px }
+
+	/*
+	 * 1.7 Services
+	 */
+
+	.services [class*=col] {
+		border-right-width: 0;
+
+		i.fa { font-size: 60px }
+	}
+
+	.services-alt [class*=col] i.fa {
+		font-size: 34px;
+		margin-top: 15px;
+	}
+
+	/*
+	 * 1.8 Buttons
+	 */
+
+	.btn {
+		padding: 12px 20px;
+
+		&.btn-inverse { padding: 10px 18px }
+	}
+
+	/*
+	 * 1.9 Demo Content
+	 */
+
+	.big-ipad.pull-right { float: left !important }
+
+	.no-right-xs { float: none !important }
+
+	.text-center-xs,
+	.text-center-xs > .pull-right {
+		float: none !important;
+		text-align: center;
+	}
+
+	/*
+	 * 1.10 Portfolio Filters
+	 */
+
+	.portfolio-filters a {
+		padding: 10px 12px;
+		margin-right: 5px;
+		margin-top: 7px;
+	}
+
+	/*
+	 * 1.11 Our Team
+	 */
+
+	.team [class*=col] {
+		padding-left: 20px;
+		padding-right: 20px;
+
+		.social {
+			float: left;
+			margin-top: 5px;
+			margin-left: -5px;
+		}
+	}
+
+	/*
+	 * 1.12 Animated Bars
+	 */
+
+	.circular-bars {
+		input { font-size: 16px !important }
+
+		h1, .h1, h2, .h2, h3, .h3,
+		h4, .h4, h5, .h5, h6, .h6 {
+			margin-bottom: 20px;
+		}
+	}
+
+	/*
+	 * 1.13 Pricing Tables
+	 */
+
+	.pricing-tables .plan {
+		padding-bottom: 17px;
+
+		header {
+			margin-top: 20px;
+			margin-bottom: 15px;
+		}
+
+		ul li {
+			padding-top: 8px;
+			padding-bottom: 8px;
+		}
+
+		.btn:first-of-type { margin-top: 15px }
+	}
+
+	/*
+	 * 1.14 Sidebars
+	 */
+
+	.sidebar { padding-left: 0 }
+
+	/*
+	 * 1.15 Subscribe for Newsletter
+	 */
+
+	.sidebar {
+		.newsletter-form, &.widget_search {
+			input[type="email"], input[type="text"], .search-field { width: 100% }
+		}
+	}
+
+	/*
+	 * 1.16 Info Box
+	 */
+
+	.info-box {
+		padding-top: 20px;
+		padding-bottom: 20px;
+
+		input[type="email"] { font-size: 18px }
+
+		.btn {
+			margin-top: 15px;
+		}
+	}
+
+	/*
+	 * 1.17 Contact Information and Form
+	 */
+
+	.large-info {
+		font-size: 28px;
+		padding: 20px;
+		margin-bottom: 10px;
+	}
+
+	.contact-form .field {
+		width: 100%;
+		margin-bottom: 15px !important;
+	}
+
+	/*
+	 * 1.18 Images Slider
+	 */
+
+	.image-slider .arrows.large .arrow.left { left: -20px }
+
+	.image-slider .arrows.large .arrow.right { right: -20px }
+
+	/*
+	 * 1.19 Comments
+	 */
+
+	.user-comment {
+		margin-bottom: 25px;
+
+		.image { width: 60px }
+
+		.details { margin-left: 90px }
+
+		.details .info .author { width: 100% }
+
+		.details .info .date { float: left }
+
+		.user-comment { margin-top: 25px }
+	}
+
+	/*
+	 * 1.20 Footer
+	 */
+
+	.footer, .footer .social { text-align: center }
+
+	/*
+	 * 1.21 Milestone Counters
+	 */
+
+	.milestone .counter { font-size: 32px }
+
+	/*
+	 * 1.22 How it looks (iMacs Preview)
+	 */
+
+	.imacs .item.center { margin-top: 0 }
+
+	/*
+	 * 1.23 Google Map
+	 */
+
+	.map #google-map { height: 300px }
+
+	/*
+	 * 1.24 Nothing Found
+	 */
+
+	.nothing-found .search-form .search-field { width: 100%; }
+
+	/*
+	 * 1.25 Post Formats
+	 */
+
+	.format-holder {
+		&.link {
+			a {
+				padding-left: 66px;
+				font-size: 1.2em;
+				margin-left: 0;
+				margin-top: 0.6em;
+				margin-bottom: 0.5em;
+
+				&:before {
+					font-size: 1.6em !important;
+					top: 4px;
+				}
+			}
+		}
+
+		&.status {
+			p {
+				padding-left: 66px;
+				font-size: 1.2em;
+				margin-left: 0;
+				margin-top: 0.6em;
+				margin-bottom: 0.5em;
+
+				&:before {
+					font-size: 1.6em !important;
+					top: 4px;
+				}
+			}
+		}
+
+		&.aside {
+			font-size: 1.3em;
+			line-height: 1.6em;
+		}
+	}
+
+	/*
+	 * 1.26 Blockquote
+	 */
+
+	blockquote {
+		margin: 1.2em 10px;
+		padding: 0 20px 0 50px;
+		font-size: 1.2em;
+
+		&:before {
+			font-size: 3em;
+			left: 0;
+		}
+
+		&.pull-left,
+		&.pull-right {
+			width: 100%;
+			float: none !important;
+		}
+	}
+}
+
+/*
+ * 2. Tablets
+ * 767 / 991
+ */
+
+@media (min-width: 768px) and (max-width: 991px) {
+	/*
+	 * 2.1 Offsets
+	 */
+
+	.offsetTop { padding-top: 40px }
+
+	.offsetBottom { padding-bottom: 40px }
+
+	.offsetTopX { padding-top: 100px }
+
+	.offsetBottomX { padding-bottom: 100px }
+
+	.offsetTopL { padding-top: 60px }
+
+	.offsetBottomL { padding-bottom: 60px }
+
+	.offsetTopS { padding-top: 10px }
+
+	.offsetBottomS { padding-bottom: 10px }
+
+	/*
+	 * 2.2 Sections
+	 */
+
+	.section header .icon.largest i { font-size: 80px }
+
+	/*
+	 * 2.3 Navigation
+	 */
+
+	.navbar {
+		padding-top: 40px;
+
+		&.one .navbar-nav, &.three .navbar-nav, &.eight .navbar-nav { max-width: 630px; }
+
+		&.two .navbar-nav, &.four .navbar-nav, &.five .navbar-nav, &.six .navbar-nav, &.seven .navbar-nav, &.nine .navbar-nav { max-width: 630px; }
+	}
+
+	.navbar-nav { max-width: 630px; }
+
+	.navbar .social { display: none !important }
+
+	.navbar.floating {
+		padding-top: 30px;
+		padding-bottom: 15px;
+	}
+
+	.navbar + .section.offsetTop {
+		padding-top: 20px;
+	}
+
+	html.nav-sticky {
+		margin-top: 75px !important;
+
+		&.wp-bar {
+			margin-top: 105px !important;
+		}
+	}
+
+	body.admin-bar .navbar.floating.navbar-fixed-top {
+		padding-top: 60px;
+	}
+
+	/*
+	 * 2.4 Services
+	 */
+
+	.services [class*=col] {
+		border-right-width: 0;
+	}
+
+	.services [class*=col] i.fa {
+		font-size: 60px;
+	}
+
+	/*
+	 * 2.5 Our Team
+	 */
+
+	.team [class*=col] {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	/*
+	 * 2.6 Info Box
+	 */
+
+	.info-box {
+		padding-top: 35px;
+		padding-bottom: 35px;
+
+		.btn {
+			margin-top: 15px;
+		}
+	}
+
+	/*
+	 * 2.7 Pricing Tables
+	 */
+
+	.pricing-tables .plan {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	/*
+	 * 2.8 Subscribe for Newsletter
+	 */
+
+	.sidebar {
+		.newsletter-form, &.widget_search {
+			input[type="email"], input[type="text"], .search-field { width: 100% }
+		}
+	}
+
+	/*
+	 * 2.9 Milestone Counters
+	 */
+
+	.milestone .counter { font-size: 42px }
+
+	/*
+	 * 2.10 How it looks (iMacs Preview)
+	 */
+
+	.imacs {
+		.item.center {
+			margin-top: 0;
+			img { width: 400px }
+		}
+
+		.item.left.complete {
+			top: 25px;
+			left: 30px;
+			width: 300px;
+		}
+
+		.item.right.complete {
+			top: 25px;
+			right: 30px;
+			width: 300px;
+		}
+	}
+
+	/*
+	 * 2.11 Calendar
+	 */
+
+	#wp-calendar tbody td { padding: 4px 7px; }
+
+	/*
+	 * 2.12 Comments
+	 */
+
+	.user-comment {
+		margin-bottom: 25px;
+
+		.image { width: 60px }
+
+		.details { margin-left: 90px }
+
+		.details .info .author { width: 100% }
+
+		.details .info .date { float: left }
+
+		.user-comment { margin-top: 25px }
+	}
+
+	/*
+	 * 2.13 Footer
+	 */
+
+	.footer .menu { display: block; }
+
+	/*
+	 * 2.14 Post Formats
+	 */
+
+	.format-holder {
+		&.link {
+			a {
+				padding-left: 66px;
+				font-size: 1.2em;
+				margin-left: 0;
+				margin-top: 0.6em;
+				margin-bottom: 0.5em;
+
+				&:before {
+					font-size: 1.6em !important;
+					top: 4px;
+				}
+			}
+		}
+		&.status {
+			p {
+				padding-left: 66px;
+				font-size: 1.2em;
+				margin-left: 0;
+				margin-top: 0.6em;
+				margin-bottom: 0.5em;
+
+				&:before {
+					font-size: 1.6em !important;
+					top: 4px;
+				}
+			}
+		}
+
+		&.aside {
+			font-size: 1.3em;
+			line-height: 1.6em;
+		}
+	}
+
+	/*
+	 * 2.15 Blockquote
+	 */
+
+	blockquote {
+		margin: 1.2em 10px;
+		padding: 0 20px 0 50px;
+		font-size: 1.2em;
+
+		&:before {
+			font-size: 3em;
+			left: 0;
+		}
+	}
+}
+
+/*
+ * 3. Monitors, Tablets
+ * 992 / 1199
+ */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	/*
+	 * 3.1 Navigation
+	 */
+
+	.navbar {
+		&.one .navbar-nav, &.three .navbar-nav, &.eight .navbar-nav { max-width: 850px; }
+
+		&.two .navbar-nav, &.four .navbar-nav, &.five .navbar-nav, &.six .navbar-nav, &.seven .navbar-nav, &.nine .navbar-nav { max-width: 710px; }
+
+		.social { margin-left: 50px }
+	}
+
+	/*
+	 * 3.2 Subscribe for Newsletter
+	 */
+
+	.sidebar {
+		.newsletter-form, &.widget_search {
+			input[type="email"], input[type="text"], .search-field { width: 150px }
+		}
+	}
+
+	/*
+	 * 3.3 How it looks (iMacs Preview)
+	 */
+
+	.imacs {
+		.item.center { margin-top: 25px }
+
+		.item.left.complete {
+			top: -25px;
+			left: 30px;
+		}
+
+		.item.right.complete {
+			top: -25px;
+			right: 30px;
+		}
+	}
+}

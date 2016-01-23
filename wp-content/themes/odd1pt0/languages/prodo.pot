@@ -1,0 +1,1289 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Prodo 1.0\n"
+"POT-Creation-Date: 2015-03-19 13:28+0300\n"
+"PO-Revision-Date: 2015-03-19 13:28+0300\n"
+"Last-Translator: Alexander Axminenko <a.axminenko@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e;_n;_n_noop;esc_attr__;esc_attr_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:9
+msgid "Something has gone wrong!"
+msgstr ""
+
+#: ../404.php:11
+msgid "The page you are trying to reach doesn't seem to exist."
+msgstr ""
+
+#: ../404.php:18 ../templates/front-embed.php:25
+msgid "Take me back"
+msgstr ""
+
+#: ../admin/metaboxes/home-sections/home-sections.php:16
+#: ../admin/redux.php:583
+msgid "Home Section"
+msgstr ""
+
+#: ../admin/metaboxes/home-sections/home-sections.php:30
+msgid "Insert Media"
+msgstr ""
+
+#: ../admin/metaboxes/home-sections/home-sections.php:31
+#: ../admin/metaboxes/home-sections/home-sections.php:151
+msgid "Image"
+msgstr ""
+
+#: ../admin/metaboxes/home-sections/home-sections.php:32
+#: ../admin/metaboxes/home-sections/home-sections.php:153
+msgid "Remove"
+msgstr ""
+
+#: ../admin/metaboxes/home-sections/home-sections.php:53
+msgid "Section Type"
+msgstr ""
+
+#: ../admin/metaboxes/home-sections/home-sections.php:55
+msgid "None"
+msgstr ""
+
+#: ../admin/metaboxes/home-sections/home-sections.php:56
+msgid "Video Background"
+msgstr ""
+
+#: ../admin/metaboxes/home-sections/home-sections.php:57
+msgid "Image Pattern"
+msgstr ""
+
+#: ../admin/metaboxes/home-sections/home-sections.php:58
+msgid "Fullscreen Image"
+msgstr ""
+
+#: ../admin/metaboxes/home-sections/home-sections.php:59
+msgid "Fullscreen Image and Video"
+msgstr ""
+
+#: ../admin/metaboxes/home-sections/home-sections.php:60
+msgid "Image Slideshow"
+msgstr ""
+
+#: ../admin/metaboxes/home-sections/home-sections.php:61
+msgid "Slideshow and Text Slider"
+msgstr ""
+
+#: ../admin/metaboxes/home-sections/home-sections.php:64
+msgid "Section Height"
+msgstr ""
+
+#: ../admin/metaboxes/home-sections/home-sections.php:66
+msgid ""
+"Example, <strong>100%</strong> &ndash; in percents, <strong>700px</strong> "
+"&ndash; in pixels"
+msgstr ""
+
+#: ../admin/metaboxes/home-sections/home-sections.php:69
+msgid "Background Video ID"
+msgstr ""
+
+#: ../admin/metaboxes/home-sections/home-sections.php:71
+#: ../admin/metaboxes/home-sections/home-sections.php:113
+#: ../admin/metaboxes/subtitle.php:36
+msgid "Example"
+msgstr ""
+
+#: ../admin/metaboxes/home-sections/home-sections.php:83
+msgid "Background Pattern"
+msgstr ""
+
+#: ../admin/metaboxes/home-sections/home-sections.php:85
+#: ../admin/metaboxes/home-sections/home-sections.php:99
+#: ../admin/metaboxes/home-sections/home-sections.php:117
+#: ../admin/metaboxes/home-sections/home-sections.php:122
+msgid "Choose or Upload an Image"
+msgstr ""
+
+#: ../admin/metaboxes/home-sections/home-sections.php:97
+#: ../admin/metaboxes/home-sections/home-sections.php:120
+#: ../admin/metaboxes/home-sections/home-sections.php:188
+msgid "Background Image"
+msgstr ""
+
+#: ../admin/metaboxes/home-sections/home-sections.php:111
+msgid "Embed Video URL"
+msgstr ""
+
+#: ../admin/metaboxes/home-sections/home-sections.php:115
+msgid "Video Preview Image"
+msgstr ""
+
+#: ../admin/metaboxes/home-sections/home-sections.php:118
+msgid "210x140, or 420x280 for Retina displays"
+msgstr ""
+
+#: ../admin/metaboxes/home-sections/home-sections.php:136
+#: ../admin/metaboxes/home-sections/home-sections.php:173
+msgid "Background Images"
+msgstr ""
+
+#: ../admin/metaboxes/home-sections/home-sections.php:137
+#: ../admin/metaboxes/home-sections/home-sections.php:174
+msgid "Choose or Upload Images"
+msgstr ""
+
+#: ../admin/metaboxes/home-sections/home-sections.php:191
+msgid "Remove Slide"
+msgstr ""
+
+#: ../admin/metaboxes/our-team.php:15
+msgid "Member Information"
+msgstr ""
+
+#: ../admin/metaboxes/our-team.php:24
+msgid "Member Activity"
+msgstr ""
+
+#: ../admin/metaboxes/our-team.php:27
+msgid "Twitter URL"
+msgstr ""
+
+#: ../admin/metaboxes/our-team.php:30
+msgid "Facebook URL"
+msgstr ""
+
+#: ../admin/metaboxes/our-team.php:33
+msgid "LinkedIn URL"
+msgstr ""
+
+#: ../admin/metaboxes/our-team.php:36
+msgid "Google+ URL"
+msgstr ""
+
+#: ../admin/metaboxes/subtitle.php:18 ../admin/metaboxes/subtitle.php:19
+msgid "Visual Subtitle"
+msgstr ""
+
+#: ../admin/metaboxes/subtitle.php:36
+msgid "Lorem ipsum dolor sit amet."
+msgstr ""
+
+#: ../admin/redux.php:47
+msgid "Main Options"
+msgstr ""
+
+#: ../admin/redux.php:53
+msgid "Header Mode"
+msgstr ""
+
+#: ../admin/redux.php:54
+msgid "Sticky"
+msgstr ""
+
+#: ../admin/redux.php:55
+msgid "Normal"
+msgstr ""
+
+#: ../admin/redux.php:61
+msgid "Header Style"
+msgstr ""
+
+#: ../admin/redux.php:62
+msgid "Select a header style"
+msgstr ""
+
+#: ../admin/redux.php:64
+msgid "Style One &ndash; Default"
+msgstr ""
+
+#: ../admin/redux.php:65
+msgid "Style One &ndash; With Social Icons"
+msgstr ""
+
+#: ../admin/redux.php:66
+msgid "Style One &ndash; Alt. Hover"
+msgstr ""
+
+#: ../admin/redux.php:67
+msgid "Style One &ndash; Social Icons, Alt. Hover"
+msgstr ""
+
+#: ../admin/redux.php:68
+msgid "Style Two &ndash; Default"
+msgstr ""
+
+#: ../admin/redux.php:69
+msgid "Style Two &ndash; Alt. Hover"
+msgstr ""
+
+#: ../admin/redux.php:70
+msgid "Style Two &ndash; Highlight Current Item"
+msgstr ""
+
+#: ../admin/redux.php:71
+msgid "Style Three &ndash; Default"
+msgstr ""
+
+#: ../admin/redux.php:72
+msgid "Style Three &ndash; With Social Icons"
+msgstr ""
+
+#: ../admin/redux.php:78
+msgid "Home Page Title"
+msgstr ""
+
+#: ../admin/redux.php:79
+msgid "This title used only for navigation menu"
+msgstr ""
+
+#: ../admin/redux.php:80 ../inc/custom.php:9 ../inc/defaults.php:97
+msgid "Home"
+msgstr ""
+
+#: ../admin/redux.php:85
+msgid "Page Loader"
+msgstr ""
+
+#: ../admin/redux.php:86 ../admin/redux.php:102 ../admin/redux.php:289
+#: ../admin/redux.php:590 ../admin/redux.php:603 ../admin/redux.php:729
+#: ../admin/redux.php:762
+msgid "Enabled"
+msgstr ""
+
+#: ../admin/redux.php:87 ../admin/redux.php:103 ../admin/redux.php:290
+#: ../admin/redux.php:591 ../admin/redux.php:604 ../admin/redux.php:730
+#: ../admin/redux.php:763
+msgid "Disabled"
+msgstr ""
+
+#: ../admin/redux.php:93
+msgid "Page Loader Location"
+msgstr ""
+
+#: ../admin/redux.php:94
+msgid "Only Home Page"
+msgstr ""
+
+#: ../admin/redux.php:95
+msgid "All Pages"
+msgstr ""
+
+#: ../admin/redux.php:101
+msgid "Animations on Scroll"
+msgstr ""
+
+#: ../admin/redux.php:109
+msgid "Multiple Video Sections"
+msgstr ""
+
+#: ../admin/redux.php:110
+msgid "Per page"
+msgstr ""
+
+#: ../admin/redux.php:111
+msgid "Allow"
+msgstr ""
+
+#: ../admin/redux.php:112
+msgid "Deny"
+msgstr ""
+
+#: ../admin/redux.php:118
+msgid "Tracking Code"
+msgstr ""
+
+#: ../admin/redux.php:119
+msgid "Paste your Google Analytics (or other) tracking code here"
+msgstr ""
+
+#: ../admin/redux.php:125
+msgid "Personalization"
+msgstr ""
+
+#: ../admin/redux.php:131
+msgid "Upload Favicon"
+msgstr ""
+
+#: ../admin/redux.php:133
+msgid ""
+"Upload a 16px (or, 32px) PNG, GIF image that will represent your website's "
+"favicon"
+msgstr ""
+
+#: ../admin/redux.php:142
+msgid "Upload Dark Logo"
+msgstr ""
+
+#: ../admin/redux.php:143 ../admin/redux.php:151
+msgid "Normal size"
+msgstr ""
+
+#: ../admin/redux.php:145 ../admin/redux.php:153 ../admin/redux.php:161
+#: ../admin/redux.php:169
+msgid "Upload a logotype image image that will represent your website"
+msgstr ""
+
+#: ../admin/redux.php:150
+msgid "Upload Light Logo"
+msgstr ""
+
+#: ../admin/redux.php:158
+msgid "Upload Dark Logo (2X)"
+msgstr ""
+
+#: ../admin/redux.php:159 ../admin/redux.php:167
+msgid "Double size (for Retina displays)"
+msgstr ""
+
+#: ../admin/redux.php:166
+msgid "Upload Light Logo (2X)"
+msgstr ""
+
+#: ../admin/redux.php:175
+msgid "Styling Options"
+msgstr ""
+
+#: ../admin/redux.php:181
+msgid "Styling Mode"
+msgstr ""
+
+#: ../admin/redux.php:183
+msgid "Predefined Schemes"
+msgstr ""
+
+#: ../admin/redux.php:184
+msgid "Custom Colors"
+msgstr ""
+
+#: ../admin/redux.php:194
+msgid "Predefined Scheme"
+msgstr ""
+
+#: ../admin/redux.php:195
+msgid "Select a predefined color scheme"
+msgstr ""
+
+#: ../admin/redux.php:197
+msgid "Default"
+msgstr ""
+
+#: ../admin/redux.php:198
+msgid "Soft Red"
+msgstr ""
+
+#: ../admin/redux.php:199
+msgid "Cyan"
+msgstr ""
+
+#: ../admin/redux.php:200
+msgid "Green"
+msgstr ""
+
+#: ../admin/redux.php:201
+msgid "Orange"
+msgstr ""
+
+#: ../admin/redux.php:202
+msgid "Brown"
+msgstr ""
+
+#: ../admin/redux.php:203
+msgid "Sandy"
+msgstr ""
+
+#: ../admin/redux.php:204
+msgid "Soft Cyan"
+msgstr ""
+
+#: ../admin/redux.php:212
+msgid "Custom Color"
+msgstr ""
+
+#: ../admin/redux.php:213
+msgid "Pick a primary color"
+msgstr ""
+
+#: ../admin/redux.php:219
+msgid "Custom CSS"
+msgstr ""
+
+#: ../admin/redux.php:220
+msgid "Quickly add some CSS to your theme by adding it to this block"
+msgstr ""
+
+#: ../admin/redux.php:226
+msgid "Layout Settings"
+msgstr ""
+
+#: ../admin/redux.php:233
+msgid "Standard Pages Layout"
+msgstr ""
+
+#: ../admin/redux.php:234
+msgid "Select one of layouts for standard pages"
+msgstr ""
+
+#: ../admin/redux.php:246
+msgid "Archive Pages Layout"
+msgstr ""
+
+#: ../admin/redux.php:247
+msgid "Select one of layouts for archive pages"
+msgstr ""
+
+#: ../admin/redux.php:259
+msgid "Search Page Layout"
+msgstr ""
+
+#: ../admin/redux.php:260
+msgid "Select one of layouts for search page"
+msgstr ""
+
+#: ../admin/redux.php:272
+msgid "Blog Options"
+msgstr ""
+
+#: ../admin/redux.php:278
+msgid "Allow Sharing Posts"
+msgstr ""
+
+#: ../admin/redux.php:279
+msgid "Via Social Networks"
+msgstr ""
+
+#: ../admin/redux.php:280 ../admin/redux.php:612 ../admin/redux.php:621
+msgid "Yes"
+msgstr ""
+
+#: ../admin/redux.php:281 ../admin/redux.php:613 ../admin/redux.php:622
+msgid "No"
+msgstr ""
+
+#: ../admin/redux.php:287
+msgid "Breadcrumbs"
+msgstr ""
+
+#: ../admin/redux.php:288
+msgid "Breadcrumbs on single pages"
+msgstr ""
+
+#: ../admin/redux.php:297
+msgid "Typography"
+msgstr ""
+
+#: ../admin/redux.php:303
+msgid "Content &mdash; Font"
+msgstr ""
+
+#: ../admin/redux.php:326
+msgid "Headers &mdash; H1"
+msgstr ""
+
+#: ../admin/redux.php:350
+msgid "Headers &mdash; H2"
+msgstr ""
+
+#: ../admin/redux.php:374
+msgid "Headers &mdash; H3"
+msgstr ""
+
+#: ../admin/redux.php:398
+msgid "Headers &mdash; H4"
+msgstr ""
+
+#: ../admin/redux.php:422
+msgid "Headers &mdash; H5"
+msgstr ""
+
+#: ../admin/redux.php:446
+msgid "Headers &mdash; H6"
+msgstr ""
+
+#: ../admin/redux.php:471
+msgid "Social Accounts"
+msgstr ""
+
+#: ../admin/redux.php:477
+msgid "Facebook Link"
+msgstr ""
+
+#: ../admin/redux.php:478 ../admin/redux.php:485 ../admin/redux.php:492
+#: ../admin/redux.php:499 ../admin/redux.php:506 ../admin/redux.php:513
+#: ../admin/redux.php:520 ../admin/redux.php:527 ../admin/redux.php:534
+#: ../admin/redux.php:541 ../admin/redux.php:548 ../admin/redux.php:555
+#: ../admin/redux.php:562 ../admin/redux.php:569 ../admin/redux.php:576
+msgid "Paste link to your account"
+msgstr ""
+
+#: ../admin/redux.php:484
+msgid "Twitter Link"
+msgstr ""
+
+#: ../admin/redux.php:491
+msgid "Instagram Link"
+msgstr ""
+
+#: ../admin/redux.php:498
+msgid "LinkedIn Link"
+msgstr ""
+
+#: ../admin/redux.php:505
+msgid "Flickr Link"
+msgstr ""
+
+#: ../admin/redux.php:512
+msgid "Vimeo Link"
+msgstr ""
+
+#: ../admin/redux.php:519
+msgid "Last FM Link"
+msgstr ""
+
+#: ../admin/redux.php:526
+msgid "Dribble Link"
+msgstr ""
+
+#: ../admin/redux.php:533
+msgid "YouTube Link"
+msgstr ""
+
+#: ../admin/redux.php:540
+msgid "Microsoft ID Link"
+msgstr ""
+
+#: ../admin/redux.php:547
+msgid "Google + Link"
+msgstr ""
+
+#: ../admin/redux.php:554
+msgid "Picasa Link"
+msgstr ""
+
+#: ../admin/redux.php:561
+msgid "Pinterest Link"
+msgstr ""
+
+#: ../admin/redux.php:568
+msgid "Wordpress Link"
+msgstr ""
+
+#: ../admin/redux.php:575
+msgid "Dropbox Link"
+msgstr ""
+
+#: ../admin/redux.php:589
+msgid "Animated Magic Mouse"
+msgstr ""
+
+#: ../admin/redux.php:601
+msgid "Video Play Button"
+msgstr ""
+
+#: ../admin/redux.php:602 ../admin/redux.php:611 ../admin/redux.php:620
+#: ../admin/redux.php:630 ../admin/redux.php:638 ../admin/redux.php:645
+#: ../admin/redux.php:658
+msgid "Fullscreen Video Mode"
+msgstr ""
+
+#: ../admin/redux.php:610
+msgid "Video Mutted"
+msgstr ""
+
+#: ../admin/redux.php:619
+msgid "Video Loop"
+msgstr ""
+
+#: ../admin/redux.php:628
+msgid "Start Video At"
+msgstr ""
+
+#: ../admin/redux.php:629 ../admin/redux.php:637 ../admin/redux.php:669
+msgid "Enter value in seconds"
+msgstr ""
+
+#: ../admin/redux.php:636
+msgid "Stop Video At"
+msgstr ""
+
+#: ../admin/redux.php:644
+msgid "Video Overlay Opacity"
+msgstr ""
+
+#: ../admin/redux.php:646
+msgid "In percents (0% &ndash; fully transparent)"
+msgstr ""
+
+#: ../admin/redux.php:656
+msgid "Video Callback Image"
+msgstr ""
+
+#: ../admin/redux.php:657
+msgid ""
+"This image will be shown if browser does not support fullscreen video "
+"background"
+msgstr ""
+
+#: ../admin/redux.php:668
+msgid "Slideshow Timeout"
+msgstr ""
+
+#: ../admin/redux.php:670
+msgid "Slideshow Mode"
+msgstr ""
+
+#: ../admin/redux.php:677
+msgid "Contact Section"
+msgstr ""
+
+#: ../admin/redux.php:683
+msgid "Target Email address"
+msgstr ""
+
+#: ../admin/redux.php:689
+msgid "Email Template"
+msgstr ""
+
+#: ../admin/redux.php:690
+msgid ""
+"Available tags &ndash; {from}, {email}, {phone}, {message}, {date}, {ip}"
+msgstr ""
+
+#: ../admin/redux.php:691
+msgid ""
+"Dear Administrator,\n"
+"You have one message from {from} ({email}).\n"
+"\n"
+"{message}\n"
+"\n"
+"{date}\n"
+"{phone}"
+msgstr ""
+
+#: ../admin/redux.php:697
+msgid "Map Options"
+msgstr ""
+
+#: ../admin/redux.php:703
+msgid "Latitude of a Point"
+msgstr ""
+
+#: ../admin/redux.php:704
+msgid "Example, 40.706279"
+msgstr ""
+
+#: ../admin/redux.php:710
+msgid "Longitude of a Point"
+msgstr ""
+
+#: ../admin/redux.php:711
+msgid "Example, -74.005121"
+msgstr ""
+
+#: ../admin/redux.php:717
+msgid "Zoom Level"
+msgstr ""
+
+#: ../admin/redux.php:718
+msgid "Zoom level between 0 to 21"
+msgstr ""
+
+#: ../admin/redux.php:728
+msgid "Map Marker"
+msgstr ""
+
+#: ../admin/redux.php:736
+msgid "Marker Image"
+msgstr ""
+
+#: ../admin/redux.php:742
+msgid "Marker Popup Title"
+msgstr ""
+
+#: ../admin/redux.php:743 ../inc/defaults.php:144
+msgid "About Prodo theme"
+msgstr ""
+
+#: ../admin/redux.php:748
+msgid "Marker Popup Text"
+msgstr ""
+
+#: ../admin/redux.php:749 ../inc/defaults.php:145
+msgid "Here we are. Come to drink a coffee!"
+msgstr ""
+
+#: ../admin/redux.php:755
+msgid "Footer Options"
+msgstr ""
+
+#: ../admin/redux.php:761
+msgid "Back to Top Button"
+msgstr ""
+
+#: ../admin/redux.php:769
+msgid "Footer Text"
+msgstr ""
+
+#: ../admin/redux.php:770
+msgid "You can use the shortcodes in your footer text"
+msgstr ""
+
+#: ../admin/redux.php:771
+msgid "2015 &copy; Prodo. All rights reserved."
+msgstr ""
+
+#: ../admin/redux.php:786 ../admin/redux.php:787
+msgid "Theme Options"
+msgstr ""
+
+#: ../archive-portfolio.php:19
+msgid "Favorite Projects"
+msgstr ""
+
+#: ../attachment.php:9
+msgid "Attached File"
+msgstr ""
+
+#: ../comments.php:22
+msgid "&lsaquo;&nbsp; Older comments"
+msgstr ""
+
+#: ../comments.php:23
+msgid "Newer comments &rsaquo;&nbsp;"
+msgstr ""
+
+#: ../comments.php:39
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:53
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:59
+msgid "Email"
+msgstr ""
+
+#: ../comments.php:68
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:77
+msgid "Comment"
+msgstr ""
+
+#: ../comments.php:83
+msgid "Your email address will not be published."
+msgstr ""
+
+#: ../comments.php:88
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: ../comments.php:92
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../header-404.php:26 ../header.php:28
+msgid "Loading..."
+msgstr ""
+
+#: ../inc/ajax.php:42
+msgid "A new message from"
+msgstr ""
+
+#: ../inc/custom.php:11
+#, php-format
+msgid "Search Results for Query &ndash; %s"
+msgstr ""
+
+#: ../inc/custom.php:12
+#, php-format
+msgid "Posts Tagged &ndash; %s"
+msgstr ""
+
+#: ../inc/custom.php:13
+#, php-format
+msgid "Articles Posted by %s"
+msgstr ""
+
+#: ../inc/custom.php:14
+msgid "Error 404"
+msgstr ""
+
+#: ../inc/custom.php:15
+msgid "Page"
+msgstr ""
+
+#: ../inc/defaults.php:39
+msgid "Demonstration Home Page"
+msgstr ""
+
+#: ../inc/defaults.php:53
+msgid "Awesome Onepage Template"
+msgstr ""
+
+#: ../inc/defaults.php:53
+msgid "Made with Love in New-York"
+msgstr ""
+
+#: ../inc/defaults.php:61
+msgid "Hello, World!"
+msgstr ""
+
+#: ../inc/defaults.php:63
+msgid "Prodo's Sample Page"
+msgstr ""
+
+#: ../inc/functions.php:307
+msgid "Pingback"
+msgstr ""
+
+#: ../inc/functions.php:310 ../inc/functions.php:328
+msgid "Edit "
+msgstr ""
+
+#: ../inc/functions.php:322
+msgid "at"
+msgstr ""
+
+#: ../inc/functions.php:329
+msgid "Reply"
+msgstr ""
+
+#: ../inc/functions.php:341
+msgid "Latest Posts"
+msgstr ""
+
+#: ../inc/functions.php:351
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: ../inc/functions.php:353
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: ../inc/functions.php:355
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: ../inc/functions.php:359
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: ../inc/functions.php:364
+#, php-format
+msgid "Search Results for %s"
+msgstr ""
+
+#: ../inc/functions.php:366
+msgid "File Not Found"
+msgstr ""
+
+#: ../inc/functions.php:379
+msgid "&lsaquo;&nbsp; Older posts"
+msgstr ""
+
+#: ../inc/functions.php:380
+msgid "Newer posts &nbsp;&rsaquo;"
+msgstr ""
+
+#: ../inc/register.php:171
+msgid "Header Menu"
+msgstr ""
+
+#: ../inc/register.php:172
+msgid "Footer Menu"
+msgstr ""
+
+#: ../inc/register.php:262
+msgid "Sidebar"
+msgstr ""
+
+#: ../inc/register.php:306
+msgid "To view this protected post, enter the password below:"
+msgstr ""
+
+#: ../inc/register.php:307
+msgid "Submit"
+msgstr ""
+
+#: ../inc/tgm/plugins.php:38 ../inc/tgm/tgm.plugin.activation.php:161
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../inc/tgm/plugins.php:39 ../inc/tgm/tgm.plugin.activation.php:162
+msgid "Install Plugins"
+msgstr ""
+
+#: ../inc/tgm/plugins.php:40 ../inc/tgm/tgm.plugin.activation.php:163
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../inc/tgm/plugins.php:41
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../inc/tgm/plugins.php:42 ../inc/tgm/tgm.plugin.activation.php:165
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgstr ""
+
+#: ../inc/tgm/plugins.php:43 ../inc/tgm/tgm.plugin.activation.php:166
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgstr ""
+
+#: ../inc/tgm/plugins.php:44 ../inc/tgm/tgm.plugin.activation.php:167
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgstr ""
+
+#: ../inc/tgm/plugins.php:45 ../inc/tgm/tgm.plugin.activation.php:168
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr ""
+
+#: ../inc/tgm/plugins.php:46 ../inc/tgm/tgm.plugin.activation.php:169
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr ""
+
+#: ../inc/tgm/plugins.php:47 ../inc/tgm/tgm.plugin.activation.php:170
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgstr ""
+
+#: ../inc/tgm/plugins.php:48 ../inc/tgm/tgm.plugin.activation.php:171
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+
+#: ../inc/tgm/plugins.php:49 ../inc/tgm/tgm.plugin.activation.php:172
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgstr ""
+
+#: ../inc/tgm/plugins.php:50 ../inc/tgm/tgm.plugin.activation.php:173
+msgid "Begin installing plugin"
+msgstr ""
+
+#: ../inc/tgm/plugins.php:51 ../inc/tgm/tgm.plugin.activation.php:174
+msgid "Begin activating plugin"
+msgstr ""
+
+#: ../inc/tgm/plugins.php:52 ../inc/tgm/tgm.plugin.activation.php:175
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../inc/tgm/plugins.php:53 ../inc/tgm/tgm.plugin.activation.php:177
+#: ../inc/tgm/tgm.plugin.activation.php:1939
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../inc/tgm/plugins.php:54
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:164
+msgid "Something went wrong."
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:176
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:178
+#: ../inc/tgm/tgm.plugin.activation.php:1630
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:179
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:180
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:531
+#: ../inc/tgm/tgm.plugin.activation.php:2156
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:1166
+msgid "Private Repository"
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:1169
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:1174
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:1177
+msgid "Required"
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:1177
+msgid "Recommended"
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:1180
+msgid "Not Installed"
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:1182
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:1287
+#: ../inc/tgm/tgm.plugin.activation.php:1395
+msgid "Install"
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:1309
+#: ../inc/tgm/tgm.plugin.activation.php:1396
+msgid "Activate"
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:1358
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:1374
+msgid "Plugin"
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:1375
+msgid "Source"
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:1376
+msgid "Type"
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:1377
+msgid "Status"
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:1922
+msgid "Install package not available."
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:1923
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:1924
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:1925
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:1926
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:1927
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:1938
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:2052
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:2053
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:2053
+#: ../inc/tgm/tgm.plugin.activation.php:2062
+msgid "Show Details"
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:2053
+#: ../inc/tgm/tgm.plugin.activation.php:2062
+msgid "Hide Details"
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:2054
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:2055
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:2059
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:2060
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:2061
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:2062
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:2063
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../inc/tgm/tgm.plugin.activation.php:2064
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/widgets/contact.php:16 ../inc/widgets/contact.php:21
+#: ../inc/widgets/contact.php:53
+msgid "Contacts"
+msgstr ""
+
+#: ../inc/widgets/contact.php:69
+msgid "Title:"
+msgstr ""
+
+#: ../inc/widgets/contact.php:74
+msgid "Phone:"
+msgstr ""
+
+#: ../inc/widgets/contact.php:78
+msgid "Location:"
+msgstr ""
+
+#: ../inc/widgets/contact.php:82
+msgid "Email:"
+msgstr ""
+
+#: ../inc/widgets/contact.php:87
+msgid "Display Location as link"
+msgstr ""
+
+#: ../inc/widgets/contact.php:90
+msgid "Display Email as link"
+msgstr ""
+
+#: ../search.php:9
+msgid "Search Results"
+msgstr ""
+
+#: ../templates/attachment.php:4
+msgid "Download"
+msgstr ""
+
+#: ../templates/attachment.php:15 ../templates/post-aside.php:19
+#: ../templates/post-gallery.php:19 ../templates/post-link.php:19
+#: ../templates/post-quote.php:19 ../templates/post-standard.php:19
+#: ../templates/post-status.php:19
+msgid "Edit"
+msgstr ""
+
+#: ../templates/attachment.php:24 ../templates/post.php:15
+msgid "Pages:"
+msgstr ""
+
+#: ../templates/no-content.php:2
+msgid "Nothing Found"
+msgstr ""
+
+#: ../templates/no-content.php:5
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+
+#: ../templates/no-content.php:9
+msgid "Search &hellip;"
+msgstr ""
+
+#: ../templates/no-content.php:9
+msgid "Search for:"
+msgstr ""
+
+#: ../templates/no-content.php:10
+msgid "Search"
+msgstr ""
+
+#: ../templates/post-aside.php:16 ../templates/post-gallery.php:16
+#: ../templates/post-link.php:16 ../templates/post-quote.php:16
+#: ../templates/post-standard.php:16 ../templates/post-status.php:16
+msgid "Leave a reply"
+msgstr ""
+
+#: ../templates/post-aside.php:16 ../templates/post-gallery.php:16
+#: ../templates/post-link.php:16 ../templates/post-quote.php:16
+#: ../templates/post-standard.php:16 ../templates/post-status.php:16
+msgid "1 Comment"
+msgstr ""
+
+#: ../templates/post-aside.php:16 ../templates/post-gallery.php:16
+#: ../templates/post-link.php:16 ../templates/post-quote.php:16
+#: ../templates/post-standard.php:16 ../templates/post-status.php:16
+msgid "% Comments"
+msgstr ""
+
+#: ../templates/post-aside.php:39 ../templates/post-gallery.php:39
+#: ../templates/post-link.php:39 ../templates/post-quote.php:39
+#: ../templates/post-standard.php:39 ../templates/post-status.php:39
+msgid "Read More"
+msgstr ""
+
+#: ../templates/post.php:21
+msgid "Share"
+msgstr ""
+
+#: ../templates/post.php:32
+msgid ", "
+msgstr ""

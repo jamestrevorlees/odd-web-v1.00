@@ -1,0 +1,127 @@
+/* -----------------------------------------------------------------
+[Table of contents]
+
+1. Site Sections
+2. Portfolio Items Reorder
+------------------------------------------------------------------ */
+
+/*
+ * 1. Site Sections
+ */
+
+.site-section {
+	position: relative;
+}
+
+.site-section .site-section-remove {
+	position: absolute;
+	top: 10px;
+	right: 5px;
+	cursor: pointer;
+	padding: 10px;
+}
+
+.site-section .site-section-remove:hover {
+	color: #A00;
+}
+
+.site-section .site-section-title {
+	background-color: #F1F1F1;
+	border: 1px solid #EEE;
+	margin: 10px 0;
+	padding: 10px 14px;
+	border-radius: 3px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.site-section .site-section-title-type {
+	font-weight: normal;
+	display: block;
+	font-size: 11px;
+	color: #777;
+	padding-top: 2px;
+}
+
+.site-section .site-section-area {
+	display: none;
+	background-color: white;
+	padding: 0 15px 20px;
+	margin-bottom: 20px;
+	border: 1px solid #EEE;
+	border-radius: 3px;
+}
+
+.site-section .site-section-area.opened {
+	display: block;
+}
+
+.site-section .site-section-area input[type="text"],
+.site-section .site-section-area select,
+.site-section .site-section-area textarea {
+	font-size: 12px;
+}
+
+.site-section .site-section-area .input-small {
+	width: 7%;
+}
+
+.site-section .site-section-area .input-large {
+	width: 50%;
+}
+
+.site-section .site-section-area .input-lined {
+	padding: 4px 5px 6px;
+	height: 28px;
+}
+
+.site-section .site-section-area > div {
+	padding-top: 5px;
+}
+
+.site-section .site-section-area > div:first-child {
+	padding-top: 0;
+}
+
+.site-sections {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 22px;
+}
+
+.site-sections li {
+	padding: 0;
+	margin: 0;
+}
+/*
+ * 2. Portfolio Items Reorder
+ */
+
+.portfolio-clr {
+	clear: both;
+}
+
+.portfolio-items {
+	list-style: none;
+}
+
+.portfolio-items li {
+	display: block;
+	float: left;
+}
+
+.portfolio-item {
+	border-radius: 3px;
+	padding: 15px;
+	box-shadow: 0px 1px 1px rgba( 0, 0, 0, 0.15 );
+	margin: 10px;
+	background: white;
+	cursor: move;
+}
+
+.portfolio-item-title {
+	margin-top: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+}

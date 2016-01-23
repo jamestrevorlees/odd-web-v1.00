@@ -1,0 +1,87 @@
+@import "_variables";
+@import "_functions";
+
+/* -----------------------------------------------------------------
+[Table of contents]
+
+1. Primary Elements
+2. Placeholders
+3. Inputs, Textareas
+------------------------------------------------------------------ */
+
+/*
+ * 1. Primary Elements
+ */
+
+input, input:hover, input:focus,
+button, button:hover, button:focus,
+textarea, textarea:focus, textarea:active {
+	outline: 0;
+	.box-shadow( none );
+}
+
+select {
+	max-width: 100%;
+	padding: 4px 6px;
+	border-radius: @default-radius;
+	border: 1px solid @color-placeholders;
+	color: @color-content;
+}
+
+a:focus, a:active,
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+select::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+	border: 0;
+	outline : 0;
+}
+
+/*
+ * 2. Placeholders
+ */
+
+::-webkit-input-placeholder {
+	opacity: .8;
+	color: @color-inputs;
+}
+
+::-moz-placeholder {
+	opacity: .8;
+	color: @color-inputs;
+}
+
+::-ms-input-placeholder {
+	opacity: .8;
+	color: @color-inputs;
+}
+
+/*
+ * 3. Inputs, Textareas
+ */
+
+input, textarea {
+	line-height: 1;
+	padding: 14px 18px;
+	color: @color-inputs;
+	border-radius: @default-radius;
+	border: 1px solid @color-placeholders;
+	background-color: @color-background;
+	.transition( border-color .15s ease-in );
+
+	&:focus { border-color: @color-primary }
+	
+	&[disabled] {
+		background-color: @color-background;
+		border-color: @color-placeholders;
+		color: @color-inputs;
+	}
+}
+
+textarea { line-height: 1.5 }
+
+input.notice, textarea.notice {
+	border-color: @color-primary !important;
+}
