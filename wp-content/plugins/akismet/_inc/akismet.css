@@ -33,14 +33,13 @@
     color: #AAA;
     font-style: italic;
 }
-table.comments td.comment p a {
+span.comment-link a {
     text-decoration: underline;
 }
-table.comments td.comment p a:after {
-    content: attr(href);
+span.comment-link:after {
+    content: " "attr(title) " ";
     color: #aaa;
-    display: inline-block; /* Show the URL without the link's underline extending under it. */
-    padding: 0 1ex; /* Because it's inline block, we can't just use spaces in the content: attribute to separate it from the link text. */
+    text-decoration: none;
 }
 .mshot-arrow {
     width: 0;
@@ -63,15 +62,6 @@ table.comments td.comment p a:after {
     -moz-border-radius: 6px;
     border-radius: 6px;
     -webkit-border-radius: 6px;
-}
-.akismet-mshot {
-    position: absolute;
-    z-index: 100;
-}
-.akismet-mshot .mshot-image {
-    margin: 0;
-    height: 338px;
-    width: 450px;
 }
 h2.ak-header {
     padding: 30px;
