@@ -467,6 +467,12 @@
 		float: none !important;
 	}
 
+	.cms-img-responsive{
+
+	width: 250px;
+
+	}
+
 }
 
 /*
@@ -793,4 +799,14 @@
 		right: 30px;
 	}
 
+}
+
+	/*
+	 * Add responsive class for images inserted into posts via CMS
+	 */
+
+.center {
+	margin: auto;
+	width: 60%;
+	padding: 10px;
 }
