@@ -1,0 +1,262 @@
+# Translation of Filter Bar in Greek
+# This file is distributed under the same license as the Filter Bar package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-11-10 15:25:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Filter Bar\n"
+
+#: src/Tribe/Additional_Fields/Manager.php:111
+msgid "Please visit the settings screen for %1$sAdditional Fields%2$s and use the provided update link or you will not be able to use Additional Field-based filters."
+msgstr ""
+
+#: src/Tribe/Filters/Additional_Field.php:68
+msgctxt "additional fields filter logic setting"
+msgid "Match all"
+msgstr ""
+
+#: src/Tribe/Filters/Additional_Field.php:74
+msgctxt "additional fields filter logic setting"
+msgid "Match any"
+msgstr ""
+
+#: src/Tribe/Filters/Additional_Field.php:78
+msgctxt "additional fields filter logic setting"
+msgid "Logic:"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "The Events Calendar: Filter Bar"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Creates an advanced filter panel on the frontend of your events list views."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Modern Tribe, Inc."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://m.tri.be/25"
+msgstr ""
+
+#: src/Tribe/Filter.php:199
+msgid "Select"
+msgstr "Επιλογή"
+
+#: src/Tribe/Filter.php:233
+msgid "No items match"
+msgstr "Δεν υπάρχουν αντικείμενα που να ταιριάζουν"
+
+#: src/Tribe/Filter.php:234
+msgid "Select an Item"
+msgstr "Επιλέξτε ένα Αντικείμενο"
+
+#: src/Tribe/Filter.php:488
+msgid "Title: %s"
+msgstr "Τίτλος: %s"
+
+#: src/Tribe/Filter.php:506
+msgid "Type: %s %s %s"
+msgstr "Πληκτρολογήστε: %s %s %s"
+
+#: src/Tribe/Filter.php:510
+msgid "Dropdown"
+msgstr "Αναπτυσσόμενο"
+
+#: src/Tribe/Filter.php:515 src/Tribe/Filters/Cost.php:63
+msgid "Checkboxes"
+msgstr "Κουτιά Επιλογών"
+
+#: src/Tribe/Filter.php:520
+msgid "Autocomplete"
+msgstr "Αυτόματη Συμπλήρωση"
+
+#: src/Tribe/Filters/Cost.php:54
+msgid "Type: %s %s"
+msgstr "Τύπος: %s %s"
+
+#: src/Tribe/Filters/Cost.php:58
+msgid "Range Slider"
+msgstr "Ολισθητής Εύρους"
+
+#: src/Tribe/Filters/Cost.php:68
+msgid "Events are considered free when cost field is: %s %s"
+msgstr "Οι εκδηλώσεις θεωρούνται δωρεάν όταν το πεδίο τιμής είναι: %s %s"
+
+#: src/Tribe/Filters/Cost.php:72
+msgid "Empty or set to zero"
+msgstr "Κενό ή τοποθετήστε στο μηδέν"
+
+#: src/Tribe/Filters/Cost.php:77
+msgid "Only when set to zero"
+msgstr "Μόνο όταν ρυθμιστεί στο μηδέν"
+
+#: src/Tribe/Filters/Cost.php:93
+msgid "Free"
+msgstr "Δωρεάν"
+
+#: src/Tribe/Filters/Day_Of_Week.php:12
+msgid "Sunday"
+msgstr "Κυριακή"
+
+#: src/Tribe/Filters/Day_Of_Week.php:13
+msgid "Monday"
+msgstr "Δευτέρα"
+
+#: src/Tribe/Filters/Day_Of_Week.php:14
+msgid "Tuesday"
+msgstr "Τρίτη"
+
+#: src/Tribe/Filters/Day_Of_Week.php:15
+msgid "Wednesday"
+msgstr "Τετάρτη"
+
+#: src/Tribe/Filters/Day_Of_Week.php:16
+msgid "Thursday"
+msgstr "Πέμπτη"
+
+#: src/Tribe/Filters/Day_Of_Week.php:17
+msgid "Friday"
+msgstr "Παρασκευή"
+
+#: src/Tribe/Filters/Day_Of_Week.php:18
+msgid "Saturday"
+msgstr "Σάββατο"
+
+#: src/Tribe/Filters/Time_Of_Day.php:12
+msgid "All Day"
+msgstr "Όλη την Ημέρα"
+
+#: src/Tribe/Filters/Time_Of_Day.php:13
+msgid "Morning"
+msgstr "Πρωί"
+
+#: src/Tribe/Filters/Time_Of_Day.php:14
+msgid "Afternoon"
+msgstr "Απόγευμα"
+
+#: src/Tribe/Filters/Time_Of_Day.php:15
+msgid "Evening"
+msgstr "Βράδυ"
+
+#: src/Tribe/Filters/Time_Of_Day.php:16
+msgid "Night"
+msgstr "Νύχτα"
+
+#: src/Tribe/Settings.php:39 src/Tribe/Settings.php:97
+msgid "Filters"
+msgstr "Φίλτρα"
+
+#: src/Tribe/Settings.php:101
+msgid "The settings below allow you to enable or disable front-end event filters. Uncheck the box to hide the filter. Drag and drop active filters to re-arrange them."
+msgstr "Οι παρακάτω ρυθμίσεις επιτρέπουν την ενεργοποίηση ή απενεργοποίηση των φίλτρων εκδηλώσεων στο front-end. Αποεπιλέξτε το κουτί για να κρύψετε το φίλτρο. Σύρτε και αφήστε τα διαθέσιμα φίλτρα για την επανατοποθετησή τους."
+
+#: src/Tribe/Settings.php:102
+msgid "Expand an active filter to edit the label and choose from a subset of input types (dropdown, select, range slider, checkbox and radio)."
+msgstr "Αναπτύξτε ένα ενεργό φίλτρο για να επεξεργαστείτε την ετικέτα και να επιλέξετε από ένα υποσύνολο των τύπων εισόδου (αναπτυσσόμενο, επιλογής, ολισθητή εύρους, κουτιών επιλογών και τύπου ραδιοφώνου)."
+
+#: src/Tribe/Settings.php:114
+msgid "Filters Layout"
+msgstr "Διάταξη Φίλτρων"
+
+#: src/Tribe/Settings.php:117
+msgid "Vertical"
+msgstr "Κάθετα"
+
+#: src/Tribe/Settings.php:118
+msgid "Horizontal"
+msgstr "Οριζόντια"
+
+#: src/Tribe/Settings.php:124
+msgid "Filters Default State"
+msgstr "Προεπιλεγμένη Κατάσταση Φίλτρων"
+
+#: src/Tribe/Settings.php:127
+msgid "Closed"
+msgstr "Κλειστά"
+
+#: src/Tribe/Settings.php:128
+msgid "Open"
+msgstr "Ανοικτά"
+
+#: src/Tribe/Settings.php:151
+msgid "Filter Bar"
+msgstr "Filter Bar"
+
+#: src/Tribe/View.php:339
+msgid "%s Category"
+msgstr "Κατηγορία %s"
+
+#: src/Tribe/View.php:340
+msgid "Cost (%s)"
+msgstr "Τιμή (%s)"
+
+#: src/Tribe/View.php:341
+msgid "Tags"
+msgstr "Ετικέτες"
+
+#: src/Tribe/View.php:344
+msgid "Day"
+msgstr "Ημέρα"
+
+#: src/Tribe/View.php:345
+msgid "Time"
+msgstr "Ώρα"
+
+#: src/admin-views/settings-field-active-filters.php:7
+msgid "Active Filters"
+msgstr "Ενεργά Φίλτρα"
+
+#: src/admin-views/settings-field-available-filters.php:8
+msgid "Available Filters"
+msgstr "Διαθέσιμα Φίλτρα"
+
+#: src/views/filter-bar/filter-view-horizontal.php:20
+#: src/views/filter-bar/filter-view-vertical.php:24
+msgid "Narrow Your Results"
+msgstr "Περιορίστε τα Αποτελέσματα"
+
+#: src/views/filter-bar/filter-view-horizontal.php:22
+#: src/views/filter-bar/filter-view-horizontal.php:34
+#: src/views/filter-bar/filter-view-vertical.php:20
+msgid "Show Advanced Filters"
+msgstr "Προβολή Σύνθετων Φίλτρων"
+
+#: src/views/filter-bar/filter-view-horizontal.php:22
+#: src/views/filter-bar/filter-view-horizontal.php:34
+#: src/views/filter-bar/filter-view-vertical.php:20
+#: src/views/filter-bar/filter-view-vertical.php:35
+msgid "Collapse Filters"
+msgstr "Συρρίκνωση Φίλτρων"
+
+#: src/views/filter-bar/filter-view-horizontal.php:23
+#: src/views/filter-bar/filter-view-horizontal.php:35
+#: src/views/filter-bar/filter-view-vertical.php:21
+msgid "Show Filters"
+msgstr "Προβολή Φίλτρων"
+
+#: src/views/filter-bar/filter-view-horizontal.php:24
+#: src/views/filter-bar/filter-view-horizontal.php:36
+#: src/views/filter-bar/filter-view-vertical.php:32
+#: src/views/filter-bar/filter-view-vertical.php:36
+msgid "Reset Filters"
+msgstr "Επαναφορά Φίλτρων"
+
+#: src/views/filter-bar/filter-view-horizontal.php:30
+#: src/views/filter-bar/filter-view-vertical.php:30
+msgid "Submit"
+msgstr "Υποβολή"
+
+#: the-events-calendar-filter-view.php:67
+msgid "The Events Calendar"
+msgstr "The Events Calendar"
+
+#: the-events-calendar-filter-view.php:68
+msgid "To begin using The Events Calendar: Filter Bar, please install the latest version of <a href=\"%s\" class=\"thickbox\" title=\"%s\">The Events Calendar</a>."
+msgstr ""

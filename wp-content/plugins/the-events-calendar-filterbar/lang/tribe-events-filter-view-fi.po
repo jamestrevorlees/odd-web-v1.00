@@ -1,0 +1,262 @@
+# Translation of Filter Bar in Finnish
+# This file is distributed under the same license as the Filter Bar package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-10-29 20:02:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Filter Bar\n"
+
+#: src/Tribe/Additional_Fields/Manager.php:111
+msgid "Please visit the settings screen for %1$sAdditional Fields%2$s and use the provided update link or you will not be able to use Additional Field-based filters."
+msgstr ""
+
+#: src/Tribe/Filters/Additional_Field.php:68
+msgctxt "additional fields filter logic setting"
+msgid "Match all"
+msgstr ""
+
+#: src/Tribe/Filters/Additional_Field.php:74
+msgctxt "additional fields filter logic setting"
+msgid "Match any"
+msgstr ""
+
+#: src/Tribe/Filters/Additional_Field.php:78
+msgctxt "additional fields filter logic setting"
+msgid "Logic:"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "The Events Calendar: Filter Bar"
+msgstr "The Events Calendar: Filter Bar"
+
+#. Description of the plugin/theme
+msgid "Creates an advanced filter panel on the frontend of your events list views."
+msgstr "Luo edistykselliset suodatinvalinnat tapahtumanäkymiisi."
+
+#. Author of the plugin/theme
+msgid "Modern Tribe, Inc."
+msgstr "Modern Tribe, Inc."
+
+#. Author URI of the plugin/theme
+msgid "http://m.tri.be/25"
+msgstr "http://m.tri.be/25"
+
+#: src/Tribe/Filter.php:199
+msgid "Select"
+msgstr "Valitse"
+
+#: src/Tribe/Filter.php:233
+msgid "No items match"
+msgstr "Ei osumia"
+
+#: src/Tribe/Filter.php:234
+msgid "Select an Item"
+msgstr "Valitse kohde"
+
+#: src/Tribe/Filter.php:488
+msgid "Title: %s"
+msgstr "Otsikko: %s"
+
+#: src/Tribe/Filter.php:506
+msgid "Type: %s %s %s"
+msgstr "Tyyppi: %s %s %s"
+
+#: src/Tribe/Filter.php:510
+msgid "Dropdown"
+msgstr "Pudotusvalikko"
+
+#: src/Tribe/Filter.php:515 src/Tribe/Filters/Cost.php:63
+msgid "Checkboxes"
+msgstr "Valintaruudut"
+
+#: src/Tribe/Filter.php:520
+msgid "Autocomplete"
+msgstr "Täydennä automaattisesti"
+
+#: src/Tribe/Filters/Cost.php:54
+msgid "Type: %s %s"
+msgstr "Tyyppi: %s %s"
+
+#: src/Tribe/Filters/Cost.php:58
+msgid "Range Slider"
+msgstr "Liukusäädin"
+
+#: src/Tribe/Filters/Cost.php:68
+msgid "Events are considered free when cost field is: %s %s"
+msgstr "Tapahtumien katsotaan olevan ilmaisia kun kustannukset ilmoitetaan seuraavasti: %s %s"
+
+#: src/Tribe/Filters/Cost.php:72
+msgid "Empty or set to zero"
+msgstr "Tyhjä tai asetettu arvoksi nolla"
+
+#: src/Tribe/Filters/Cost.php:77
+msgid "Only when set to zero"
+msgstr "Vain kun asetettu arvoksi nolla"
+
+#: src/Tribe/Filters/Cost.php:93
+msgid "Free"
+msgstr "Vapaa"
+
+#: src/Tribe/Filters/Day_Of_Week.php:12
+msgid "Sunday"
+msgstr "Sunnuntai"
+
+#: src/Tribe/Filters/Day_Of_Week.php:13
+msgid "Monday"
+msgstr "Maanantai"
+
+#: src/Tribe/Filters/Day_Of_Week.php:14
+msgid "Tuesday"
+msgstr "Tiistai"
+
+#: src/Tribe/Filters/Day_Of_Week.php:15
+msgid "Wednesday"
+msgstr "Keskiviikko"
+
+#: src/Tribe/Filters/Day_Of_Week.php:16
+msgid "Thursday"
+msgstr "Torstai"
+
+#: src/Tribe/Filters/Day_Of_Week.php:17
+msgid "Friday"
+msgstr "Perjantai"
+
+#: src/Tribe/Filters/Day_Of_Week.php:18
+msgid "Saturday"
+msgstr "Lauantai"
+
+#: src/Tribe/Filters/Time_Of_Day.php:12
+msgid "All Day"
+msgstr "Koko päivä"
+
+#: src/Tribe/Filters/Time_Of_Day.php:13
+msgid "Morning"
+msgstr "Aamu"
+
+#: src/Tribe/Filters/Time_Of_Day.php:14
+msgid "Afternoon"
+msgstr "Iltapäivä"
+
+#: src/Tribe/Filters/Time_Of_Day.php:15
+msgid "Evening"
+msgstr "Ilta"
+
+#: src/Tribe/Filters/Time_Of_Day.php:16
+msgid "Night"
+msgstr "Yö"
+
+#: src/Tribe/Settings.php:39 src/Tribe/Settings.php:97
+msgid "Filters"
+msgstr "Suodattimet"
+
+#: src/Tribe/Settings.php:101
+msgid "The settings below allow you to enable or disable front-end event filters. Uncheck the box to hide the filter. Drag and drop active filters to re-arrange them."
+msgstr "Alla olevat asetukset mahdollistavat loppukäyttäjän tapahtumasuodattimien käyttöönoton ja käytöstä poistamisen. Poista merkintä ruudusta piilottaaksesi suodattimen. Raahaa ja pudota aktiivisia suodattimia niiden uudelleenjärjestämiseksi."
+
+#: src/Tribe/Settings.php:102
+msgid "Expand an active filter to edit the label and choose from a subset of input types (dropdown, select, range slider, checkbox and radio)."
+msgstr "Laajenna aktiivinen suodatin muokataksesi sen nimilappua ja valitaksesi syöttötyypin alajoukosta (pudotusvalikko, valinta, alueen liukusäädin, valintaruudukko ja valintanappi)."
+
+#: src/Tribe/Settings.php:114
+msgid "Filters Layout"
+msgstr "Suodattimien asettelu"
+
+#: src/Tribe/Settings.php:117
+msgid "Vertical"
+msgstr "Pystysuoraan"
+
+#: src/Tribe/Settings.php:118
+msgid "Horizontal"
+msgstr "Vaakasuoraan"
+
+#: src/Tribe/Settings.php:124
+msgid "Filters Default State"
+msgstr "Suodattimien oletustila"
+
+#: src/Tribe/Settings.php:127
+msgid "Closed"
+msgstr "Suljettuna"
+
+#: src/Tribe/Settings.php:128
+msgid "Open"
+msgstr "Avoinna"
+
+#: src/Tribe/Settings.php:151
+msgid "Filter Bar"
+msgstr "Suodatinvalikko"
+
+#: src/Tribe/View.php:339
+msgid "%s Category"
+msgstr "%s kategoria"
+
+#: src/Tribe/View.php:340
+msgid "Cost (%s)"
+msgstr "Hinta (%s)"
+
+#: src/Tribe/View.php:341
+msgid "Tags"
+msgstr "Tagit"
+
+#: src/Tribe/View.php:344
+msgid "Day"
+msgstr "Päivä"
+
+#: src/Tribe/View.php:345
+msgid "Time"
+msgstr "Aika"
+
+#: src/admin-views/settings-field-active-filters.php:7
+msgid "Active Filters"
+msgstr "Aktiiviset suodattimet"
+
+#: src/admin-views/settings-field-available-filters.php:8
+msgid "Available Filters"
+msgstr "Käytettävissä olevat suodattimet"
+
+#: src/views/filter-bar/filter-view-horizontal.php:20
+#: src/views/filter-bar/filter-view-vertical.php:24
+msgid "Narrow Your Results"
+msgstr "Kavenna tuloksiasi"
+
+#: src/views/filter-bar/filter-view-horizontal.php:22
+#: src/views/filter-bar/filter-view-horizontal.php:34
+#: src/views/filter-bar/filter-view-vertical.php:20
+msgid "Show Advanced Filters"
+msgstr "Näytä edistyneet suodattimet"
+
+#: src/views/filter-bar/filter-view-horizontal.php:22
+#: src/views/filter-bar/filter-view-horizontal.php:34
+#: src/views/filter-bar/filter-view-vertical.php:20
+#: src/views/filter-bar/filter-view-vertical.php:35
+msgid "Collapse Filters"
+msgstr "Kätke suodattimet"
+
+#: src/views/filter-bar/filter-view-horizontal.php:23
+#: src/views/filter-bar/filter-view-horizontal.php:35
+#: src/views/filter-bar/filter-view-vertical.php:21
+msgid "Show Filters"
+msgstr "Näytä suodattimet"
+
+#: src/views/filter-bar/filter-view-horizontal.php:24
+#: src/views/filter-bar/filter-view-horizontal.php:36
+#: src/views/filter-bar/filter-view-vertical.php:32
+#: src/views/filter-bar/filter-view-vertical.php:36
+msgid "Reset Filters"
+msgstr "Nollaa suodattimet"
+
+#: src/views/filter-bar/filter-view-horizontal.php:30
+#: src/views/filter-bar/filter-view-vertical.php:30
+msgid "Submit"
+msgstr "Ota käyttöön"
+
+#: the-events-calendar-filter-view.php:67
+msgid "The Events Calendar"
+msgstr "The Events Calendar"
+
+#: the-events-calendar-filter-view.php:68
+msgid "To begin using The Events Calendar: Filter Bar, please install the latest version of <a href=\"%s\" class=\"thickbox\" title=\"%s\">The Events Calendar</a>."
+msgstr "Käyttääksesi The Events Calendar: Filter Bar -laajennusta, asenna viimeisin versio <a href=\"%s\" class=\"thickbox\" title=\"%s\">The Events Calendar</a> lisäosasta."

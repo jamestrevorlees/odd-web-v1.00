@@ -1,0 +1,262 @@
+# Translation of Filter Bar in Indonesian
+# This file is distributed under the same license as the Filter Bar package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-06-09 14:42:17+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Filter Bar\n"
+
+#: src/Tribe/Additional_Fields/Manager.php:111
+msgid "Please visit the settings screen for %1$sAdditional Fields%2$s and use the provided update link or you will not be able to use Additional Field-based filters."
+msgstr ""
+
+#: src/Tribe/Filters/Additional_Field.php:68
+msgctxt "additional fields filter logic setting"
+msgid "Match all"
+msgstr ""
+
+#: src/Tribe/Filters/Additional_Field.php:74
+msgctxt "additional fields filter logic setting"
+msgid "Match any"
+msgstr ""
+
+#: src/Tribe/Filters/Additional_Field.php:78
+msgctxt "additional fields filter logic setting"
+msgid "Logic:"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "The Events Calendar: Filter Bar"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Creates an advanced filter panel on the frontend of your events list views."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Modern Tribe, Inc."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://m.tri.be/25"
+msgstr ""
+
+#: src/Tribe/Filter.php:199
+msgid "Select"
+msgstr "Pilih"
+
+#: src/Tribe/Filter.php:233
+msgid "No items match"
+msgstr ""
+
+#: src/Tribe/Filter.php:234
+msgid "Select an Item"
+msgstr ""
+
+#: src/Tribe/Filter.php:488
+msgid "Title: %s"
+msgstr "Judul %s"
+
+#: src/Tribe/Filter.php:506
+msgid "Type: %s %s %s"
+msgstr ""
+
+#: src/Tribe/Filter.php:510
+msgid "Dropdown"
+msgstr "Dropdown"
+
+#: src/Tribe/Filter.php:515 src/Tribe/Filters/Cost.php:63
+msgid "Checkboxes"
+msgstr "Checkbox"
+
+#: src/Tribe/Filter.php:520
+msgid "Autocomplete"
+msgstr ""
+
+#: src/Tribe/Filters/Cost.php:54
+msgid "Type: %s %s"
+msgstr "Jenis: %s %s"
+
+#: src/Tribe/Filters/Cost.php:58
+msgid "Range Slider"
+msgstr "Slider Rentang"
+
+#: src/Tribe/Filters/Cost.php:68
+msgid "Events are considered free when cost field is: %s %s"
+msgstr "Acara dianggap gratis ketika field biaya: %s %s"
+
+#: src/Tribe/Filters/Cost.php:72
+msgid "Empty or set to zero"
+msgstr "Kosong atau set ke nol"
+
+#: src/Tribe/Filters/Cost.php:77
+msgid "Only when set to zero"
+msgstr "Hanya ketika diatur ke nol"
+
+#: src/Tribe/Filters/Cost.php:93
+msgid "Free"
+msgstr "Gratis"
+
+#: src/Tribe/Filters/Day_Of_Week.php:12
+msgid "Sunday"
+msgstr "Minggu"
+
+#: src/Tribe/Filters/Day_Of_Week.php:13
+msgid "Monday"
+msgstr "Senin"
+
+#: src/Tribe/Filters/Day_Of_Week.php:14
+msgid "Tuesday"
+msgstr "Selasa"
+
+#: src/Tribe/Filters/Day_Of_Week.php:15
+msgid "Wednesday"
+msgstr "Rabu"
+
+#: src/Tribe/Filters/Day_Of_Week.php:16
+msgid "Thursday"
+msgstr "Kamis"
+
+#: src/Tribe/Filters/Day_Of_Week.php:17
+msgid "Friday"
+msgstr "Jum'at"
+
+#: src/Tribe/Filters/Day_Of_Week.php:18
+msgid "Saturday"
+msgstr "Sabtu"
+
+#: src/Tribe/Filters/Time_Of_Day.php:12
+msgid "All Day"
+msgstr "Semua Hari"
+
+#: src/Tribe/Filters/Time_Of_Day.php:13
+msgid "Morning"
+msgstr "Pagi"
+
+#: src/Tribe/Filters/Time_Of_Day.php:14
+msgid "Afternoon"
+msgstr "Siang"
+
+#: src/Tribe/Filters/Time_Of_Day.php:15
+msgid "Evening"
+msgstr "Sore"
+
+#: src/Tribe/Filters/Time_Of_Day.php:16
+msgid "Night"
+msgstr "Malam"
+
+#: src/Tribe/Settings.php:39 src/Tribe/Settings.php:97
+msgid "Filters"
+msgstr "Filter"
+
+#: src/Tribe/Settings.php:101
+msgid "The settings below allow you to enable or disable front-end event filters. Uncheck the box to hide the filter. Drag and drop active filters to re-arrange them."
+msgstr "Pengaturan di bawah ini memungkinkan Anda untuk mengaktifkan atau menonaktifkan filter event front-end. Hapus tanda centang pada kotak untuk menyembunyikan filter. Drag dan drop filter aktif untuk mengatur kembali."
+
+#: src/Tribe/Settings.php:102
+msgid "Expand an active filter to edit the label and choose from a subset of input types (dropdown, select, range slider, checkbox and radio)."
+msgstr "Perluas filter aktif untuk mengedit label dan memilih dari subset dari jenis input (dropdown, select, slider rentang, checkbox dan radio)."
+
+#: src/Tribe/Settings.php:114
+msgid "Filters Layout"
+msgstr "Tata Letak Filter"
+
+#: src/Tribe/Settings.php:117
+msgid "Vertical"
+msgstr "Vertikal"
+
+#: src/Tribe/Settings.php:118
+msgid "Horizontal"
+msgstr "Horisontal"
+
+#: src/Tribe/Settings.php:124
+msgid "Filters Default State"
+msgstr "Kondisi Default Filter"
+
+#: src/Tribe/Settings.php:127
+msgid "Closed"
+msgstr "Tertutup"
+
+#: src/Tribe/Settings.php:128
+msgid "Open"
+msgstr "Buka"
+
+#: src/Tribe/Settings.php:151
+msgid "Filter Bar"
+msgstr ""
+
+#: src/Tribe/View.php:339
+msgid "%s Category"
+msgstr ""
+
+#: src/Tribe/View.php:340
+msgid "Cost (%s)"
+msgstr "Biaya ( %s )"
+
+#: src/Tribe/View.php:341
+msgid "Tags"
+msgstr "Tags"
+
+#: src/Tribe/View.php:344
+msgid "Day"
+msgstr "Hari"
+
+#: src/Tribe/View.php:345
+msgid "Time"
+msgstr "Durasi"
+
+#: src/admin-views/settings-field-active-filters.php:7
+msgid "Active Filters"
+msgstr "Filter Aktif"
+
+#: src/admin-views/settings-field-available-filters.php:8
+msgid "Available Filters"
+msgstr "Filter Tersedia"
+
+#: src/views/filter-bar/filter-view-horizontal.php:20
+#: src/views/filter-bar/filter-view-vertical.php:24
+msgid "Narrow Your Results"
+msgstr "Persempit Hasil Anda"
+
+#: src/views/filter-bar/filter-view-horizontal.php:22
+#: src/views/filter-bar/filter-view-horizontal.php:34
+#: src/views/filter-bar/filter-view-vertical.php:20
+msgid "Show Advanced Filters"
+msgstr "Tampilkan Filter Lanjutan"
+
+#: src/views/filter-bar/filter-view-horizontal.php:22
+#: src/views/filter-bar/filter-view-horizontal.php:34
+#: src/views/filter-bar/filter-view-vertical.php:20
+#: src/views/filter-bar/filter-view-vertical.php:35
+msgid "Collapse Filters"
+msgstr "Collapse Filter"
+
+#: src/views/filter-bar/filter-view-horizontal.php:23
+#: src/views/filter-bar/filter-view-horizontal.php:35
+#: src/views/filter-bar/filter-view-vertical.php:21
+msgid "Show Filters"
+msgstr "Tampilkan Filter"
+
+#: src/views/filter-bar/filter-view-horizontal.php:24
+#: src/views/filter-bar/filter-view-horizontal.php:36
+#: src/views/filter-bar/filter-view-vertical.php:32
+#: src/views/filter-bar/filter-view-vertical.php:36
+msgid "Reset Filters"
+msgstr "Atur Ulang Filter"
+
+#: src/views/filter-bar/filter-view-horizontal.php:30
+#: src/views/filter-bar/filter-view-vertical.php:30
+msgid "Submit"
+msgstr "Submit"
+
+#: the-events-calendar-filter-view.php:67
+msgid "The Events Calendar"
+msgstr "The Events Calendar"
+
+#: the-events-calendar-filter-view.php:68
+msgid "To begin using The Events Calendar: Filter Bar, please install the latest version of <a href=\"%s\" class=\"thickbox\" title=\"%s\">The Events Calendar</a>."
+msgstr ""

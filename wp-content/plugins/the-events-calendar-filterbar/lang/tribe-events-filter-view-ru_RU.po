@@ -1,0 +1,262 @@
+# Translation of Filter Bar in Russian
+# This file is distributed under the same license as the Filter Bar package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-06-09 14:47:22+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Filter Bar\n"
+
+#: src/Tribe/Additional_Fields/Manager.php:111
+msgid "Please visit the settings screen for %1$sAdditional Fields%2$s and use the provided update link or you will not be able to use Additional Field-based filters."
+msgstr ""
+
+#: src/Tribe/Filters/Additional_Field.php:68
+msgctxt "additional fields filter logic setting"
+msgid "Match all"
+msgstr ""
+
+#: src/Tribe/Filters/Additional_Field.php:74
+msgctxt "additional fields filter logic setting"
+msgid "Match any"
+msgstr ""
+
+#: src/Tribe/Filters/Additional_Field.php:78
+msgctxt "additional fields filter logic setting"
+msgid "Logic:"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "The Events Calendar: Filter Bar"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Creates an advanced filter panel on the frontend of your events list views."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Modern Tribe, Inc."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://m.tri.be/25"
+msgstr ""
+
+#: src/Tribe/Filter.php:199
+msgid "Select"
+msgstr "Выбор"
+
+#: src/Tribe/Filter.php:233
+msgid "No items match"
+msgstr "Нет соответствия"
+
+#: src/Tribe/Filter.php:234
+msgid "Select an Item"
+msgstr "Выберите пункт"
+
+#: src/Tribe/Filter.php:488
+msgid "Title: %s"
+msgstr "Название: %s"
+
+#: src/Tribe/Filter.php:506
+msgid "Type: %s %s %s"
+msgstr "Тип: %s %s %s"
+
+#: src/Tribe/Filter.php:510
+msgid "Dropdown"
+msgstr "Випадающий Список"
+
+#: src/Tribe/Filter.php:515 src/Tribe/Filters/Cost.php:63
+msgid "Checkboxes"
+msgstr "Чекбоксы"
+
+#: src/Tribe/Filter.php:520
+msgid "Autocomplete"
+msgstr "Автозаполнение"
+
+#: src/Tribe/Filters/Cost.php:54
+msgid "Type: %s %s"
+msgstr "Тип: %s %s"
+
+#: src/Tribe/Filters/Cost.php:58
+msgid "Range Slider"
+msgstr "Слайдер диапазона"
+
+#: src/Tribe/Filters/Cost.php:68
+msgid "Events are considered free when cost field is: %s %s"
+msgstr "Мероприятие считается бесплатным, когла поле стоимости: %s %s"
+
+#: src/Tribe/Filters/Cost.php:72
+msgid "Empty or set to zero"
+msgstr "Оставьте пустым или введите 0"
+
+#: src/Tribe/Filters/Cost.php:77
+msgid "Only when set to zero"
+msgstr "Только когда набран 0"
+
+#: src/Tribe/Filters/Cost.php:93
+msgid "Free"
+msgstr "Бесплатно"
+
+#: src/Tribe/Filters/Day_Of_Week.php:12
+msgid "Sunday"
+msgstr "Воскресенье"
+
+#: src/Tribe/Filters/Day_Of_Week.php:13
+msgid "Monday"
+msgstr "Понедельник"
+
+#: src/Tribe/Filters/Day_Of_Week.php:14
+msgid "Tuesday"
+msgstr "Вторник"
+
+#: src/Tribe/Filters/Day_Of_Week.php:15
+msgid "Wednesday"
+msgstr "Среда"
+
+#: src/Tribe/Filters/Day_Of_Week.php:16
+msgid "Thursday"
+msgstr "Четверг"
+
+#: src/Tribe/Filters/Day_Of_Week.php:17
+msgid "Friday"
+msgstr "Пятниця"
+
+#: src/Tribe/Filters/Day_Of_Week.php:18
+msgid "Saturday"
+msgstr "Суббота"
+
+#: src/Tribe/Filters/Time_Of_Day.php:12
+msgid "All Day"
+msgstr "На весь день"
+
+#: src/Tribe/Filters/Time_Of_Day.php:13
+msgid "Morning"
+msgstr "Утро"
+
+#: src/Tribe/Filters/Time_Of_Day.php:14
+msgid "Afternoon"
+msgstr "После обеда"
+
+#: src/Tribe/Filters/Time_Of_Day.php:15
+msgid "Evening"
+msgstr "Вечер"
+
+#: src/Tribe/Filters/Time_Of_Day.php:16
+msgid "Night"
+msgstr "Ночь"
+
+#: src/Tribe/Settings.php:39 src/Tribe/Settings.php:97
+msgid "Filters"
+msgstr "Фильтры"
+
+#: src/Tribe/Settings.php:101
+msgid "The settings below allow you to enable or disable front-end event filters. Uncheck the box to hide the filter. Drag and drop active filters to re-arrange them."
+msgstr "Нижеприведенные настройки позволяют включить или выключить фильтры мероприятий на страницах сайта. Снимите флажок, чтобы спрятать фильтр. Перетяните активные фильтры , чтобы повторно организовать их."
+
+#: src/Tribe/Settings.php:102
+msgid "Expand an active filter to edit the label and choose from a subset of input types (dropdown, select, range slider, checkbox and radio)."
+msgstr "Раскройте активный фильтр чтобы редактировать метку названия  и выберите с подмножества типов входящих (випадающий список, вибор, диапазон, чекбокс и радио)."
+
+#: src/Tribe/Settings.php:114
+msgid "Filters Layout"
+msgstr "Макет фильтров"
+
+#: src/Tribe/Settings.php:117
+msgid "Vertical"
+msgstr "Вертикаль"
+
+#: src/Tribe/Settings.php:118
+msgid "Horizontal"
+msgstr "Горизонталь"
+
+#: src/Tribe/Settings.php:124
+msgid "Filters Default State"
+msgstr "Фильтер по умолчанию"
+
+#: src/Tribe/Settings.php:127
+msgid "Closed"
+msgstr "Закрыто"
+
+#: src/Tribe/Settings.php:128
+msgid "Open"
+msgstr "Открыто"
+
+#: src/Tribe/Settings.php:151
+msgid "Filter Bar"
+msgstr "Фильтры"
+
+#: src/Tribe/View.php:339
+msgid "%s Category"
+msgstr ""
+
+#: src/Tribe/View.php:340
+msgid "Cost (%s)"
+msgstr "Стоимость (%s)"
+
+#: src/Tribe/View.php:341
+msgid "Tags"
+msgstr "Метки"
+
+#: src/Tribe/View.php:344
+msgid "Day"
+msgstr "День"
+
+#: src/Tribe/View.php:345
+msgid "Time"
+msgstr "Время"
+
+#: src/admin-views/settings-field-active-filters.php:7
+msgid "Active Filters"
+msgstr "Активные фильтры"
+
+#: src/admin-views/settings-field-available-filters.php:8
+msgid "Available Filters"
+msgstr "Доступные фильтры"
+
+#: src/views/filter-bar/filter-view-horizontal.php:20
+#: src/views/filter-bar/filter-view-vertical.php:24
+msgid "Narrow Your Results"
+msgstr "Ограничить результаты"
+
+#: src/views/filter-bar/filter-view-horizontal.php:22
+#: src/views/filter-bar/filter-view-horizontal.php:34
+#: src/views/filter-bar/filter-view-vertical.php:20
+msgid "Show Advanced Filters"
+msgstr "Показать расширенные фильтры"
+
+#: src/views/filter-bar/filter-view-horizontal.php:22
+#: src/views/filter-bar/filter-view-horizontal.php:34
+#: src/views/filter-bar/filter-view-vertical.php:20
+#: src/views/filter-bar/filter-view-vertical.php:35
+msgid "Collapse Filters"
+msgstr "Свернуть фильтры"
+
+#: src/views/filter-bar/filter-view-horizontal.php:23
+#: src/views/filter-bar/filter-view-horizontal.php:35
+#: src/views/filter-bar/filter-view-vertical.php:21
+msgid "Show Filters"
+msgstr "Показать фильтры"
+
+#: src/views/filter-bar/filter-view-horizontal.php:24
+#: src/views/filter-bar/filter-view-horizontal.php:36
+#: src/views/filter-bar/filter-view-vertical.php:32
+#: src/views/filter-bar/filter-view-vertical.php:36
+msgid "Reset Filters"
+msgstr "Очистить фильтры"
+
+#: src/views/filter-bar/filter-view-horizontal.php:30
+#: src/views/filter-bar/filter-view-vertical.php:30
+msgid "Submit"
+msgstr "Отправить"
+
+#: the-events-calendar-filter-view.php:67
+msgid "The Events Calendar"
+msgstr "The Events Calendar"
+
+#: the-events-calendar-filter-view.php:68
+msgid "To begin using The Events Calendar: Filter Bar, please install the latest version of <a href=\"%s\" class=\"thickbox\" title=\"%s\">The Events Calendar</a>."
+msgstr ""
