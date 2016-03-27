@@ -1,0 +1,1033 @@
+/**
+* # Heroic Knowledge Base Plugin Styling
+*
+* This file  contains the default CSS for styling the knowledge base
+*/
+
+
+/**
+* # Mixims & Variables
+*
+*/
+
+/* Clearfix */
+%hkb-clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+/* Link Reset Mixim (remove any theme styling on links) */
+@mixin link_reset {
+  text-decoration: none;
+  border: none;
+  &:hover {
+	border: none;
+}
+  &:focus {
+  	outline: none;
+  }
+}
+
+/* Reset Defaults (remove any common theme styling that will distrupt our styling) */
+@mixin reset_defaults {
+	margin: 0;
+	padding: 0;
+	background: none;
+}
+
+
+/* HKB-Meta Mixim (used in multiple places) */
+@mixin hkb-meta__li {
+	li {
+		float: left;
+		margin: 0 0 0 5px;
+		background: #ededed;
+		//padding: 0.5em 0.7em;
+		//padding: 0.1em 0.5em; //compat
+		padding: 5px 5px;  //compat
+		border-radius: 3px;
+		&:first-child {
+			margin-left: 0;
+		}
+	}
+}
+@mixin hkb-meta__views {
+	.hkb-meta__views:before {
+		@include reset_defaults;
+		content: "\f06e";
+		color: $hkb-icon-color;
+		display: inline-block;
+		font-family: FontAwesome;
+		margin-right: 3px;
+	}
+}
+@mixin hkb-meta__usefulness {
+	.hkb-meta__usefulness {
+		background: #9cc051;
+		color: #fff;
+		&:before {
+			@include reset_defaults;
+			display: inline-block;
+			font-family: FontAwesome;
+			margin-right: 3px;
+		}
+		&.hkb-meta__usefulness--good {
+			&:before {
+				content: "\f164";
+				color: #fff;
+			}
+		}
+		&.hkb-meta__usefulness--bad {
+			background: #d26a40;
+			&:before {
+				content: "\f165";
+				color: #fff;
+			}
+		}
+	}
+}
+@mixin hkb-meta__comments {
+	.hkb-meta__comments:before {
+		@include reset_defaults;
+		content: "\f075";
+		color: $hkb-icon-color;
+		display: inline-block;
+		font-family: FontAwesome;
+		margin-right: 3px;
+	}
+}
+
+/* SASS Variables */
+$hkb-s-fontsize: 15px;
+$hkb-s-lineheight: 22px;
+$hkb-count-fontsize: 12px;
+$hkb-count-color: #999;
+$hkb-icon-color: #6d6d6d;
+$hkb-icon-size: 90%;
+
+// Icons
+$ico-font: FontAwesome;
+$ico-category: "\f07b";
+$ico-tag: "\f02b";
+$ico-view: "\f06e";
+$ico-comment: "\f075";
+$ico-helpful: "\f164";
+$ico-unhelpful: "\f165";
+$ico-article: "\f0f6";
+$ico-article-video: "\f1c8";
+$ico-link-right: "\f0a9";
+
+/* Global Classes */
+/* Screen readers only */
+.hkb-screen-reader-text {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}
+
+/* Load FontAwesome */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.3.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Start #HKB */
+#hkb {
+
+	/* Box layout model to all elements */
+	*, 
+	*:before, 
+	*:after {
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
+	}
+
+	/* compatbility fixes */
+	ul li {
+		background: none;
+		list-style: none;
+	}
+
+	/**
+	* # HKB - Archive
+	*
+	*/
+	.hkb-archive {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		@extend %hkb-clearfix;
+		> li {
+			margin: 0;
+		}
+		&.hkb-archive--two-cols {
+			margin: 0 -20px;
+			> li {
+				float: left;
+				width: 50%;
+				padding: 0 20px;
+				&:nth-child(2n+3) {
+					clear: left;
+				}
+			}
+		}
+		&.hkb-archive--three-cols {
+			margin: 0 -20px;
+			> li {
+				float: left;
+				width: 33.333%;
+				padding: 0 20px;
+				&:nth-child(3n+4) {
+					clear: left;
+				}
+			}
+		}
+		&.hkb-archive--four-cols {
+			margin: 0 -20px;
+			> li {
+				float: left;
+				width: 25%;
+				padding: 0 20px;
+				&:nth-child(4n+5) {
+					clear: left;
+				}
+			}
+		}
+	}
+
+	/**
+	* # HKB - Search Box
+	*
+	*/
+	.hkb-site-search {
+		margin: 0 0 40px;
+		position: relative;
+		@extend %hkb-clearfix;
+		.hkb-site-search__field {
+			float: left;
+			width: 80%;
+			margin: 0;
+			min-height: 50px;
+			padding-left: 1em;
+			padding-right: 1em;
+			&.live-search-loading {
+				background: url('../img/loader.svg') no-repeat right 5px center;
+			}
+		}
+		.hkb-site-search__button {
+			//float: left;
+			width: 20%;
+			margin: 0;
+
+			position: absolute;
+			bottom: 0;
+			top: 0;
+			right: 0;
+
+			padding-left: 10px;
+			padding-right: 10px;
+			text-align: center;
+		}
+	}
+
+	/**
+	* # HKB - Breadcrumbs
+	*
+	*/
+	.hkb-breadcrumbs {
+		list-style: none;
+		padding: 0;
+		margin: -30px 0 40px;
+		font-size: 90%;
+		@extend %hkb-clearfix;
+		li {
+			display: inline-block;
+			margin: 0;
+			&:after {
+				content: "/";
+				color: #999;
+			}
+			&:last-child:after {
+				content: "";
+			}
+		}
+		a {
+			@include link_reset;
+			color: inherit;
+		}
+	}
+
+	/**
+	* # HKB - Category Block
+	*
+	*/
+	.hkb-category {
+		//margin: 0 0 20px;
+		margin: 0 0 2em; //compat
+		.hkb-category__header {
+			//margin: 0 0 10px;
+			margin: 0 0 1em; //compat
+		}
+		.hkb-category__title {
+			display: inline-block;
+			font-size: 18px;
+			line-height: 22px;
+			margin: 0;
+			padding: 0;
+			a {
+				@include link_reset;
+				color: inherit;
+			}
+		}
+		.hkb-category__count {
+			display: inline-block;
+			font-size: $hkb-count-fontsize;
+			color: $hkb-count-color;
+			margin-left: 2px;
+			&:before {
+				content: "(";
+			}
+			&:after {
+				content: ")";
+			}
+		}
+		.hkb-article-list {
+			font-size: $hkb-s-fontsize;
+			line-height: $hkb-s-lineheight;
+			a {
+				color: inherit;
+				font-weight: normal;
+			}
+		}	
+		.hkb-category__view-all {
+			display: block;
+			font-size: 15px;
+			line-height: 22px;
+			position: relative;
+			padding-left: 20px;
+			color: inherit;
+			font-weight: normal;
+			@include link_reset;
+			&:before {
+				font-family: FontAwesome;
+				content: "\f18e";
+				color: $hkb-icon-color;
+				font-size: $hkb-icon-size;
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+			}
+		}
+	}
+
+	/**
+	* # HKB - Sub-Categories
+	*
+	*/
+	.hkb-subcats {
+		list-style: none;
+		padding: 0;
+		margin: 0 0 5px;
+		font-size: $hkb-s-fontsize;
+		line-height: $hkb-s-lineheight;
+		> li {
+			margin: 0 0 5px;
+		}
+		a {
+			@include link_reset;
+			color: inherit;
+		}
+		.hkb-subcats__cat {
+			position: relative;
+			padding-left: 20px;
+			&:before {
+				font-family: FontAwesome;
+				content: "\f07b";
+				color: $hkb-icon-color;
+				font-size: $hkb-icon-size;
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+			}
+			.hkb-article-list {
+				margin-top: 5px;
+			}
+		}
+		.hkb-subcats__cat-title {
+			display: inline-block;
+		}
+		.hkb-subcats__cat-count {
+			display: inline-block;
+			font-size: $hkb-count-fontsize;
+			color: $hkb-count-color;
+			margin-left: 2px;
+			&:before {
+				content: "(";
+			}
+			&:after {
+				content: ")";
+			}
+		}
+	}
+
+	/**
+	* # HKB - Article List
+	*
+	*/
+	.hkb-article-list {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		> li {
+			margin: 0 0 5px;
+		}
+		a {
+			@include link_reset;
+			color: inherit;
+			font-weight: normal;
+		}
+		.hkb-article-list__format-standard,
+		.hkb-article-list__format-video {
+			position: relative;
+			padding-left: 20px;
+			&:before {
+				font-family: FontAwesome;
+				content: "\f0f6";
+				color: $hkb-icon-color;
+				font-size: $hkb-icon-size;
+				position: absolute;
+				top: 2px;
+				bottom: 0;
+				left: 0;
+			}
+		}
+		.hkb-article-list__format-standard {
+			&:before {
+				content: "\f0f6";
+			}
+		}
+		.hkb-article-list__format-video {
+			&:before {
+				content: "\f0f6";
+			}
+		}
+	}
+	
+	/**
+	* # HKB - Article Meta
+	*
+	*/
+	.hkb-meta {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		font-size: 12px;
+		line-height: 1;
+		@extend %hkb-clearfix;
+		@include hkb-meta__li;
+		@include hkb-meta__views;
+		@include hkb-meta__usefulness;
+		@include hkb-meta__comments;
+	}
+
+	.hkb-article {
+		position: relative;
+		.hkb-article__title {
+			margin: 0 0 10px;
+			a {
+				@include link_reset;
+				color: inherit;
+			}
+		}
+	}
+	/* Entry-Content Wrapper */
+	.hkb-entry-content {
+		@extend %hkb-clearfix;
+		ol,
+		ul {
+			margin: 0 0 2em 2em;
+		}
+	}
+	.hkb-article__content {
+		margin: 0 0 2em;
+		padding: 0;
+		ul {
+			li {
+				list-style: disc;
+			}
+		}
+	}
+	.hkb-article__links {
+		margin: -1em 0 2em;
+		a {
+			@include link_reset;
+		}
+	}
+
+	/**
+	* # HKB - Article (Single) Tags
+	*
+	*/
+	.hkb-article-tags {
+		a {
+			border: none;
+			margin-left: 5px;
+			&:after {
+				content: ",";
+			}
+			&:last-child:after {
+				content: "";
+			}
+		}
+	}
+
+	/**
+	* # HKB - Article (Single) Related
+	*
+	*/
+	.hkb-article-related {
+		margin: 0 0 1em;
+		.hkb-article-related__title {
+			margin: 0 0 0.6em;
+		}
+		.hkb-meta {
+			position: absolute;
+			right: 0;
+			top: 1px;
+		}
+	}
+
+	/**
+	* # HKB - Article (Single) Author
+	*
+	*/
+	.hkb-article-author {
+		padding: 30px 0 0;
+		.hkb-article-author__avatar {
+			float: left;
+			margin: 0 35px 0 0;
+		}
+		.hkb-article-author__name {
+			margin: 0 0 15px;
+			display: inline-block;
+			a {
+				@include link_reset;
+			}
+		}
+		.hkb-article-author__bio {
+			margin: 0 0 0 105px;
+		}
+	}
+
+	/**
+	* # HKB - Article (Single) Attachments
+	*
+	*/
+	.hkb-article-attachments {
+		margin: 0 0 2em;
+		.hkb-article-attachments__title {
+			margin: 0 0 0.6em;
+			padding:0;
+		}
+		.hkb-article-attachments__list {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		.hkb-article-attachments__item {
+			a {
+				@include link_reset;
+				color: inherit;
+				&[href$='.pdf'],
+				&[href$='.doc'],
+				&[href$='.docx'],
+				&[href$='.ppt'],
+				&[href$='.pptx'],
+				&[href$='.pps'],
+				&[href$='.ppsx'],
+				&[href$='.mp4'],
+				&[href$='.m4v'],
+				&[href$='.mov'],
+				&[href$='.wmv'],
+				&[href$='.avi'],
+				&[href$='.mpg'],
+				&[href$='.ogv'],
+				&[href$='.3gp'],
+				&[href$='.3g2'],
+				&[href$='.mp3'],
+				&[href$='.m4a'],
+				&[href$='.ogg'],
+				&[href$='.wav'],
+				&[href$='.jpg'],
+				&[href$='.jpeg'],
+				&[href$='.png'],
+				&[href$='.gif'],
+				&[href$='.js'],
+				&[href$='.css'],
+				&[href$='.html'],
+				&[href$='.php'],
+				&[href$='.zip'],
+				&[href$='.rar'] {
+					position: relative;
+					padding-left: 20px;
+					&:before {
+						color: $hkb-icon-color;
+						font-family: $ico-font;
+						font-size: $hkb-icon-size;
+						position: absolute;
+						top: 0;
+						bottom: 0;
+						left: 0;
+					}
+				}
+
+				// PDFs
+				&[href$='.pdf'] {
+					&:before {
+						content: "\f1c1";
+					}
+				}
+				// Doc
+				&[href$='.doc'],
+				&[href$='.docx'] {
+					&:before {
+						content: "\f1c2";
+					}
+				}
+				// PowerPoint
+				&[href$='.ppt'],
+				&[href$='.pptx'],
+				&[href$='.pps'],
+				&[href$='.ppsx'] {
+					&:before {
+						content: "\f1c4";
+					}
+				}
+				// Videos
+				&[href$='.mp4'],
+				&[href$='.m4v'],
+				&[href$='.mov'],
+				&[href$='.wmv'],
+				&[href$='.avi'],
+				&[href$='.mpg'],
+				&[href$='.ogv'],
+				&[href$='.3gp'],
+				&[href$='.3g2'] {
+					&:before {
+						content: "\f1c8";
+					}
+				}
+				// Audio
+				&[href$='.mp3'],
+				&[href$='.m4a'],
+				&[href$='.ogg'],
+				&[href$='.wav'] {
+					&:before {
+						content: "\f1c7";
+					}
+				}
+				// Images
+				&[href$='.jpg'],
+				&[href$='.jpeg'],
+				&[href$='.png'],
+				&[href$='.gif'] {
+					&:before {
+						content: "\f1c5";
+					}
+				}
+				// Code
+				&[href$='.js'],
+				&[href$='.css'],
+				&[href$='.html'],
+				&[href$='.php'] {
+					&:before {
+						content: "\f1c9";
+					}
+				}
+				// Archive
+				&[href$='.zip'],
+				&[href$='.rar'] {
+					&:before {
+						content: "\f1c6";
+					}
+				}
+			}
+		}
+		
+	}
+
+}
+/* End #HKB */
+
+
+/**
+* # Template Specific Element Styling
+*
+* Styling for elements in specific areas of the layout
+*/
+
+/* Archive Element Styling */
+#hkb.hkb-template-archive {}
+/* Category Element Styling */
+#hkb.hkb-template-category {
+	.hkb-article {
+		padding: 10px 0;
+		border-bottom: 1px solid #dfe4e6;
+		margin: 0;
+		.hkb-article__title {
+			font-size: 18px;
+			line-height: 20px;
+			margin: 0;
+			padding: 0 90px 0 0;
+		}
+		.hkb-meta {
+			position: absolute;
+			right: 0;
+			top: 10px;
+			bottom: 10px;
+		}
+	}
+}
+/* Single Element Styling */
+#hkb.hkb-template-single {}
+
+/* Search Element Styling */
+#hkb.hkb-template-search {
+	.hkb-article {
+		padding: 10px 0;
+		border-bottom: 1px solid #dfe4e6;
+		.hkb-article__title {
+			font-size: 18px;
+			line-height: 20px;
+			margin: 0;
+			padding: 0 90px 0 0; 
+		}
+		.hkb-meta {
+			position: absolute;
+			right: 0;
+			top: 10px;
+			bottom: 10px;
+		}
+	}
+}
+
+/**
+* # Live search styling
+*/
+#hkb-jquery-live-search {
+	background: #fff;
+	padding: 0;
+	max-height: 400px;
+	overflow: auto;
+	position: absolute;
+	z-index: 99;
+	border: 1px solid #e6e6e6;
+	border-width: 0 1px 1px 1px;
+	-webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* KB Search Results */
+#hkb.hkb-searchresults {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	> li {
+		position: relative;
+		padding: 0 10px;
+		margin: 0;
+		&:hover,
+		&.hkb-searchresults__current {
+			background: #f7f7f7;
+		}
+		&:nth-last-child(2) a {
+			padding-bottom: 12px;
+		}
+		&.hkb-searchresults__article {
+			padding-left: 30px;
+			a:before {
+				font-family: $ico-font;
+				color: $hkb-icon-color;
+				font-size: $hkb-icon-size;
+				line-height: 1;
+				position: absolute;
+				left: 10px;
+				top: 10px;
+				font-weight: normal;
+			}
+		}
+		&.hkb-searchresults__article a:before {
+			content: "\f0f6";
+		}
+		&.hkb-searchresults__showall,
+		&.hkb-searchresults__noresults  {
+			background: #f7f7f7;
+			text-align: center;
+			font-size: 15px;
+  			line-height: 22px;
+  			a,
+  			span {
+  				display: block;
+  				padding: 10px;
+  			}	
+		}
+		a {
+			padding: 6px 0px 6px 10px;
+			display: block;
+			color:inherit;
+			text-decoration: none;
+			@include link_reset;
+		}
+		.hkb-searchresults__title,
+		.hkb-searchresults__excerpt {
+			display: block;
+		}
+		.hkb-searchresults__title {
+			font-size: 16px;
+  			line-height: 18px;
+  			font-weight: bold;
+			padding: 0 90px 0 0;
+		}
+		.hkb-searchresults__excerpt {
+			margin: 10px 0 0;
+			font-size: 15px;
+			line-height: 22px;
+			font-weight: normal;
+		}
+		.hkb-meta {
+			position: absolute;
+			top: 6px;
+  			right: 10px;
+  			font-size: 11px;
+  			font-weight: normal;
+		}
+	}
+}
+
+/**
+* # Widget Styling
+*
+*/
+
+.hkb_widget_articles,
+.hkb_widget_categories,
+.hkb_widget_authors {
+
+	/* Box layout model to all elements */
+	*, 
+	*:before, 
+	*:after {
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
+	}
+
+	> ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+/* KB Articles Widget */
+.hkb_widget_articles {
+	> ul {
+		> li {
+			position: relative;
+			margin: 0 0 10px;
+			padding-left: 25px;
+			&:before {
+				font-family: FontAwesome;
+				content: "\f0f6";
+				color: $hkb-icon-color;
+				font-size: 100%;
+				position: absolute;
+				top: 2px;
+				bottom: 0;
+				left: 0;
+				@include reset_defaults;
+			}
+		}
+	}
+	.hkb-widget__entry-title {
+		margin: 0 1em 0 0;
+	}	
+	.hkb-meta {
+		list-style: none;
+		margin: 2px 0 0 !important;
+		padding: 0;
+		font-size: 11px;
+		line-height: 1;
+		@include hkb-meta__li;
+		@include hkb-meta__views;
+		@include hkb-meta__usefulness;
+		@include hkb-meta__comments;
+		@extend %hkb-clearfix;
+	}
+}
+
+
+/* KB Categories Widget */
+.hkb_widget_categories {
+	> ul {
+		> li {
+			position: relative;
+			padding-right: 30px;
+			margin: 0 0 10px;
+			span {
+				position: absolute;
+				right: 0;
+			}
+		}
+	}
+	
+}
+
+
+/* KB Authors Widget */
+.hkb_widget_authors {
+	.hkb-widget-author__avatar {
+		float: left;
+		margin: 0 15px 0 0;
+		a {
+			display: block;
+			line-height: 1;
+		}
+		img {
+
+		}
+	}
+	.hkb-widget-author__postcount {
+		font-size: 90%;
+	}
+}
+
+/* KB Search Widget */
+.hkb_widget_search {}
+
+/**
+* # HT Voting CSS
+*
+*/
+
+/* Start HT Voting CSS */
+.ht-voting {
+	@extend %hkb-clearfix;
+	.ht-voting-links {
+		.ht-voting-upvote, 
+		.ht-voting-downvote {
+			display: inline-block;
+			background:#919195;
+			color:#fff;
+			text-decoration: none;
+			padding: 10px 16px;
+			font-size: 15px;
+			line-height: 1;
+			border: 0;
+			text-align: center;
+			min-width: 70px;
+
+			border-radius: 4px;
+			-moz-border-radius: 4px;
+			-webkit-border-radius: 4px;
+
+			position: relative;
+  			transition: all 0.3s linear 0s;
+  			span {
+				right: 0;
+				position: relative;
+				transition: all 0.2s ease-out 0s;
+			}
+			i {
+				width: 18px;
+			    position: absolute;
+			    left: 30px;
+			    top: 50%;
+			    margin-top: -9px;
+			    line-height: 18px;
+			    opacity: 0;
+			    transition: all 0.2s ease-out 0s;
+
+				display: inline-block;
+				font-family: FontAwesome;
+				&:before {
+					content: "\f164";
+				}
+			}
+			&:hover {
+				padding: 10px 16px;
+				span {
+					right: -10px;
+				}
+				i {
+					opacity: 1;
+					left: 12px;
+				}
+			}
+
+		}
+		.ht-voting-upvote {
+			background: #9cc051;		
+			i {
+				&:before {
+					content: "\f164";
+				}
+			}			
+		}
+		.ht-voting-downvote {
+			background:#d26a40;
+			i {
+				&:before {
+					content: "\f165";
+				}
+			}
+		}
+
+	}
+
+	.ht-voting-login-required {
+		background-color: red;
+		color: white;
+		margin: 2px;
+		padding: 2px;
+	}
+	br { 
+		/* fix those annoying themes or other plugins that insist on adding wpautop filter to post shortcode content */
+	    display: none;
+	}
+}
+.ht-voting-comment {
+	@extend %hkb-clearfix;
+	margin: 10px 0 0;
+	max-width: 600px;
+	.ht-voting-comment__textarea {
+		margin: 0 0 10px;
+		width: 100%;
+	}
+	.ht-voting-comment__submit {
+		float: right;
+	}
+}
+
+.hkb-feedback {
+	margin: 0 0 2em;
+	.hkb-feedback__title {
+		margin: 0 0 0.6em;
+		padding:0;
+	}
+}

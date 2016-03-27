@@ -1,0 +1,71 @@
+/* 
+HKB Admin Styles
+*/
+
+
+#ht-kb-ordering {
+	margin: 12px 0 0;
+	width: 100%;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    .hkb-ordering__header,
+    .hkb-ordering__footer {
+    	background: #f5f5f5;
+    	border-bottom: 1px solid #dfdfdf;
+    	padding: 10px 15px;
+    }
+    .hkb-ordering__header {    	
+    	h3 {
+    		margin: 0;
+    		font-size: 14px;
+    	}
+    	span {
+    		display: inline-block;
+    		padding: 0 10px 0 0;
+			vertical-align: middle;
+    		color: #666;
+    		font-style: italic;
+    	}
+    }
+    .hkb-ordering__footer {
+    }
+    .hkb-ordering__content {
+    	padding: 10px 15px;
+    }
+    .item {
+    	background: #fafafa;
+    	border: 1px solid #dfdfdf;
+	    position: relative;
+	    padding: 15px;
+	    margin: 10px 0 0;
+	    height: auto;
+	    width: 382px;
+	    line-height: 1;
+	    overflow: hidden;
+	    word-wrap: break-word;
+
+	    cursor: move;
+	    font-size: 13px;
+		font-weight: 600;
+	    &:hover {
+	    	border-color: #999;
+	    }
+    }
+    ul.sortable {
+    	li {
+    		&.placeholder {
+    			border: 1px dashed #b4b9be;
+    			height: 43px;
+    			width: 414px;
+    		}	
+    	}
+    	&.children {
+    		margin-left: 30px;
+    	}
+    }
+}
+
+select.ht-kb-widget-admin-dropdown {
+	width: 100%;
+}

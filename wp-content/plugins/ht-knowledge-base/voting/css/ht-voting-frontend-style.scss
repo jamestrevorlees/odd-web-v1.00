@@ -1,0 +1,126 @@
+/**
+* # Heroic Voting Plugin Styling
+*
+* This file contains the default CSS for styling for Heroic Voting
+*/
+
+/**
+* # Mixims
+*
+*/
+
+/* Clearfix */
+%hkb-clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+/* Start HT Voting CSS */
+.ht-voting {
+	@extend %hkb-clearfix;
+	.ht-voting-links {
+		.ht-voting-upvote, 
+		.ht-voting-downvote {
+			display: inline-block;
+			background:#919195;
+			color:#fff;
+			text-decoration: none;
+			padding: 10px 16px;
+			font-size: 15px;
+			line-height: 1;
+			border: 0;
+			text-align: center;
+			min-width: 70px;
+
+			border-radius: 4px;
+			-moz-border-radius: 4px;
+			-webkit-border-radius: 4px;
+
+			position: relative;
+  			transition: all 0.3s linear 0s;
+  			span {
+				right: 0;
+				position: relative;
+				transition: all 0.2s ease-out 0s;
+			}
+			i {
+				width: 18px;
+			    position: absolute;
+			    left: 30px;
+			    top: 50%;
+			    margin-top: -9px;
+			    line-height: 18px;
+			    opacity: 0;
+			    transition: all 0.2s ease-out 0s;
+
+				display: inline-block;
+				font-family: FontAwesome;
+				&:before {
+					content: "\f164";
+				}
+			}
+			&:hover {
+				padding: 10px 16px;
+				span {
+					right: -10px;
+				}
+				i {
+					opacity: 1;
+					left: 12px;
+				}
+			}
+
+		}
+		.ht-voting-upvote {
+			background: #9cc051;		
+			i {
+				&:before {
+					content: "\f164";
+				}
+			}			
+		}
+		.ht-voting-downvote {
+			background:#d26a40;
+			i {
+				&:before {
+					content: "\f165";
+				}
+			}
+		}
+
+	}
+
+	.ht-voting-login-required {
+		background-color: red;
+		color: white;
+		margin: 2px;
+		padding: 2px;
+	}
+	br { 
+		/* fix those annoying themes or other plugins that insist on adding wpautop filter to post shortcode content */
+	    display: none;
+	}
+}
+.ht-voting-comment {
+	@extend %hkb-clearfix;
+	margin: 10px 0 0;
+	max-width: 600px;
+	.ht-voting-comment__textarea {
+		margin: 0 0 10px;
+		width: 100%;
+	}
+	.ht-voting-comment__submit {
+		float: right;
+	}
+}
+
+.hkb-feedback {
+	margin: 0 0 2em;
+	.hkb-feedback__title {
+		margin: 0 0 0.6em;
+		padding:0;
+	}
+}

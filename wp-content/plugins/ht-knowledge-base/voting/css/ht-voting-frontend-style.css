@@ -1,0 +1,96 @@
+/**
+* # Heroic Voting Plugin Styling
+*
+* This file contains the default CSS for styling for Heroic Voting
+*/
+/**
+* # Mixims
+*
+*/
+/* Clearfix */
+.ht-voting:after, .ht-voting-comment:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* Start HT Voting CSS */
+.ht-voting .ht-voting-links .ht-voting-upvote,
+.ht-voting .ht-voting-links .ht-voting-downvote {
+  display: inline-block;
+  background: #919195;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 16px;
+  font-size: 15px;
+  line-height: 1;
+  border: 0;
+  text-align: center;
+  min-width: 70px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  position: relative;
+  transition: all 0.3s linear 0s; }
+  .ht-voting .ht-voting-links .ht-voting-upvote span,
+  .ht-voting .ht-voting-links .ht-voting-downvote span {
+    right: 0;
+    position: relative;
+    transition: all 0.2s ease-out 0s; }
+  .ht-voting .ht-voting-links .ht-voting-upvote i,
+  .ht-voting .ht-voting-links .ht-voting-downvote i {
+    width: 18px;
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    margin-top: -9px;
+    line-height: 18px;
+    opacity: 0;
+    transition: all 0.2s ease-out 0s;
+    display: inline-block;
+    font-family: FontAwesome; }
+    .ht-voting .ht-voting-links .ht-voting-upvote i:before,
+    .ht-voting .ht-voting-links .ht-voting-downvote i:before {
+      content: "\f164"; }
+  .ht-voting .ht-voting-links .ht-voting-upvote:hover,
+  .ht-voting .ht-voting-links .ht-voting-downvote:hover {
+    padding: 10px 16px; }
+    .ht-voting .ht-voting-links .ht-voting-upvote:hover span,
+    .ht-voting .ht-voting-links .ht-voting-downvote:hover span {
+      right: -10px; }
+    .ht-voting .ht-voting-links .ht-voting-upvote:hover i,
+    .ht-voting .ht-voting-links .ht-voting-downvote:hover i {
+      opacity: 1;
+      left: 12px; }
+.ht-voting .ht-voting-links .ht-voting-upvote {
+  background: #9cc051; }
+  .ht-voting .ht-voting-links .ht-voting-upvote i:before {
+    content: "\f164"; }
+.ht-voting .ht-voting-links .ht-voting-downvote {
+  background: #d26a40; }
+  .ht-voting .ht-voting-links .ht-voting-downvote i:before {
+    content: "\f165"; }
+.ht-voting .ht-voting-login-required {
+  background-color: red;
+  color: white;
+  margin: 2px;
+  padding: 2px; }
+.ht-voting br {
+  /* fix those annoying themes or other plugins that insist on adding wpautop filter to post shortcode content */
+  display: none; }
+
+.ht-voting-comment {
+  margin: 10px 0 0;
+  max-width: 600px; }
+  .ht-voting-comment .ht-voting-comment__textarea {
+    margin: 0 0 10px;
+    width: 100%; }
+  .ht-voting-comment .ht-voting-comment__submit {
+    float: right; }
+
+.hkb-feedback {
+  margin: 0 0 2em; }
+  .hkb-feedback .hkb-feedback__title {
+    margin: 0 0 0.6em;
+    padding: 0; }
+
+/*# sourceMappingURL=ht-voting-frontend-style.css.map */

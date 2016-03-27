@@ -1,0 +1,7 @@
+<wpml-config>   
+    <admin-texts>
+        <key name="ht_knowledge_base_options">
+            <key name="search-placeholder-text" />
+        </key>
+    </admin-texts>      
+</wpml-config>
