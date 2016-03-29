@@ -88,6 +88,12 @@ a img.aligncenter {
 /* Add styling for the parallax bands */
 
 
+
+#contact-info  a {
+	color: #fff;
+	font-size: large;
+}
+
 	/* Quote band Styling */
 
 	#quote-band{
@@ -108,9 +114,15 @@ a img.aligncenter {
 
 	}
 
+	#mail-us{
+		color: #ed1c24;
+	}
+}
 	/* Mission Statement Band Styling */
 
-
+	#mission-statement {
+	color: #ed1c24;
+	}
 
 
 .offsetBottomX {
